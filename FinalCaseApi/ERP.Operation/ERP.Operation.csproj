@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Data\ERP.Data.csproj" />
+    <ProjectReference Include="..\ERP.Dto\ERP.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
