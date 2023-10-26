@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Erp.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Erp.Data.Context
 {
@@ -7,6 +8,8 @@ namespace Erp.Data.Context
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
         }
+
+        DbSet<Company> Companies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

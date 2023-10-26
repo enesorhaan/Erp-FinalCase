@@ -1,4 +1,6 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using Erp.Data.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace Erp.Api
 {
@@ -14,6 +16,8 @@ namespace Erp.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string connection = Configuration.GetConnectionString("MsSqlConnection");
+            services.AddDbContext<MyDbContext>(opts => opts.UseSqlServer(connection));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

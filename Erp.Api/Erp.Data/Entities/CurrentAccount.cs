@@ -1,11 +1,11 @@
 ﻿using Erp.Base.Model;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
+    [Table("CurrentAccount", Schema = "dbo")]
     public class CurrentAccount : BaseModel
     {
-        public int CompanyId { get; set; }
-        public virtual Company Company { get; set; }
 
         public int DealerId { get; set; }
         public virtual Dealer Dealer { get; set; }

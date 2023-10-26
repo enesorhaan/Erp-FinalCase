@@ -1,8 +1,10 @@
 ﻿using Erp.Base.Enum;
 using Erp.Base.Model;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
+    [Table("Order", Schema = "dbo")]
     public class Order : BaseModel
     {
         public int DealerId { get; set; }
@@ -14,6 +16,6 @@ namespace Erp.Data.Entities
         public PaymentMethod PaymentMethod { get; set; }
         public OrderStatus OrderStatus { get; set; }
 
-        public virtual List<ProductOrder> ProductOrders { get; set; }
+        public virtual List<OrderItem> OrderItems { get; set; }
     }
 }

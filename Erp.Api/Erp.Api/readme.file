@@ -1,0 +1,2 @@
+﻿cd Erp.Data -> dotnet ef migrations add Initial -s ../Erp.Api/    -- new migration file generator
+cd sln -> dotnet ef database update --project  "./Erp.Data" --startup-project "./Erp.Api"   -- apply migrations files to database

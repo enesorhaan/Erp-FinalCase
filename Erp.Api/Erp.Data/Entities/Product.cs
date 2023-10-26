@@ -1,7 +1,9 @@
 ﻿using Erp.Base.Model;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
+    [Table("Product", Schema = "dbo")]
     public class Product : BaseModel
     {
         public int CompanyId { get; set; }
@@ -11,6 +13,6 @@ namespace Erp.Data.Entities
         public decimal ProductPrice { get; set; }
         public int ProductStock { get; set; }
 
-        public virtual List<ProductOrder> ProductOrders { get; set; }
+        //public virtual List<OrderItem> OrderItems { get; set; }
     }
 }

@@ -1,15 +1,17 @@
 ﻿using Erp.Base.Enum;
 using Erp.Base.Model;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
+    [Table("Dealer", Schema = "dbo")]
     public class Dealer : BaseModel
     {
         public int CompanyId { get; set; }
         public virtual Company Company { get; set; }
 
-        public int CurrentAccountId { get; set; }
-        public virtual CurrentAccount CurrentAccount { get; set; }
+        public int? CurrentAccountId { get; set; }
+        //public virtual CurrentAccount CurrentAccount { get; set; }
 
         public string Email { get; set; }
         public string Password { get; set; }
@@ -19,7 +21,6 @@ namespace Erp.Data.Entities
         public string TaxOffice { get; set; }
         public int TaxNumber { get; set; }
         public decimal MarginPercentage { get; set; }
-        public decimal AccountLimit { get; set; }
         public UserRole Role { get; set; }
         public DateTime LastActivityDate { get; set; }
         public int PasswordRetryCount { get; set; }

@@ -1,8 +1,10 @@
 ﻿using Erp.Base.Enum;
 using Erp.Base.Model;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
+    [Table("Company", Schema = "dbo")]
     public class Company : BaseModel
     {
         public string Email { get; set; }
@@ -14,6 +16,5 @@ namespace Erp.Data.Entities
 
         public virtual List<Dealer> Dealers { get; set; }
         public virtual List<Product> Products { get; set; }
-        public virtual List<CurrentAccount> CurrentAccounts { get; set; }
     }
 }
