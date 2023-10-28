@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
-    [Table("CurrentAccount", Schema = "dbo")]
-    public class CurrentAccount : BaseModel
+    [Table("Message", Schema = "dbo")]
+    public class Message : BaseModel
     {
         public int DealerId { get; set; }
         public virtual Dealer Dealer { get; set; }
@@ -14,30 +14,30 @@ namespace Erp.Data.Entities
         public int CompanyId { get; set; }
         public virtual Company Company { get; set; }
 
-        public decimal CreditLimit { get; set; }
-        //public string? BillingNumber { get; set; }
+        public string Messages { get; set; }
     }
 
-    public class CurrentAccountConfiguration : IEntityTypeConfiguration<CurrentAccount>
+    public class MessageConfiguration : IEntityTypeConfiguration<Message>
     {
-        public void Configure(EntityTypeBuilder<CurrentAccount> builder)
+        public void Configure(EntityTypeBuilder<Message> builder)
         {
             builder.Property(x => x.InsertDate).IsRequired();
             builder.Property(x => x.UpdateDate).IsRequired(false);
             builder.Property(x => x.IsActive).IsRequired().HasDefaultValue(true);
 
-            builder.Property(x => x.CreditLimit).HasPrecision(18, 2).IsRequired();
-            //builder.Property(x => x.BillingNumber).IsRequired().HasMaxLength(50);
+            builder.Property(x => x.Messages).IsRequired().HasMaxLength(500);
 
             builder.HasIndex(x => new { x.DealerId, x.CompanyId }).IsUnique(true);
 
             builder.HasOne(x => x.Dealer)
-                   .WithOne(x => x.CurrentAccount)
-                   .HasForeignKey<Dealer>(x => x.CurrentAccountId);
+                   .WithMany(x => x.Messages)
+                   .HasForeignKey(x => x.DealerId)
+                   .OnDelete(DeleteBehavior.ClientSetNull);
 
             builder.HasOne(x => x.Company)
-                   .WithMany(x => x.CurrentAccounts)
-                   .HasForeignKey(x => x.CompanyId);
+                   .WithMany(x => x.Messages)
+                   .HasForeignKey(x => x.CompanyId)
+                   .OnDelete(DeleteBehavior.ClientSetNull);
         }
     }
 }
