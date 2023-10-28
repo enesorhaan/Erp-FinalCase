@@ -1,4 +1,5 @@
 ﻿using Erp.Data.Context;
+using Erp.Data.UoW;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -18,6 +19,10 @@ namespace Erp.Api
         {
             string connection = Configuration.GetConnectionString("MsSqlConnection");
             services.AddDbContext<MyDbContext>(opts => opts.UseSqlServer(connection));
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
