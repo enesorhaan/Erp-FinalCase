@@ -43,11 +43,6 @@ namespace Erp.Operation.Command
                 return new ApiResponse("Record not found!");
 
             entity.UpdateDate = DateTime.Now;
-            entity.DealerName = request.Model.DealerName;
-            entity.Address = request.Model.Address;
-            entity.BillingAddress = request.Model.BillingAddress;
-            entity.TaxOffice = request.Model.TaxOffice;
-            entity.TaxNumber = request.Model.TaxNumber;
             entity.MarginPercentage = request.Model.MarginPercentage;
 
             await dbContext.SaveChangesAsync(cancellationToken);

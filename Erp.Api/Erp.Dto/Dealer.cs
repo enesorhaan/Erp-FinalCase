@@ -13,7 +13,6 @@ namespace Erp.Dto
         public string TaxOffice { get; set; }
         public int TaxNumber { get; set; }
         public decimal? MarginPercentage { get; set; }
-        public UserRole Role { get; set; }
     }
 
     public class DealerResponse
@@ -29,7 +28,7 @@ namespace Erp.Dto
         public string TaxOffice { get; set; }
         public int TaxNumber { get; set; }
         public decimal? MarginPercentage { get; set; }
-        public UserRole Role { get; set; }
+        public UserRole Role { get; set; } = UserRole.dealer;
 
         public virtual List<OrderResponse> Orders { get; set; }
         public virtual List<MessageResponse> Messages { get; set; }

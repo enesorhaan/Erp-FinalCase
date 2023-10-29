@@ -2,8 +2,7 @@
 {
     public class MessageRequest
     {
-        public int DealerId { get; set; }
-        public int CompanyId { get; set; }
+        public int ReceiverId { get; set; }
         public string Messages { get; set; }
     }
 

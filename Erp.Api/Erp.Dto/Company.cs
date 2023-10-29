@@ -7,7 +7,6 @@ namespace Erp.Dto
         public string Email { get; set; }
         public string Password { get; set; }
         public string CompanyName { get; set; }
-        public UserRole Role { get; set; }
     }
 
     public class CompanyResponse
@@ -16,7 +15,7 @@ namespace Erp.Dto
         public string Email { get; set; }
         public string Password { get; set; }
         public string CompanyName { get; set; }
-        public UserRole Role { get; set; }
+        public UserRole Role { get; set; } = UserRole.admin;
         public DateTime LastActivityDate { get; set; }
         public int PasswordRetryCount { get; set; }
 

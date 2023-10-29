@@ -32,6 +32,7 @@ namespace Erp.Operation.Query
                 .ToListAsync(cancellationToken);
             var mapped = mapper.Map<List<CompanyResponse>>(list);
 
+
             return new ApiResponse<List<CompanyResponse>>(mapped);
         }
 

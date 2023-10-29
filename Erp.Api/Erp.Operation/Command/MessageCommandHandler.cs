@@ -11,7 +11,6 @@ namespace Erp.Operation.Command
 {
     public class MessageCommandHandler :
         IRequestHandler<CreateMessageCommand, ApiResponse<MessageResponse>>,
-        IRequestHandler<UpdateMessageCommand, ApiResponse>,
         IRequestHandler<DeleteMessageCommand, ApiResponse>
     {
         private readonly MyDbContext dbContext;
@@ -33,20 +32,6 @@ namespace Erp.Operation.Command
 
             var response = mapper.Map<MessageResponse>(entity.Entity);
             return new ApiResponse<MessageResponse>(response);
-        }
-
-        public async Task<ApiResponse> Handle(UpdateMessageCommand request, CancellationToken cancellationToken)
-        {
-            var entity = await dbContext.Set<Message>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
-
-            if (entity == null)
-                return new ApiResponse("Record not found!");
-
-            entity.UpdateDate = DateTime.Now;
-            entity.Messages = request.Model.Messages;
-
-            await dbContext.SaveChangesAsync(cancellationToken);
-            return new ApiResponse();
         }
 
         public async Task<ApiResponse> Handle(DeleteMessageCommand request, CancellationToken cancellationToken)

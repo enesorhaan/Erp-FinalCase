@@ -11,7 +11,7 @@ namespace Erp.Data.Entities
         public int DealerId { get; set; }
         public virtual Dealer Dealer { get; set; }
 
-        public int CompanyId { get; set; }
+        public int CompanyId { get; set; } = 1;
         public virtual Company Company { get; set; }
 
         public decimal? CreditLimit { get; set; }

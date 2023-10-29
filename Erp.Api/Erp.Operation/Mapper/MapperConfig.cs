@@ -9,7 +9,9 @@ namespace Erp.Operation.Mapper
         public MapperConfig()
         {
             CreateMap<CompanyRequest, Company>();
-            CreateMap<Company, CompanyResponse>();
+            CreateMap<Company, CompanyResponse>()
+                .ForMember(dest => dest.Role,
+                    opt => opt.MapFrom(src => src.Role));
 
             CreateMap<DealerRequest, Dealer>();
             CreateMap<Dealer, DealerResponse>()
