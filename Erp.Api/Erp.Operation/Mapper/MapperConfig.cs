@@ -48,6 +48,12 @@ namespace Erp.Operation.Mapper
                     opt => opt.MapFrom(src => src.Dealer))
                 .ForMember(dest => dest.Company,
                     opt => opt.MapFrom(src => src.Company.CompanyName));
+
+            CreateMap<LoginRequest, Company>();
+            CreateMap<Company, LoginResponse>();
+
+            CreateMap<LoginRequest, Dealer>();
+            CreateMap<Dealer, LoginResponse>();
         }
     }
 }

@@ -8,7 +8,6 @@ namespace Erp.Data.Context
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
         }
-
         DbSet<Company> Companies { get; set; }
         DbSet<Dealer> Dealers { get; set; }
         DbSet<CurrentAccount> CurrentAccounts { get; set; }
