@@ -43,14 +43,6 @@ namespace Erp.Api.Controllers
             return result;
         }
 
-        [HttpPut("{id}")]
-        public async Task<ApiResponse> Put(int id, [FromBody] MessageRequest request)
-        {
-            var operation = new UpdateMessageCommand(request, id);
-            var result = await mediator.Send(operation);
-            return result;
-        }
-
         [HttpDelete("{id}")]
         public async Task<ApiResponse> Delete(int id)
         {
