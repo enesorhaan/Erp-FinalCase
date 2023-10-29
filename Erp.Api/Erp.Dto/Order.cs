@@ -15,6 +15,7 @@ namespace Erp.Dto
     public class OrderResponse
     {
         public int DealerId { get; set; }
+        public string Dealer { get; set; }
         public string BillingNumber { get; set; }
         public decimal TotalPrice { get; set; }
         public DateTime OrderDate { get; set; }

@@ -11,7 +11,9 @@
     public class OrderItemResponse
     {
         public int OrderId { get; set; }
+        public string Order { get; set; }
         public int ProductId { get; set; }
+        public string Product { get; set; }
         public decimal MarginPrice { get; set; }
         public int Quantity { get; set; }
     }

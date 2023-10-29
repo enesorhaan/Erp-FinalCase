@@ -1,7 +1,12 @@
-﻿using Erp.Data.Context;
+﻿using AutoMapper;
+using Erp.Data.Context;
 using Erp.Data.UoW;
+using Erp.Operation.Cqrs;
+using Erp.Operation.Mapper;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 namespace Erp.Api
 {
@@ -22,6 +27,16 @@ namespace Erp.Api
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            // AutoMapper with MediatR
+            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddMediatR(typeof(CreateCompanyCommand).GetTypeInfo().Assembly);
+
+            // AutoMapper Configuration
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new MapperConfig());
+            });
+            services.AddSingleton(config.CreateMapper());
 
 
             services.AddControllers();

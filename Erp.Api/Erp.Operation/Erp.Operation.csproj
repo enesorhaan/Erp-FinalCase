@@ -20,9 +20,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Command\" />
 	  <Folder Include="Validation\" />
-	  <Folder Include="Query\" />
 	</ItemGroup>
 
 </Project>

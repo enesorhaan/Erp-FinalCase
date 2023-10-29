@@ -29,12 +29,14 @@ namespace Erp.Data.Repository
 
         public List<T> GetAll(params string[] includes)
         {
-            var query = dbContext.Set<T>().AsQueryable();
-            if (includes.Any())
-            {
-                query = includes.Aggregate(query, (current, incl) => current.Include(incl));
-            }
-            return query.ToList();
+            return dbContext.Set<T>().AsNoTracking().ToList();
+
+            //var query = dbContext.Set<T>().AsQueryable();
+            //if (includes.Any())
+            //{
+            //    query = includes.Aggregate(query, (current, incl) => current.Include(incl));
+            //}
+            //return query.ToList();
         }
 
         public IQueryable<T> GetAsQueryable(params string[] includes)

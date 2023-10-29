@@ -10,7 +10,9 @@
     public class MessageResponse
     {
         public int DealerId { get; set; }
+        public string Dealer { get; set; }
         public int CompanyId { get; set; }
+        public string Company { get; set; }
         public string Messages { get; set; }
     }
 }

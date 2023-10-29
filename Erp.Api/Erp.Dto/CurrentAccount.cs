@@ -9,7 +9,9 @@
     public class CurrentAccountResponse
     {
         public int DealerId { get; set; }
+        public string Dealer { get; set; }
         public int CompanyId { get; set; }
+        public int Company { get; set; }
         public decimal CreditLimit { get; set; }
     }
 }

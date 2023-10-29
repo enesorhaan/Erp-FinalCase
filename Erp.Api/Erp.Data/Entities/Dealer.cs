@@ -51,6 +51,7 @@ namespace Erp.Data.Entities
             builder.Property(x => x.LastActivityDate).IsRequired();
             builder.Property(x => x.PasswordRetryCount).IsRequired().HasDefaultValue(0);
 
+            builder.HasIndex(x => x.CompanyId);
             builder.HasIndex(x => x.Email).IsUnique(true);
 
             builder.HasMany(x => x.Orders)
