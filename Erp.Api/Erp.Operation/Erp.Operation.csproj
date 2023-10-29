@@ -19,8 +19,4 @@
 	  <ProjectReference Include="..\Erp.Dto\Erp.Dto.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Validation\" />
-	</ItemGroup>
-
 </Project>

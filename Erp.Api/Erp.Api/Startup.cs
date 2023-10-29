@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
+using E.Operation.Validation;
 using Erp.Api.Middleware;
 using Erp.Data.Context;
 using Erp.Data.UoW;
 using Erp.Operation.Cqrs;
 using Erp.Operation.Mapper;
+using Erp.Operation.Validation;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -38,8 +41,11 @@ namespace Erp.Api
             });
             services.AddSingleton(config.CreateMapper());
 
+            services.AddControllers().AddFluentValidation(x =>
+            {
+                x.RegisterValidatorsFromAssemblyContaining<BaseValidator>();
+            });
 
-            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Erp.Api", Version = "v1" });

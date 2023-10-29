@@ -14,7 +14,7 @@ namespace Erp.Data.Entities
         public int CompanyId { get; set; }
         public virtual Company Company { get; set; }
 
-        public decimal CreditLimit { get; set; }
+        public decimal? CreditLimit { get; set; }
         //public string? BillingNumber { get; set; }
     }
 
@@ -26,7 +26,7 @@ namespace Erp.Data.Entities
             builder.Property(x => x.UpdateDate).IsRequired(false);
             builder.Property(x => x.IsActive).IsRequired().HasDefaultValue(true);
 
-            builder.Property(x => x.CreditLimit).HasPrecision(18, 2).IsRequired();
+            builder.Property(x => x.CreditLimit).HasPrecision(18, 2).IsRequired(false);
             //builder.Property(x => x.BillingNumber).IsRequired().HasMaxLength(50);
 
             builder.HasIndex(x => new { x.DealerId, x.CompanyId }).IsUnique(true);

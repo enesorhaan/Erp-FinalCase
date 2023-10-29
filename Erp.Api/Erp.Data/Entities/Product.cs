@@ -12,8 +12,8 @@ namespace Erp.Data.Entities
         public virtual Company Company { get; set; }
 
         public string ProductName { get; set; }
-        public decimal ProductPrice { get; set; }
-        public int ProductStock { get; set; }
+        public decimal? ProductPrice { get; set; }
+        public int? ProductStock { get; set; }
 
         public virtual List<OrderItem> OrderItems { get; set; }
     }
@@ -27,8 +27,8 @@ namespace Erp.Data.Entities
             builder.Property(x => x.IsActive).IsRequired().HasDefaultValue(true);
 
             builder.Property(x => x.ProductName).IsRequired().HasMaxLength(50);
-            builder.Property(x => x.ProductPrice).HasPrecision(18, 2).IsRequired();
-            builder.Property(x => x.ProductStock).IsRequired();
+            builder.Property(x => x.ProductPrice).HasPrecision(18, 2).IsRequired(false);
+            builder.Property(x => x.ProductStock).IsRequired(false);
 
             builder.HasIndex(x => x.ProductName).IsUnique(true);
 

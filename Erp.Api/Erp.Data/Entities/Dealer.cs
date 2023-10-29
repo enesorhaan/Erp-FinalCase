@@ -21,7 +21,7 @@ namespace Erp.Data.Entities
         public string Address { get; set; }
         public string BillingAddress { get; set; }
         public string TaxOffice { get; set; }
-        public int TaxNumber { get; set; }
+        public int? TaxNumber { get; set; }
         public decimal? MarginPercentage { get; set; }
         public UserRole Role { get; set; }
         public DateTime LastActivityDate { get; set; }
@@ -45,7 +45,7 @@ namespace Erp.Data.Entities
             builder.Property(x => x.Address).IsRequired().HasMaxLength(250);
             builder.Property(x => x.BillingAddress).IsRequired().HasMaxLength(250);
             builder.Property(x => x.TaxOffice).IsRequired().HasMaxLength(50);
-            builder.Property(x => x.TaxNumber).IsRequired();
+            builder.Property(x => x.TaxNumber).IsRequired(false);
             builder.Property(x => x.MarginPercentage).HasPrecision(18, 2).IsRequired(false);
             builder.Property(x => x.Role).IsRequired();
             builder.Property(x => x.LastActivityDate).IsRequired();

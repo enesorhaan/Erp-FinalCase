@@ -9,52 +9,49 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Erp.Operation.Command
 {
-    public class DealerCommandHandler :
-        IRequestHandler<CreateDealerCommand, ApiResponse<DealerResponse>>,
-        IRequestHandler<UpdateDealerCommand, ApiResponse>,
-        IRequestHandler<DeleteDealerCommand, ApiResponse>
+    public class CompanyCommandHandler :
+        IRequestHandler<CreateCompanyCommand, ApiResponse<CompanyResponse>>,
+        IRequestHandler<UpdateCompanyCommand, ApiResponse>,
+        IRequestHandler<DeleteCompanyCommand, ApiResponse>
     {
         private readonly MyDbContext dbContext;
         private readonly IMapper mapper;
 
-        public DealerCommandHandler(MyDbContext dbContext, IMapper mapper)
+        public CompanyCommandHandler(MyDbContext dbContext, IMapper mapper)
         {
             this.dbContext = dbContext;
             this.mapper = mapper;
         }
 
-        public async Task<ApiResponse<DealerResponse>> Handle(CreateDealerCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<CompanyResponse>> Handle(CreateCompanyCommand request, CancellationToken cancellationToken)
         {
-            Dealer mapped = mapper.Map<Dealer>(request.Model);
+            Company mapped = mapper.Map<Company>(request.Model);
 
-            var entity = await dbContext.Set<Dealer>().AddAsync(mapped, cancellationToken);
+            var entity = await dbContext.Set<Company>().AddAsync(mapped, cancellationToken);
+            entity.Entity.InsertDate = DateTime.Now;
             await dbContext.SaveChangesAsync(cancellationToken);
 
-            var response = mapper.Map<DealerResponse>(entity.Entity);
-            return new ApiResponse<DealerResponse>(response);
+            var response = mapper.Map<CompanyResponse>(entity.Entity);
+            return new ApiResponse<CompanyResponse>(response);
         }
 
-        public async Task<ApiResponse> Handle(UpdateDealerCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse> Handle(UpdateCompanyCommand request, CancellationToken cancellationToken)
         {
-            var entity = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+            var entity = await dbContext.Set<Company>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity == null)
                 return new ApiResponse("Record not found!");
 
-            entity.DealerName = request.Model.DealerName;
-            entity.Address = request.Model.Address;
-            entity.BillingAddress = request.Model.BillingAddress;
-            entity.TaxOffice = request.Model.TaxOffice;
-            entity.TaxNumber = request.Model.TaxNumber;
-            entity.MarginPercentage = request.Model.MarginPercentage;
+            entity.UpdateDate = DateTime.Now;
+            entity.CompanyName = request.Model.CompanyName;
 
             await dbContext.SaveChangesAsync(cancellationToken);
             return new ApiResponse();
         }
 
-        public async Task<ApiResponse> Handle(DeleteDealerCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse> Handle(DeleteCompanyCommand request, CancellationToken cancellationToken)
         {
-            var entity = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+            var entity = await dbContext.Set<Company>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity == null)
                 return new ApiResponse("Record not found!");

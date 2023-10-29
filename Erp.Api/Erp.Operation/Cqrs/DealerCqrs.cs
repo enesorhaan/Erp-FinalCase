@@ -4,11 +4,11 @@ using MediatR;
 
 namespace Erp.Operation.Cqrs
 {
-    public record CreateCompanyCommand(CompanyRequest Model) : IRequest<ApiResponse<CompanyResponse>>;
-    public record UpdateCompanyCommand(CompanyRequest Model, int Id) : IRequest<ApiResponse>;
-    public record DeleteCompanyCommand(int Id) : IRequest<ApiResponse>;
+    public record CreateDealerCommand(DealerRequest Model) : IRequest<ApiResponse<DealerResponse>>;
+    public record UpdateDealerCommand(DealerRequest Model, int Id) : IRequest<ApiResponse>;
+    public record DeleteDealerCommand(int Id) : IRequest<ApiResponse>;
 
-    public record GetAllCompanyQuery() : IRequest<ApiResponse<List<CompanyResponse>>>;
-    public record GetCompanyByIdQuery(int Id) : IRequest<ApiResponse<CompanyResponse>>;
+    public record GetAllDealerQuery() : IRequest<ApiResponse<List<DealerResponse>>>;
+    public record GetDealerByIdQuery(int Id) : IRequest<ApiResponse<DealerResponse>>;
 
 }
