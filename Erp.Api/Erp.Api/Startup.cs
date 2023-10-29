@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Erp.Api.Middleware;
 using Erp.Data.Context;
 using Erp.Data.UoW;
 using Erp.Operation.Cqrs;
@@ -28,7 +29,6 @@ namespace Erp.Api
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             // AutoMapper with MediatR
-            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
             services.AddMediatR(typeof(CreateCompanyCommand).GetTypeInfo().Assembly);
 
             // AutoMapper Configuration
@@ -55,6 +55,8 @@ namespace Erp.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Erp.Api v1"));
             }
+
+            app.UseMiddleware<HeartBeatMiddleware>();
 
             app.UseHttpsRedirection();
 

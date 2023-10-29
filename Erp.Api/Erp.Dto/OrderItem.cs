@@ -10,6 +10,7 @@
 
     public class OrderItemResponse
     {
+        public int Id { get; set; }
         public int OrderId { get; set; }
         public string Order { get; set; }
         public int ProductId { get; set; }

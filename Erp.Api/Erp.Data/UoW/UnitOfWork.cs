@@ -1,6 +1,7 @@
 ﻿using Erp.Data.Context;
 using Erp.Data.Entities;
 using Erp.Data.Repository;
+using Serilog;
 
 namespace Erp.Data.UoW
 {
@@ -39,7 +40,7 @@ namespace Erp.Data.UoW
                 catch (Exception ex)
                 {
                     transaction.Rollback();
-                    //Log.Error("CompleteTransaction", ex);
+                    Log.Error("CompleteTransaction", ex);
                 }
             }
         }

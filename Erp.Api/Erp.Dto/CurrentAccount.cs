@@ -8,6 +8,7 @@
     }
     public class CurrentAccountResponse
     {
+        public int Id { get; set; }
         public int DealerId { get; set; }
         public string Dealer { get; set; }
         public int CompanyId { get; set; }

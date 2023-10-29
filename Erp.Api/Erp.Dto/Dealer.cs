@@ -18,6 +18,7 @@ namespace Erp.Dto
 
     public class DealerResponse
     {
+        public int Id { get; set; }
         public int CompanyId { get; set; }
         public string Company { get; set; }
         public string Email { get; set; }

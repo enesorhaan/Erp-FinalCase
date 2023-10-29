@@ -1,6 +1,6 @@
 ﻿namespace Erp.Base.Model
 {
-    public class BaseModel
+    public abstract class BaseModel
     {
         public int Id { get; set; }
         public DateTime InsertDate { get; set; }
