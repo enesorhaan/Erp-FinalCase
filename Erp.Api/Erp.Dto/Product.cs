@@ -19,4 +19,10 @@
 
         public virtual List<OrderItemResponse> OrderItems { get; set; }
     }
+
+    public class ProductDetailResponse
+    {
+        public string ProductName { get; set; }
+        public int ProductStock { get; set; }
+    }
 }

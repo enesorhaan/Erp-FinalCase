@@ -34,6 +34,8 @@ namespace Erp.Api
             string connection = Configuration.GetConnectionString("MsSqlConnection");
             services.AddDbContext<MyDbContext>(opts => opts.UseSqlServer(connection));
 
+            services.AddSingleton<DapperContext>();
+
             var JwtConfig = Configuration.GetSection("JwtConfig").Get<JwtConfig>();
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
 

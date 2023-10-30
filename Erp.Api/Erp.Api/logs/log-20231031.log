@@ -1,0 +1,613 @@
+2023-10-31 00:00:53.234 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:00:53.280 [INF] HeartBeat
+2023-10-31 00:00:53.286 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:00:53.553 [INF] -------------Request-Begin------------
+2023-10-31 00:00:53.554 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:00:53.554 [INF] 
+
+2023-10-31 00:00:53.554 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:00:53.554 [INF] -------------Request-End------------
+2023-10-31 00:01:09.930 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:01:09.930 [INF] HeartBeat
+2023-10-31 00:01:09.930 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:01:09.937 [INF] -------------Request-Begin------------
+2023-10-31 00:01:09.937 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:01:09.937 [INF] 
+
+2023-10-31 00:01:09.937 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:01:09.937 [INF] -------------Request-End------------
+2023-10-31 00:01:25.799 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:01:25.799 [INF] HeartBeat
+2023-10-31 00:01:25.800 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:01:26.009 [INF] -------------Request-Begin------------
+2023-10-31 00:01:26.009 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:01:26.009 [INF] 
+
+2023-10-31 00:01:26.009 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:01:26.009 [INF] -------------Request-End------------
+2023-10-31 00:02:19.819 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:02:19.819 [INF] HeartBeat
+2023-10-31 00:02:19.819 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:02:19.854 [INF] -------------Request-Begin------------
+2023-10-31 00:02:19.854 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:02:19.854 [INF] 
+
+2023-10-31 00:02:19.854 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:02:19.854 [INF] -------------Request-End------------
+2023-10-31 00:04:29.442 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:04:29.443 [INF] HeartBeat
+2023-10-31 00:04:29.443 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:04:29.444 [INF] -------------Request-Begin------------
+2023-10-31 00:04:29.444 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:04:29.444 [INF] 
+
+2023-10-31 00:04:29.444 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:04:29.444 [INF] -------------Request-End------------
+2023-10-31 00:05:56.793 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:05:56.825 [INF] HeartBeat
+2023-10-31 00:05:56.825 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:05:56.827 [INF] -------------Request-Begin------------
+2023-10-31 00:05:56.827 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-31 00:05:56.827 [INF] 
+
+2023-10-31 00:05:56.827 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:05:56.827 [INF] -------------Request-End------------
+2023-10-31 00:20:45.084 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:20:45.084 [INF] HeartBeat
+2023-10-31 00:20:45.084 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:20:45.088 [INF] -------------Request-Begin------------
+2023-10-31 00:20:45.088 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:20:45.088 [INF] 
+
+2023-10-31 00:20:45.088 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:20:45.088 [INF] -------------Request-End------------
+2023-10-31 00:21:06.522 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:21:06.522 [INF] HeartBeat
+2023-10-31 00:21:06.522 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:21:06.546 [INF] -------------Request-Begin------------
+2023-10-31 00:21:06.547 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:21:06.547 [INF] 
+
+2023-10-31 00:21:06.547 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:21:06.547 [INF] -------------Request-End------------
+2023-10-31 00:22:51.521 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:22:51.521 [INF] HeartBeat
+2023-10-31 00:22:51.522 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:22:51.524 [INF] -------------Request-Begin------------
+2023-10-31 00:22:51.524 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:22:51.524 [INF] 
+
+2023-10-31 00:22:51.524 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:22:51.524 [INF] -------------Request-End------------
+2023-10-31 00:23:23.448 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:23:23.450 [INF] HeartBeat
+2023-10-31 00:23:23.451 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:23:23.452 [INF] -------------Request-Begin------------
+2023-10-31 00:23:23.452 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:23:23.452 [INF] 
+
+2023-10-31 00:23:23.452 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:23:23.452 [INF] -------------Request-End------------
+2023-10-31 00:23:28.969 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:23:28.969 [INF] HeartBeat
+2023-10-31 00:23:28.970 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:23:29.007 [INF] -------------Request-Begin------------
+2023-10-31 00:23:29.007 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/order/monthly/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:23:29.007 [INF] 
+
+2023-10-31 00:23:29.007 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/order/monthly/report/1 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-10-31 00:23:29.007 [INF] -------------Request-End------------
+2023-10-31 00:23:32.268 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:23:32.268 [INF] HeartBeat
+2023-10-31 00:23:32.268 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:23:32.268 [INF] -------------Request-Begin------------
+2023-10-31 00:23:32.268 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:23:32.268 [INF] 
+
+2023-10-31 00:23:32.268 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:23:32.268 [INF] -------------Request-End------------
+2023-10-31 00:23:56.694 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:23:56.694 [INF] HeartBeat
+2023-10-31 00:23:56.694 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:23:56.696 [INF] -------------Request-Begin------------
+2023-10-31 00:23:56.696 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-31 00:23:56.696 [INF] 
+
+2023-10-31 00:23:56.696 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:23:56.696 [INF] -------------Request-End------------
+2023-10-31 00:24:32.415 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:24:32.415 [INF] HeartBeat
+2023-10-31 00:24:32.415 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:24:32.439 [INF] -------------Request-Begin------------
+2023-10-31 00:24:32.439 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-31 00:24:32.439 [INF] 
+
+2023-10-31 00:24:32.439 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:24:32.439 [INF] -------------Request-End------------
+2023-10-31 00:25:27.717 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:25:27.718 [INF] HeartBeat
+2023-10-31 00:25:27.718 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:25:27.741 [INF] -------------Request-Begin------------
+2023-10-31 00:25:27.741 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+Request Body: 
+2023-10-31 00:25:27.741 [INF] 
+
+2023-10-31 00:25:27.741 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:25:27.741 [INF] -------------Request-End------------
+2023-10-31 00:25:56.444 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:25:56.444 [INF] HeartBeat
+2023-10-31 00:25:56.444 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:25:57.805 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:57.808 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:57.808 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:57.808 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:57.808 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:57.809 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:57.809 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 00:25:59.051 [INF] -------------Request-Begin------------
+2023-10-31 00:25:59.051 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-31 00:25:59.051 [INF] 
+
+2023-10-31 00:25:59.052 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T00:35:59.0177877+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg3MDE3NTgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.kRGIK5nUgib7BhYb-uw1iNGb2UtHUVT_7f1_-AxX8b0","email":"info@orhan.com"}}
+2023-10-31 00:25:59.052 [INF] -------------Request-End------------
+2023-10-31 00:26:11.484 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:26:11.487 [INF] HeartBeat
+2023-10-31 00:26:11.487 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:26:11.790 [INF] -------------Request-Begin------------
+2023-10-31 00:26:11.790 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:26:11.790 [INF] 
+
+2023-10-31 00:26:11.790 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-31 00:26:11.790 [INF] -------------Request-End------------
+2023-10-31 00:26:29.912 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:26:29.912 [INF] HeartBeat
+2023-10-31 00:26:29.912 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:26:29.975 [INF] -------------Request-Begin------------
+2023-10-31 00:26:29.976 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:26:29.976 [INF] 
+
+2023-10-31 00:26:29.976 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-31 00:26:29.976 [INF] -------------Request-End------------
+2023-10-31 00:26:36.751 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:26:36.751 [INF] HeartBeat
+2023-10-31 00:26:36.751 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:26:36.767 [INF] -------------Request-Begin------------
+2023-10-31 00:26:36.767 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+Request Body: 
+2023-10-31 00:26:36.767 [INF] 
+
+2023-10-31 00:26:36.767 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-31 00:26:36.767 [INF] -------------Request-End------------
+2023-10-31 00:26:55.202 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:26:55.203 [INF] HeartBeat
+2023-10-31 00:26:55.203 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:26:55.257 [INF] -------------Request-Begin------------
+2023-10-31 00:26:55.257 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:26:55.257 [INF] 
+
+2023-10-31 00:26:55.258 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-31 00:26:55.258 [INF] -------------Request-End------------
+2023-10-31 00:27:03.755 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:27:03.755 [INF] HeartBeat
+2023-10-31 00:27:03.755 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:27:03.766 [INF] -------------Request-Begin------------
+2023-10-31 00:27:03.766 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:27:03.766 [INF] 
+
+2023-10-31 00:27:03.766 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-31 00:27:03.766 [INF] -------------Request-End------------
+2023-10-31 00:27:13.781 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:27:13.781 [INF] HeartBeat
+2023-10-31 00:27:13.781 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:27:13.784 [INF] -------------Request-Begin------------
+2023-10-31 00:27:13.784 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:27:13.784 [INF] 
+
+2023-10-31 00:27:13.784 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-31 00:27:13.784 [INF] -------------Request-End------------
+2023-10-31 00:27:28.565 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:27:28.565 [INF] HeartBeat
+2023-10-31 00:27:28.565 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:27:28.580 [INF] -------------Request-Begin------------
+2023-10-31 00:27:28.580 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-31 00:27:28.581 [INF] 
+
+2023-10-31 00:27:28.581 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Stepper Motor","productStock":50},{"productName":"Stepper Motor Driver","productStock":70},{"productName":"Controller","productStock":5}]}
+2023-10-31 00:27:28.581 [INF] -------------Request-End------------
+2023-10-31 00:27:34.450 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:27:34.450 [INF] HeartBeat
+2023-10-31 00:27:34.450 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:27:34.456 [INF] -------------Request-Begin------------
+2023-10-31 00:27:34.456 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+Request Body: 
+2023-10-31 00:27:34.456 [INF] 
+
+2023-10-31 00:27:34.456 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Controller","productStock":5}]}
+2023-10-31 00:27:34.456 [INF] -------------Request-End------------
+2023-10-31 00:28:33.241 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:28:33.241 [INF] HeartBeat
+2023-10-31 00:28:33.241 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:28:33.295 [INF] -------------Request-Begin------------
+2023-10-31 00:28:33.295 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:28:33.295 [INF] 
+
+2023-10-31 00:28:33.295 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]},{"id":2,"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-10-25T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":[]}]}
+2023-10-31 00:28:33.295 [INF] -------------Request-End------------
+2023-10-31 00:28:48.977 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:28:48.977 [INF] HeartBeat
+2023-10-31 00:28:48.977 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:28:48.980 [INF] -------------Request-Begin------------
+2023-10-31 00:28:48.980 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:28:48.980 [INF] 
+
+2023-10-31 00:28:48.980 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-31 00:28:48.980 [INF] -------------Request-End------------
+2023-10-31 00:29:04.456 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:29:04.456 [INF] HeartBeat
+2023-10-31 00:29:04.456 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:29:04.479 [INF] -------------Request-Begin------------
+2023-10-31 00:29:04.479 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report 
+QueryString:  
+Request Body: 
+2023-10-31 00:29:04.479 [INF] 
+
+2023-10-31 00:29:04.479 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]},{"id":2,"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-10-25T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":[]}]}
+2023-10-31 00:29:04.480 [INF] -------------Request-End------------
+2023-10-31 00:29:28.594 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:29:28.594 [INF] HeartBeat
+2023-10-31 00:29:28.594 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:29:28.717 [INF] -------------Request-Begin------------
+2023-10-31 00:29:28.717 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-31 00:29:28.717 [INF] 
+
+2023-10-31 00:29:28.717 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T00:39:28.7164337+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg3MDE5NjgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.5TVxaOvYm309jIXwZitlCfN2r-nSXr7TMgzHYiBMCfQ","email":"info@abc.com"}}
+2023-10-31 00:29:28.717 [INF] -------------Request-End------------
+2023-10-31 00:29:37.186 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:29:37.187 [INF] HeartBeat
+2023-10-31 00:29:37.187 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:29:37.191 [INF] -------------Request-Begin------------
+2023-10-31 00:29:37.191 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-31 00:29:37.191 [INF] 
+
+2023-10-31 00:29:37.191 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 00:29:37.191 [INF] -------------Request-End------------
+2023-10-31 00:29:42.101 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 00:29:42.101 [INF] HeartBeat
+2023-10-31 00:29:42.101 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 00:29:42.117 [INF] -------------Request-Begin------------
+2023-10-31 00:29:42.117 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-31 00:29:42.117 [INF] 
+
+2023-10-31 00:29:42.117 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-31 00:29:42.117 [INF] -------------Request-End------------

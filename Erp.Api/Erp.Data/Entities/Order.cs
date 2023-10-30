@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erp.Data.Entities
 {
-    [Table("Order", Schema = "dbo")]
+    [Table("Orders", Schema = "dbo")]
     public class Order : BaseModel
     {
         public int DealerId { get; set; }

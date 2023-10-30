@@ -330,3 +330,1733 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":false,"message":"Invalid user!","response":null}
 2023-10-30 02:36:37.024 [INF] -------------Request-End------------
+2023-10-30 13:56:23.597 [INF] App server is starting.
+2023-10-30 13:56:50.296 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 13:56:50.301 [INF] HeartBeat
+2023-10-30 13:56:50.302 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 13:56:51.308 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:51.310 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:51.310 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:51.310 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:51.311 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:51.311 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:51.311 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 13:56:52.493 [INF] -------------Request-Begin------------
+2023-10-30 13:56:52.493 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 13:56:52.493 [INF] 
+
+2023-10-30 13:56:52.493 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T14:06:52.4745601+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2NjQwMTIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.Y353AR_TMY4k2fD-6xMG404GUdQv-dnaCHfGh07sN8s","email":"info@orhan.com"}}
+2023-10-30 13:56:52.493 [INF] -------------Request-End------------
+2023-10-30 13:57:19.853 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 13:57:19.854 [INF] HeartBeat
+2023-10-30 13:57:19.854 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 13:57:19.952 [INF] -------------Request-Begin------------
+2023-10-30 13:57:19.952 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-30 13:57:19.952 [INF] 
+
+2023-10-30 13:57:19.952 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T14:07:19.9515807+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2NjQwMzksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.lUL_Y01JZoYCNjL2JLuKC8r20_Y9Af10psEQwDRtvio","email":"info@abc.com"}}
+2023-10-30 13:57:19.952 [INF] -------------Request-End------------
+2023-10-30 13:57:48.881 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 13:57:48.883 [INF] HeartBeat
+2023-10-30 13:57:48.884 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 13:57:48.916 [INF] -------------Request-Begin------------
+2023-10-30 13:57:48.916 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@def.com",
+  "password": "hello"
+}
+2023-10-30 13:57:48.916 [INF] 
+
+2023-10-30 13:57:48.916 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T14:07:48.9158427+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjIiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGRlZi5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2NjQwNjgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.if3Fqd_qC9qgoDjGWgYFZgc1nRvPVRhUauyn_OdCpTo","email":"info@def.com"}}
+2023-10-30 13:57:48.916 [INF] -------------Request-End------------
+2023-10-30 20:36:24.908 [INF] App server is starting.
+2023-10-30 20:36:28.568 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllProduct (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 20:37:25.147 [INF] App server is starting.
+2023-10-30 20:37:45.831 [INF] App server is starting.
+2023-10-30 20:37:47.998 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllProduct (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 20:38:18.024 [INF] App server is starting.
+2023-10-30 20:38:26.810 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:38:26.812 [INF] HeartBeat
+2023-10-30 20:38:26.813 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:39:54.171 [INF] App server is starting.
+2023-10-30 20:40:01.385 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:40:01.389 [INF] HeartBeat
+2023-10-30 20:40:01.390 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:40:24.882 [INF] App server is starting.
+2023-10-30 20:40:31.612 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:40:31.615 [INF] HeartBeat
+2023-10-30 20:40:31.617 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:40:32.305 [INF] -------------Request-Begin------------
+2023-10-30 20:40:32.306 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports 
+QueryString:  
+Request Body: 
+2023-10-30 20:40:32.306 [INF] 
+
+2023-10-30 20:40:32.306 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports 
+QueryString:  
+StatusCode: 200 
+Response Body: []
+2023-10-30 20:40:32.306 [INF] -------------Request-End------------
+2023-10-30 20:56:41.856 [INF] App server is starting.
+2023-10-30 20:56:44.448 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllProduct (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 20:57:30.667 [INF] App server is starting.
+2023-10-30 20:57:41.732 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:57:41.736 [INF] HeartBeat
+2023-10-30 20:57:41.740 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:57:42.530 [INF] -------------Request-Begin------------
+2023-10-30 20:57:42.531 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/1 
+QueryString:  
+Request Body: 
+2023-10-30 20:57:42.531 [INF] 
+
+2023-10-30 20:57:42.531 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/1 
+QueryString:  
+StatusCode: 200 
+Response Body: []
+2023-10-30 20:57:42.531 [INF] -------------Request-End------------
+2023-10-30 20:58:39.495 [INF] App server is starting.
+2023-10-30 20:58:42.046 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllProduct (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 20:58:50.288 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllProduct (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 20:58:50.488 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:58:50.490 [INF] HeartBeat
+2023-10-30 20:58:50.491 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:58:50.655 [INF] -------------Request-Begin------------
+2023-10-30 20:58:50.656 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /favicon.ico 
+QueryString:  
+Request Body: 
+2023-10-30 20:58:50.656 [INF] 
+
+2023-10-30 20:58:50.656 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /favicon.ico 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-10-30 20:58:50.656 [INF] -------------Request-End------------
+2023-10-30 21:01:04.330 [INF] App server is starting.
+2023-10-30 21:01:11.955 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:01:11.958 [INF] HeartBeat
+2023-10-30 21:01:11.959 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:01:12.620 [INF] -------------Request-Begin------------
+2023-10-30 21:01:12.620 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-30 21:01:12.621 [INF] 
+
+2023-10-30 21:01:12.621 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"companyId":0,"company":null,"productName":"Stepper Motor","productPrice":null,"productStock":50,"orderItems":null,"id":0,"insertDate":"0001-01-01T00:00:00","updateDate":null,"isActive":false},{"companyId":0,"company":null,"productName":"Stepper Motor Driver","productPrice":null,"productStock":70,"orderItems":null,"id":0,"insertDate":"0001-01-01T00:00:00","updateDate":null,"isActive":false}]
+2023-10-30 21:01:12.621 [INF] -------------Request-End------------
+2023-10-30 21:23:35.881 [INF] App server is starting.
+2023-10-30 21:23:38.963 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports/orders" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllOrderByDealerId (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 21:23:59.469 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v1/Reports/orders" for actions - Erp.Api.Controllers.ReportsController.GetAllOrder (Erp.Api),Erp.Api.Controllers.ReportsController.GetAllOrderByDealerId (Erp.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 21:23:59.783 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:23:59.785 [INF] HeartBeat
+2023-10-30 21:23:59.786 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:23:59.943 [INF] -------------Request-Begin------------
+2023-10-30 21:23:59.943 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /favicon.ico 
+QueryString:  
+Request Body: 
+2023-10-30 21:23:59.944 [INF] 
+
+2023-10-30 21:23:59.944 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /favicon.ico 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-10-30 21:23:59.944 [INF] -------------Request-End------------
+2023-10-30 21:24:29.977 [INF] App server is starting.
+2023-10-30 21:24:49.898 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:24:49.904 [INF] HeartBeat
+2023-10-30 21:24:49.905 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:24:50.763 [INF] -------------Request-Begin------------
+2023-10-30 21:24:50.763 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+Request Body: 
+2023-10-30 21:24:50.763 [INF] 
+
+2023-10-30 21:24:50.763 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+StatusCode: 200 
+Response Body: []
+2023-10-30 21:24:50.763 [INF] -------------Request-End------------
+2023-10-30 21:24:55.625 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:24:55.625 [INF] HeartBeat
+2023-10-30 21:24:55.625 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:24:55.641 [INF] -------------Request-Begin------------
+2023-10-30 21:24:55.641 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 21:24:55.641 [INF] 
+
+2023-10-30 21:24:55.641 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 21:24:55.642 [INF] -------------Request-End------------
+2023-10-30 21:25:36.322 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:25:36.324 [INF] HeartBeat
+2023-10-30 21:25:36.324 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:25:36.336 [INF] -------------Request-Begin------------
+2023-10-30 21:25:36.336 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+Request Body: 
+2023-10-30 21:25:36.336 [INF] 
+
+2023-10-30 21:25:36.336 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 21:25:36.336 [INF] -------------Request-End------------
+2023-10-30 21:25:49.611 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:25:49.611 [INF] HeartBeat
+2023-10-30 21:25:49.611 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:25:49.616 [INF] -------------Request-Begin------------
+2023-10-30 21:25:49.617 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString: ?Dealerid=1 
+Request Body: 
+2023-10-30 21:25:49.617 [INF] 
+
+2023-10-30 21:25:49.617 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString: ?Dealerid=1 
+StatusCode: 401 
+Response Body: 
+2023-10-30 21:25:49.617 [INF] -------------Request-End------------
+2023-10-30 21:26:26.875 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:26:26.876 [INF] HeartBeat
+2023-10-30 21:26:26.876 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:26:27.789 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:27.791 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:27.791 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:27.791 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:27.792 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:27.792 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:27.792 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:26:28.965 [INF] -------------Request-Begin------------
+2023-10-30 21:26:28.965 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 21:26:28.965 [INF] 
+
+2023-10-30 21:26:28.965 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T21:36:28.9533594+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTA5ODgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.pNdZonBeyzIPjr4e0b5iQxxNE91L-jnAvEskoNXwSyk","email":"info@orhan.com"}}
+2023-10-30 21:26:28.965 [INF] -------------Request-End------------
+2023-10-30 21:26:45.047 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:26:45.048 [INF] HeartBeat
+2023-10-30 21:26:45.048 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:26:45.173 [INF] -------------Request-Begin------------
+2023-10-30 21:26:45.173 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString: ?Dealerid=1 
+Request Body: 
+2023-10-30 21:26:45.173 [INF] 
+
+2023-10-30 21:26:45.173 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString: ?Dealerid=1 
+StatusCode: 200 
+Response Body: []
+2023-10-30 21:26:45.174 [INF] -------------Request-End------------
+2023-10-30 21:26:49.494 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:26:49.494 [INF] HeartBeat
+2023-10-30 21:26:49.494 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:26:49.498 [INF] -------------Request-Begin------------
+2023-10-30 21:26:49.498 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 21:26:49.498 [INF] 
+
+2023-10-30 21:26:49.498 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 21:26:49.498 [INF] -------------Request-End------------
+2023-10-30 21:26:59.938 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:26:59.938 [INF] HeartBeat
+2023-10-30 21:26:59.938 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:27:00.009 [INF] -------------Request-Begin------------
+2023-10-30 21:27:00.009 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-30 21:27:00.009 [INF] 
+
+2023-10-30 21:27:00.009 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T21:37:00.0089677+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2OTEwMjAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.qQKAdNbYrWDFTTau80tgvtqr5NSYKoyZ4zdJ3Hsio_s","email":"info@abc.com"}}
+2023-10-30 21:27:00.009 [INF] -------------Request-End------------
+2023-10-30 21:27:15.910 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:27:15.910 [INF] HeartBeat
+2023-10-30 21:27:15.910 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:27:15.924 [INF] -------------Request-Begin------------
+2023-10-30 21:27:15.924 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 21:27:15.924 [INF] 
+
+2023-10-30 21:27:15.924 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: []
+2023-10-30 21:27:15.924 [INF] -------------Request-End------------
+2023-10-30 21:27:18.179 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:27:18.179 [INF] HeartBeat
+2023-10-30 21:27:18.179 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:27:18.180 [INF] -------------Request-Begin------------
+2023-10-30 21:27:18.180 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString: ?Dealerid=1 
+Request Body: 
+2023-10-30 21:27:18.180 [INF] 
+
+2023-10-30 21:27:18.180 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString: ?Dealerid=1 
+StatusCode: 403 
+Response Body: 
+2023-10-30 21:27:18.180 [INF] -------------Request-End------------
+2023-10-30 21:32:42.445 [INF] App server is starting.
+2023-10-30 21:32:51.465 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:32:51.468 [INF] HeartBeat
+2023-10-30 21:32:51.469 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:32:52.193 [INF] -------------Request-Begin------------
+2023-10-30 21:32:52.193 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+Request Body: 
+2023-10-30 21:32:52.193 [INF] 
+
+2023-10-30 21:32:52.193 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":null,"id":1,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true},{"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":null,"id":2,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true}]
+2023-10-30 21:32:52.193 [INF] -------------Request-End------------
+2023-10-30 21:33:14.379 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:33:14.379 [INF] HeartBeat
+2023-10-30 21:33:14.380 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:33:15.039 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:15.043 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:15.043 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:15.043 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:15.043 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:15.043 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:15.043 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:33:16.298 [INF] -------------Request-Begin------------
+2023-10-30 21:33:16.298 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 21:33:16.298 [INF] 
+
+2023-10-30 21:33:16.298 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T21:43:16.2904373+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTEzOTYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.of6qun2ck_p8Nq2mlPbAAkYsbdmE8WHGTsg1RU9vUWM","email":"info@orhan.com"}}
+2023-10-30 21:33:16.298 [INF] -------------Request-End------------
+2023-10-30 21:33:34.782 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:33:34.783 [INF] HeartBeat
+2023-10-30 21:33:34.783 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:33:34.855 [INF] -------------Request-Begin------------
+2023-10-30 21:33:34.855 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+Request Body: 
+2023-10-30 21:33:34.856 [INF] 
+
+2023-10-30 21:33:34.856 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":null,"id":1,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true}]
+2023-10-30 21:33:34.856 [INF] -------------Request-End------------
+2023-10-30 21:33:45.306 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:33:45.306 [INF] HeartBeat
+2023-10-30 21:33:45.306 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:33:45.329 [INF] -------------Request-Begin------------
+2023-10-30 21:33:45.329 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/2 
+QueryString:  
+Request Body: 
+2023-10-30 21:33:45.329 [INF] 
+
+2023-10-30 21:33:45.329 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/2 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":null,"id":2,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true}]
+2023-10-30 21:33:45.329 [INF] -------------Request-End------------
+2023-10-30 21:33:53.446 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:33:53.447 [INF] HeartBeat
+2023-10-30 21:33:53.447 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:33:53.453 [INF] -------------Request-Begin------------
+2023-10-30 21:33:53.453 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+Request Body: 
+2023-10-30 21:33:53.453 [INF] 
+
+2023-10-30 21:33:53.453 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":null,"id":1,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true}]
+2023-10-30 21:33:53.453 [INF] -------------Request-End------------
+2023-10-30 21:33:59.689 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:33:59.689 [INF] HeartBeat
+2023-10-30 21:33:59.689 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:33:59.701 [INF] -------------Request-Begin------------
+2023-10-30 21:33:59.701 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 21:33:59.701 [INF] 
+
+2023-10-30 21:33:59.701 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 21:33:59.701 [INF] -------------Request-End------------
+2023-10-30 21:34:09.946 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:34:09.946 [INF] HeartBeat
+2023-10-30 21:34:09.946 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:34:10.010 [INF] -------------Request-Begin------------
+2023-10-30 21:34:10.010 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-30 21:34:10.010 [INF] 
+
+2023-10-30 21:34:10.010 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T21:44:10.0095155+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2OTE0NTAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.dr0hs3SBVxOof-fOZxquJR14fLpD775mHPrVQ_MewT8","email":"info@abc.com"}}
+2023-10-30 21:34:10.010 [INF] -------------Request-End------------
+2023-10-30 21:34:23.692 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:34:23.692 [INF] HeartBeat
+2023-10-30 21:34:23.692 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:34:23.697 [INF] -------------Request-Begin------------
+2023-10-30 21:34:23.697 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 21:34:23.697 [INF] 
+
+2023-10-30 21:34:23.697 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":null,"id":1,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true}]
+2023-10-30 21:34:23.697 [INF] -------------Request-End------------
+2023-10-30 21:34:31.697 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:34:31.697 [INF] HeartBeat
+2023-10-30 21:34:31.697 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:34:31.751 [INF] -------------Request-Begin------------
+2023-10-30 21:34:31.751 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@def.com",
+  "password": "hello"
+}
+2023-10-30 21:34:31.751 [INF] 
+
+2023-10-30 21:34:31.751 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T21:44:31.7507099+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjIiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGRlZi5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2OTE0NzEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.503vcGnCgt28BFWVteeezimZWbrihnVA4qXPbI8Ia3s","email":"info@def.com"}}
+2023-10-30 21:34:31.751 [INF] -------------Request-End------------
+2023-10-30 21:34:43.713 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:34:43.713 [INF] HeartBeat
+2023-10-30 21:34:43.713 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:34:43.718 [INF] -------------Request-Begin------------
+2023-10-30 21:34:43.718 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 21:34:43.718 [INF] 
+
+2023-10-30 21:34:43.718 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":null,"id":2,"insertDate":"2023-07-07T00:00:00","updateDate":null,"isActive":true}]
+2023-10-30 21:34:43.718 [INF] -------------Request-End------------
+2023-10-30 22:24:07.429 [INF] App server is starting.
+2023-10-30 22:24:24.558 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:24:24.561 [INF] HeartBeat
+2023-10-30 22:24:24.562 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:24:25.616 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:25.618 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:25.618 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:25.618 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:25.618 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:25.619 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:25.619 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:24:26.853 [INF] -------------Request-Begin------------
+2023-10-30 22:24:26.853 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-30 22:24:26.853 [INF] 
+
+2023-10-30 22:24:26.853 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T22:34:26.8266606+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2OTQ0NjYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.mAJDPSSh8UKn0yNDxU-21Wiv67BboSDwTr_Y5QqdsgI","email":"info@abc.com"}}
+2023-10-30 22:24:26.853 [INF] -------------Request-End------------
+2023-10-30 22:24:48.072 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:24:48.073 [INF] HeartBeat
+2023-10-30 22:24:48.105 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:24:48.395 [INF] -------------Request-Begin------------
+2023-10-30 22:24:48.395 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 22:24:48.395 [INF] 
+
+2023-10-30 22:24:48.395 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: [{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]
+2023-10-30 22:24:48.395 [INF] -------------Request-End------------
+2023-10-30 22:29:32.782 [INF] App server is starting.
+2023-10-30 22:29:48.883 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:29:48.890 [INF] HeartBeat
+2023-10-30 22:29:48.891 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:29:49.887 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:49.888 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:49.889 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:49.889 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:49.889 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:49.889 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:49.889 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:29:51.075 [INF] -------------Request-Begin------------
+2023-10-30 22:29:51.075 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 22:29:51.075 [INF] 
+
+2023-10-30 22:29:51.075 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T22:39:51.0579322+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTQ3OTAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.zENw3cnQ4OlNjnMA7Y9hijqTBYzdROCv1dFBC6GUxW8","email":"info@orhan.com"}}
+2023-10-30 22:29:51.075 [INF] -------------Request-End------------
+2023-10-30 22:30:05.133 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:30:05.133 [INF] HeartBeat
+2023-10-30 22:30:05.133 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:30:05.426 [INF] -------------Request-Begin------------
+2023-10-30 22:30:05.426 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+Request Body: 
+2023-10-30 22:30:05.426 [INF] 
+
+2023-10-30 22:30:05.426 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 22:30:05.426 [INF] -------------Request-End------------
+2023-10-30 22:37:44.563 [INF] App server is starting.
+2023-10-30 22:37:59.046 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:37:59.049 [INF] HeartBeat
+2023-10-30 22:37:59.050 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:00.052 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:00.055 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:00.055 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:00.055 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:00.055 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:00.055 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:00.056 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:38:01.147 [INF] -------------Request-Begin------------
+2023-10-30 22:38:01.147 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "hello"
+}
+2023-10-30 22:38:01.147 [INF] 
+
+2023-10-30 22:38:01.147 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 22:38:01.147 [INF] -------------Request-End------------
+2023-10-30 22:38:08.945 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:08.945 [INF] HeartBeat
+2023-10-30 22:38:08.945 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:09.161 [INF] -------------Request-Begin------------
+2023-10-30 22:38:09.161 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 22:38:09.161 [INF] 
+
+2023-10-30 22:38:09.161 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T22:48:09.1533779+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTUyODksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.ULDewTRbVcml1Wvh0kHPeV3w7hRktYQkd02g8Vax9Uc","email":"info@orhan.com"}}
+2023-10-30 22:38:09.161 [INF] -------------Request-End------------
+2023-10-30 22:38:23.040 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:23.040 [INF] HeartBeat
+2023-10-30 22:38:23.040 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:23.632 [INF] -------------Request-Begin------------
+2023-10-30 22:38:23.632 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-30 22:38:23.632 [INF] 
+
+2023-10-30 22:38:23.632 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Stepper Motor","productStock":50},{"productName":"Stepper Motor Driver","productStock":70}]}
+2023-10-30 22:38:23.632 [INF] -------------Request-End------------
+2023-10-30 22:38:35.152 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:35.152 [INF] HeartBeat
+2023-10-30 22:38:35.152 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:35.192 [INF] -------------Request-Begin------------
+2023-10-30 22:38:35.193 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+Request Body: 
+2023-10-30 22:38:35.193 [INF] 
+
+2023-10-30 22:38:35.193 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 22:38:35.193 [INF] -------------Request-End------------
+2023-10-30 22:38:39.073 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:39.073 [INF] HeartBeat
+2023-10-30 22:38:39.073 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:39.096 [INF] -------------Request-Begin------------
+2023-10-30 22:38:39.096 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/2 
+QueryString:  
+Request Body: 
+2023-10-30 22:38:39.096 [INF] 
+
+2023-10-30 22:38:39.096 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":[]}]}
+2023-10-30 22:38:39.096 [INF] -------------Request-End------------
+2023-10-30 22:38:49.446 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:49.447 [INF] HeartBeat
+2023-10-30 22:38:49.447 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:49.451 [INF] -------------Request-Begin------------
+2023-10-30 22:38:49.451 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 22:38:49.451 [INF] 
+
+2023-10-30 22:38:49.451 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 22:38:49.451 [INF] -------------Request-End------------
+2023-10-30 22:38:52.465 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:52.465 [INF] HeartBeat
+2023-10-30 22:38:52.465 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:52.466 [INF] -------------Request-Begin------------
+2023-10-30 22:38:52.466 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 22:38:52.466 [INF] 
+
+2023-10-30 22:38:52.466 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 22:38:52.467 [INF] -------------Request-End------------
+2023-10-30 22:38:54.984 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:38:54.984 [INF] HeartBeat
+2023-10-30 22:38:54.984 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:38:54.990 [INF] -------------Request-Begin------------
+2023-10-30 22:38:54.990 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+Request Body: 
+2023-10-30 22:38:54.990 [INF] 
+
+2023-10-30 22:38:54.990 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]},{"id":2,"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":[]}]}
+2023-10-30 22:38:54.990 [INF] -------------Request-End------------
+2023-10-30 22:39:19.245 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:39:19.245 [INF] HeartBeat
+2023-10-30 22:39:19.245 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:39:19.282 [INF] -------------Request-Begin------------
+2023-10-30 22:39:19.282 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-30 22:39:19.282 [INF] 
+
+2023-10-30 22:39:19.282 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T22:49:19.2822076+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2OTUzNTksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.T7X1B9DHo3JbBxAVKlsxcGZs39cMaQzKKWBtMCBKpYw","email":"info@abc.com"}}
+2023-10-30 22:39:19.282 [INF] -------------Request-End------------
+2023-10-30 22:39:41.803 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:39:41.807 [INF] HeartBeat
+2023-10-30 22:39:41.807 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:39:41.811 [INF] -------------Request-Begin------------
+2023-10-30 22:39:41.811 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+Request Body: 
+2023-10-30 22:39:41.811 [INF] 
+
+2023-10-30 22:39:41.811 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 22:39:41.811 [INF] -------------Request-End------------
+2023-10-30 22:39:43.836 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:39:43.836 [INF] HeartBeat
+2023-10-30 22:39:43.836 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:39:43.852 [INF] -------------Request-Begin------------
+2023-10-30 22:39:43.852 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-10-30 22:39:43.852 [INF] 
+
+2023-10-30 22:39:43.852 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-07-07T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 22:39:43.852 [INF] -------------Request-End------------
+2023-10-30 22:39:46.756 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:39:46.756 [INF] HeartBeat
+2023-10-30 22:39:46.756 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:39:46.757 [INF] -------------Request-Begin------------
+2023-10-30 22:39:46.757 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/2 
+QueryString:  
+Request Body: 
+2023-10-30 22:39:46.757 [INF] 
+
+2023-10-30 22:39:46.757 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/company/2 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 22:39:46.757 [INF] -------------Request-End------------
+2023-10-30 22:39:48.976 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:39:48.976 [INF] HeartBeat
+2023-10-30 22:39:48.976 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:39:48.977 [INF] -------------Request-Begin------------
+2023-10-30 22:39:48.977 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-30 22:39:48.977 [INF] 
+
+2023-10-30 22:39:48.977 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-30 22:39:48.977 [INF] -------------Request-End------------
+2023-10-30 22:48:20.605 [INF] App server is starting.
+2023-10-30 22:48:38.006 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:48:38.011 [INF] HeartBeat
+2023-10-30 22:48:38.013 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:48:39.085 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:39.087 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:39.087 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:39.087 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:39.087 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:39.087 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:39.087 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 22:48:40.239 [INF] -------------Request-Begin------------
+2023-10-30 22:48:40.239 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 22:48:40.239 [INF] 
+
+2023-10-30 22:48:40.239 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T22:58:40.2215486+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTU5MjAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.a2bRDK5E0yWSagwvprAlJ-NAb2OvzVagA9N3B--TesM","email":"info@orhan.com"}}
+2023-10-30 22:48:40.239 [INF] -------------Request-End------------
+2023-10-30 22:48:53.543 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 22:48:53.543 [INF] HeartBeat
+2023-10-30 22:48:53.543 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 22:48:53.830 [INF] -------------Request-Begin------------
+2023-10-30 22:48:53.830 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+Request Body: 
+2023-10-30 22:48:53.830 [INF] 
+
+2023-10-30 22:48:53.830 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Controller","productStock":5}]}
+2023-10-30 22:48:53.830 [INF] -------------Request-End------------
+2023-10-30 23:37:12.086 [INF] App server is starting.
+2023-10-30 23:37:30.670 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:37:30.674 [INF] HeartBeat
+2023-10-30 23:37:30.675 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:37:31.736 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:31.738 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:31.738 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:31.738 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:31.738 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:31.738 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:31.738 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:37:33.128 [INF] -------------Request-Begin------------
+2023-10-30 23:37:33.129 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 23:37:33.129 [INF] 
+
+2023-10-30 23:37:33.129 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T23:47:33.0970788+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTg4NTIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.Ao211lmhGGFyCBBsNbyIhJ2zLAlv7nxkrcBUFfgkxHA","email":"info@orhan.com"}}
+2023-10-30 23:37:33.129 [INF] -------------Request-End------------
+2023-10-30 23:37:48.472 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:37:48.472 [INF] HeartBeat
+2023-10-30 23:37:48.472 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:37:48.762 [INF] -------------Request-Begin------------
+2023-10-30 23:37:48.762 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-10-30 23:37:48.762 [INF] 
+
+2023-10-30 23:37:48.762 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 23:37:48.762 [INF] -------------Request-End------------
+2023-10-30 23:37:56.198 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:37:56.198 [INF] HeartBeat
+2023-10-30 23:37:56.198 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:37:56.213 [INF] -------------Request-Begin------------
+2023-10-30 23:37:56.213 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-10-30 23:37:56.213 [INF] 
+
+2023-10-30 23:37:56.213 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 23:37:56.213 [INF] -------------Request-End------------
+2023-10-30 23:38:06.365 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:38:06.365 [INF] HeartBeat
+2023-10-30 23:38:06.365 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:38:06.387 [INF] -------------Request-Begin------------
+2023-10-30 23:38:06.387 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report 
+QueryString:  
+Request Body: 
+2023-10-30 23:38:06.387 [INF] 
+
+2023-10-30 23:38:06.387 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]},{"id":2,"dealerId":2,"dealer":null,"billingNumber":"fkdcnkd5kd","totalPrice":850.00,"orderDate":"2023-10-25T00:00:00","paymentMethod":3,"orderStatus":1,"orderItems":[]}]}
+2023-10-30 23:38:06.387 [INF] -------------Request-End------------
+2023-10-30 23:38:21.606 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:38:21.606 [INF] HeartBeat
+2023-10-30 23:38:21.606 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:38:22.610 [FTL] Path=/api/v1/Reports/orders/daily/report/1 || Method=GET || Exception=Incorrect syntax near '}'.
+2023-10-30 23:38:22.637 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 72a2cb3f-cbd9-454e-ab54-0a02711e8ac2 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:38:22.710 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 72a2cb3f-cbd9-454e-ab54-0a02711e8ac2 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:38:22.712 [ERR] Connection ID "18230571310386249885", Request ID "8000009e-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 72a2cb3f-cbd9-454e-ab54-0a02711e8ac2 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 23:38:50.315 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:38:50.315 [INF] HeartBeat
+2023-10-30 23:38:50.315 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:38:50.455 [FTL] Path=/api/v1/Reports/orders/daily/report/1 || Method=GET || Exception=Incorrect syntax near '}'.
+2023-10-30 23:38:50.476 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 7d6934f5-f007-4f1f-a992-033eac20d955 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:38:50.478 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 7d6934f5-f007-4f1f-a992-033eac20d955 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:38:50.479 [ERR] Connection ID "18302628908719145072", Request ID "80000071-0005-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 7d6934f5-f007-4f1f-a992-033eac20d955 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 23:39:21.654 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:39:21.654 [INF] HeartBeat
+2023-10-30 23:39:21.654 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:39:21.781 [FTL] Path=/api/v1/Reports/orders/weekly/report/1 || Method=GET || Exception=Incorrect syntax near '}'.
+2023-10-30 23:39:21.802 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id fd9c137f-21bd-4234-bfda-48c412e40708 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:39:21.805 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id fd9c137f-21bd-4234-bfda-48c412e40708 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:39:21.807 [ERR] Connection ID "18014398541157367809", Request ID "80000002-0007-fa00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id fd9c137f-21bd-4234-bfda-48c412e40708 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 23:39:26.132 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:39:26.132 [INF] HeartBeat
+2023-10-30 23:39:26.132 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:39:26.247 [FTL] Path=/api/v1/Reports/orders/monthly/report/1 || Method=GET || Exception=Incorrect syntax near '}'.
+2023-10-30 23:39:26.272 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 53004360-9659-4b54-b48e-b3a2b4b412f6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:39:26.274 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 53004360-9659-4b54-b48e-b3a2b4b412f6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:39:26.275 [ERR] Connection ID "18230571310386249887", Request ID "800000a0-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 53004360-9659-4b54-b48e-b3a2b4b412f6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 23:39:30.465 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:39:30.465 [INF] HeartBeat
+2023-10-30 23:39:30.465 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:39:30.480 [INF] -------------Request-Begin------------
+2023-10-30 23:39:30.480 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+Request Body: 
+2023-10-30 23:39:30.480 [INF] 
+
+2023-10-30 23:39:30.480 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Stepper Motor","productStock":50},{"productName":"Stepper Motor Driver","productStock":70},{"productName":"Controller","productStock":5}]}
+2023-10-30 23:39:30.480 [INF] -------------Request-End------------
+2023-10-30 23:39:35.000 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:39:35.000 [INF] HeartBeat
+2023-10-30 23:39:35.000 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:39:35.007 [INF] -------------Request-Begin------------
+2023-10-30 23:39:35.008 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+Request Body: 
+2023-10-30 23:39:35.008 [INF] 
+
+2023-10-30 23:39:35.008 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/products/checkstock 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Controller","productStock":5}]}
+2023-10-30 23:39:35.008 [INF] -------------Request-End------------
+2023-10-30 23:43:09.547 [INF] App server is starting.
+2023-10-30 23:43:25.272 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:43:25.276 [INF] HeartBeat
+2023-10-30 23:43:25.278 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:43:26.132 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:26.134 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:26.134 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:26.134 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:26.134 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:26.135 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:26.135 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:43:27.023 [INF] -------------Request-Begin------------
+2023-10-30 23:43:27.023 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "orhan",
+  "password": "vakifbank"
+}
+2023-10-30 23:43:27.023 [INF] 
+
+2023-10-30 23:43:27.023 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 23:43:27.024 [INF] -------------Request-End------------
+2023-10-30 23:43:36.926 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:43:36.926 [INF] HeartBeat
+2023-10-30 23:43:36.926 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:43:37.254 [INF] -------------Request-Begin------------
+2023-10-30 23:43:37.254 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 23:43:37.254 [INF] 
+
+2023-10-30 23:43:37.254 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T23:53:37.2485974+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTkyMTcsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.skpIySKSTD0kihTqrZfJw5cCk5Va9oHBVK_vJ6Gg20k","email":"info@orhan.com"}}
+2023-10-30 23:43:37.254 [INF] -------------Request-End------------
+2023-10-30 23:43:51.110 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:43:51.110 [INF] HeartBeat
+2023-10-30 23:43:51.110 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:43:51.634 [FTL] Path=/api/v1/Reports/orders/daily/report/1 || Method=GET || Exception=Incorrect syntax near '}'.
+2023-10-30 23:43:51.660 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id e07c40cf-95bc-4499-97e6-c42e66e2281f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:43:51.714 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id e07c40cf-95bc-4499-97e6-c42e66e2281f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 23:43:51.716 [ERR] Connection ID "18158513724938256462", Request ID "8000004f-0006-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id e07c40cf-95bc-4499-97e6-c42e66e2281f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Erp.Api.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Enes Orhan\Desktop\VakıfbankBootcamp\FinalCase\VakifBank-FinalCase\Erp.Api\Erp.Api\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 23:47:55.419 [INF] App server is starting.
+2023-10-30 23:49:20.888 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:49:20.891 [INF] HeartBeat
+2023-10-30 23:49:20.892 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:49:21.918 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:21.920 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:21.920 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:21.920 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:21.920 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:21.920 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:21.920 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 23:49:23.115 [INF] -------------Request-Begin------------
+2023-10-30 23:49:23.116 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 23:49:23.116 [INF] 
+
+2023-10-30 23:49:23.116 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T23:59:23.0833646+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTk1NjIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0._fg40YnZgXesdp0Eiy_3R_Lk4DZYJ5ldPj-Efe4L0zc","email":"info@orhan.com"}}
+2023-10-30 23:49:23.116 [INF] -------------Request-End------------
+2023-10-30 23:50:29.141 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:50:29.142 [INF] HeartBeat
+2023-10-30 23:50:29.143 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:50:29.164 [INF] -------------Request-Begin------------
+2023-10-30 23:50:29.164 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 23:50:29.164 [INF] 
+
+2023-10-30 23:50:29.164 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 415 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.13","title":"Unsupported Media Type","status":415,"traceId":"00-b156ebc1103b11191b0af6c920b92a81-326daf42086e99a8-00"}
+2023-10-30 23:50:29.164 [INF] -------------Request-End------------
+2023-10-30 23:51:05.497 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:51:05.500 [INF] HeartBeat
+2023-10-30 23:51:05.502 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:51:05.771 [INF] -------------Request-Begin------------
+2023-10-30 23:51:05.771 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 23:51:05.771 [INF] 
+
+2023-10-30 23:51:05.771 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T00:01:05.7701404+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTk2NjUsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.gY8ER1f4-iBKrJ9aaKZLDQvkc4PXnRke1YEJ4hnsAaw","email":"info@orhan.com"}}
+2023-10-30 23:51:05.771 [INF] -------------Request-End------------
+2023-10-30 23:52:40.964 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:52:40.964 [INF] HeartBeat
+2023-10-30 23:52:40.964 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:52:41.111 [INF] -------------Request-Begin------------
+2023-10-30 23:52:41.111 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "hello"
+}
+2023-10-30 23:52:41.111 [INF] 
+
+2023-10-30 23:52:41.111 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T00:02:41.110857+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTg2OTk3NjEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.hRAZP9mM_p0jcXskn1B_t6EOVqLQ0Kjeql7MynjMnl8","email":"info@abc.com"}}
+2023-10-30 23:52:41.111 [INF] -------------Request-End------------
+2023-10-30 23:52:46.579 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:52:46.579 [INF] HeartBeat
+2023-10-30 23:52:46.579 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:52:46.600 [INF] -------------Request-Begin------------
+2023-10-30 23:52:46.600 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-10-30 23:52:46.600 [INF] 
+
+2023-10-30 23:52:46.600 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T00:02:46.5994077+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTg2OTk3NjYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.9MS3tkptwbEdt_CDgTwVXo1t8gXUFEqyUK4zoLaKDXw","email":"info@orhan.com"}}
+2023-10-30 23:52:46.600 [INF] -------------Request-End------------
+2023-10-30 23:53:03.960 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:53:03.960 [INF] HeartBeat
+2023-10-30 23:53:03.960 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:53:04.260 [INF] -------------Request-Begin------------
+2023-10-30 23:53:04.260 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+Request Body: 
+2023-10-30 23:53:04.260 [INF] 
+
+2023-10-30 23:53:04.260 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/daily/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 23:53:04.260 [INF] -------------Request-End------------
+2023-10-30 23:53:13.857 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:53:13.857 [INF] HeartBeat
+2023-10-30 23:53:13.857 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:53:13.882 [INF] -------------Request-Begin------------
+2023-10-30 23:53:13.882 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report/1 
+QueryString:  
+Request Body: 
+2023-10-30 23:53:13.882 [INF] 
+
+2023-10-30 23:53:13.882 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/weekly/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 23:53:13.882 [INF] -------------Request-End------------
+2023-10-30 23:53:19.603 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 23:53:19.604 [INF] HeartBeat
+2023-10-30 23:53:19.604 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 23:53:19.617 [INF] -------------Request-Begin------------
+2023-10-30 23:53:19.617 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+Request Body: 
+2023-10-30 23:53:19.617 [INF] 
+
+2023-10-30 23:53:19.618 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Reports/orders/monthly/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":null,"billingNumber":"fksdcdfd9","totalPrice":500.00,"orderDate":"2023-10-30T00:00:00","paymentMethod":0,"orderStatus":0,"orderItems":[]}]}
+2023-10-30 23:53:19.618 [INF] -------------Request-End------------
+2023-10-30 23:58:23.507 [INF] App server is starting.
