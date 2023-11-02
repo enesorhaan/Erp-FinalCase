@@ -26,9 +26,7 @@ namespace Erp.Operation.Mapper
                     opt => opt.MapFrom(src => src.Company.CompanyName));
 
             CreateMap<ProductRequest, Product>();
-            CreateMap<Product, ProductResponse>()
-                .ForMember(dest => dest.Company,
-                    opt => opt.MapFrom(src => src.Company.CompanyName));
+            CreateMap<Product, ProductResponse>();
             CreateMap<Product, ProductDetailResponse>();
 
             CreateMap<OrderRequest, Order>();
@@ -38,23 +36,32 @@ namespace Erp.Operation.Mapper
 
             CreateMap<OrderItemRequest, OrderItem>();
             CreateMap<OrderItem, OrderItemResponse>()
-                .ForMember(dest => dest.Order,
-                    opt => opt.MapFrom(src => src.Order))
+                .ForMember(dest => dest.Dealer,
+                    opt => opt.MapFrom(src => src.Dealer.DealerName))
                 .ForMember(dest => dest.Product,
                     opt => opt.MapFrom(src => src.Product.ProductName));
 
-            CreateMap<MessageRequest, Message>();
+            CreateMap<AdminMessageRequest, Message>();
+            CreateMap<DealerMessageRequest, Message>();
             CreateMap<Message, MessageResponse>()
                 .ForMember(dest => dest.Dealer,
                     opt => opt.MapFrom(src => src.Dealer))
                 .ForMember(dest => dest.Company,
                     opt => opt.MapFrom(src => src.Company.CompanyName));
 
+            CreateMap<ExpenseRequest, Expense>();
+            CreateMap<Expense, ExpenseResponse>()
+                .ForMember(dest => dest.DealerName,
+                    opt => opt.MapFrom(src => src.Dealer));
+
             CreateMap<LoginRequest, Company>();
             CreateMap<Company, LoginResponse>();
 
             CreateMap<LoginRequest, Dealer>();
             CreateMap<Dealer, LoginResponse>();
+
+            CreateMap<AdminMessageRequest, MessageResponse>();
+            CreateMap<DealerMessageRequest, MessageResponse>();
         }
     }
 }

@@ -4,7 +4,6 @@ namespace Erp.Dto
 {
     public class DealerRequest
     {
-        public int CompanyId { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public string DealerName { get; set; }
@@ -12,7 +11,6 @@ namespace Erp.Dto
         public string BillingAddress { get; set; }
         public string TaxOffice { get; set; }
         public int TaxNumber { get; set; }
-        public UserRole Role { get; set; }
         public decimal? MarginPercentage { get; set; }
     }
 

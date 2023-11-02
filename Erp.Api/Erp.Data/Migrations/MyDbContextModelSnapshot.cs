@@ -201,6 +201,47 @@ namespace Erp.Data.Migrations
                     b.ToTable("Dealer", "dbo");
                 });
 
+            modelBuilder.Entity("Erp.Data.Entities.Expense", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Amount")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("DealerId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<DateTime>("ExpenseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("InsertDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<DateTime?>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DealerId");
+
+                    b.ToTable("Expense", "dbo");
+                });
+
             modelBuilder.Entity("Erp.Data.Entities.Message", b =>
                 {
                     b.Property<int>("Id")
@@ -215,6 +256,11 @@ namespace Erp.Data.Migrations
                     b.Property<int>("DealerId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.Property<DateTime>("InsertDate")
                         .HasColumnType("datetime2");
 
@@ -223,8 +269,14 @@ namespace Erp.Data.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
-                    b.Property<string>("Messages")
-                        .IsRequired()
+                    b.Property<DateTime>("MessageDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReceiverMessage")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("TransmitterMessage")
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
@@ -235,8 +287,9 @@ namespace Erp.Data.Migrations
 
                     b.HasIndex("CompanyId");
 
-                    b.HasIndex("DealerId", "CompanyId")
-                        .IsUnique();
+                    b.HasIndex("Email");
+
+                    b.HasIndex("DealerId", "CompanyId");
 
                     b.ToTable("Message", "dbo");
                 });
@@ -299,6 +352,9 @@ namespace Erp.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("DealerId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("InsertDate")
                         .HasColumnType("datetime2");
 
@@ -311,7 +367,7 @@ namespace Erp.Data.Migrations
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
@@ -325,10 +381,11 @@ namespace Erp.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DealerId");
+
                     b.HasIndex("ProductId");
 
-                    b.HasIndex("OrderId", "ProductId")
-                        .IsUnique();
+                    b.HasIndex("OrderId", "ProductId");
 
                     b.ToTable("OrderItem", "dbo");
                 });
@@ -405,6 +462,17 @@ namespace Erp.Data.Migrations
                     b.Navigation("CurrentAccount");
                 });
 
+            modelBuilder.Entity("Erp.Data.Entities.Expense", b =>
+                {
+                    b.HasOne("Erp.Data.Entities.Dealer", "Dealer")
+                        .WithMany("Expenses")
+                        .HasForeignKey("DealerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Dealer");
+                });
+
             modelBuilder.Entity("Erp.Data.Entities.Message", b =>
                 {
                     b.HasOne("Erp.Data.Entities.Company", "Company")
@@ -435,15 +503,22 @@ namespace Erp.Data.Migrations
 
             modelBuilder.Entity("Erp.Data.Entities.OrderItem", b =>
                 {
+                    b.HasOne("Erp.Data.Entities.Dealer", "Dealer")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("DealerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Erp.Data.Entities.Order", "Order")
                         .WithMany("OrderItems")
-                        .HasForeignKey("OrderId")
-                        .IsRequired();
+                        .HasForeignKey("OrderId");
 
                     b.HasOne("Erp.Data.Entities.Product", "Product")
                         .WithMany("OrderItems")
                         .HasForeignKey("ProductId")
                         .IsRequired();
+
+                    b.Navigation("Dealer");
 
                     b.Navigation("Order");
 
@@ -480,7 +555,11 @@ namespace Erp.Data.Migrations
 
             modelBuilder.Entity("Erp.Data.Entities.Dealer", b =>
                 {
+                    b.Navigation("Expenses");
+
                     b.Navigation("Messages");
+
+                    b.Navigation("OrderItems");
 
                     b.Navigation("Orders");
                 });

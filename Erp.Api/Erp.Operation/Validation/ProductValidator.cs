@@ -7,10 +7,6 @@ namespace Erp.Operation.Validation
     {
         public CreateProductValidator()
         {
-            RuleFor(request => request.CompanyId)
-                .NotEmpty().WithMessage("CompanyId field is required.")
-                .GreaterThan(0).WithMessage("A valid CompanyId must be provided.");
-
             RuleFor(request => request.ProductName)
                 .NotEmpty().WithMessage("ProductName field is required.")
                 .MaximumLength(50).WithMessage("ProductName cannot exceed 50 characters in length.");

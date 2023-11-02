@@ -14,9 +14,6 @@ namespace Erp.Operation.Validation
             RuleFor(x => x.Password)
                 .NotEmpty().WithMessage("Password field cannot be empty.")
                 .MinimumLength(6).WithMessage("Password must be at least 6 characters long.");
-
-            RuleFor(x => x.CompanyName)
-                .NotEmpty().WithMessage("Company name cannot be empty.");
         }
     }
 }

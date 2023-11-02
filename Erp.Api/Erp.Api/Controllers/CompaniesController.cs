@@ -1,8 +1,8 @@
 ﻿using Erp.Base.Response;
-using Erp.Data.UoW;
 using Erp.Dto;
 using Erp.Operation.Cqrs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Erp.Api.Controllers
@@ -11,15 +11,14 @@ namespace Erp.Api.Controllers
     [ApiController]
     public class CompaniesController : ControllerBase
     {
-        private readonly IUnitOfWork unitOfWork;
         private IMediator mediator;
-        public CompaniesController(IUnitOfWork unitOfWork, IMediator mediator)
+        public CompaniesController(IMediator mediator)
         {
-            this.unitOfWork = unitOfWork;
             this.mediator = mediator;
         }
 
         [HttpGet]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<List<CompanyResponse>>> GetAll()
         {
             var operation = new GetAllCompanyQuery();
@@ -28,6 +27,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<CompanyResponse>> Get(int id)
         {
             var operation = new GetCompanyByIdQuery(id);
@@ -36,6 +36,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<CompanyResponse>> Post([FromBody] CompanyRequest request)
         {
             var operation = new CreateCompanyCommand(request);
@@ -44,6 +45,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Put(int id, [FromBody] CompanyRequest request)
         {
             var operation = new UpdateCompanyCommand(request, id);
@@ -52,6 +54,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Delete(int id)
         {
             var operation = new DeleteCompanyCommand(id);

@@ -9,7 +9,7 @@ namespace Erp.Data.Entities
     [Table("Dealer", Schema = "dbo")]
     public class Dealer : BaseModel
     {
-        public int CompanyId { get; set; }
+        public int CompanyId { get; set; } = 1;
         public virtual Company Company { get; set; }
 
         public int? CurrentAccountId { get; set; }
@@ -23,12 +23,14 @@ namespace Erp.Data.Entities
         public string TaxOffice { get; set; }
         public int? TaxNumber { get; set; }
         public decimal? MarginPercentage { get; set; }
-        public UserRole Role { get; set; }
+        public UserRole Role { get; set; } = UserRole.dealer;
         public DateTime LastActivityDate { get; set; }
         public int PasswordRetryCount { get; set; }
 
         public virtual List<Order> Orders { get; set; }
         public virtual List<Message> Messages { get; set; }
+        public virtual List<Expense> Expenses { get; set; }
+        public virtual List<OrderItem> OrderItems { get; set; }
     }
 
     public class DealerConfiguration : IEntityTypeConfiguration<Dealer>
@@ -59,6 +61,14 @@ namespace Erp.Data.Entities
                    .HasForeignKey(x => x.DealerId);
 
             builder.HasMany(x => x.Messages)
+                   .WithOne(x => x.Dealer)
+                   .HasForeignKey(x => x.DealerId);
+
+            builder.HasMany(x => x.Expenses)
+                   .WithOne(x => x.Dealer)
+                   .HasForeignKey(x => x.DealerId);
+
+            builder.HasMany(x => x.OrderItems)
                    .WithOne(x => x.Dealer)
                    .HasForeignKey(x => x.DealerId);
 

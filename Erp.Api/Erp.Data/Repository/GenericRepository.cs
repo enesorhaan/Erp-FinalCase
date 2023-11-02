@@ -141,16 +141,6 @@ namespace Erp.Data.Repository
             }
         }
 
-        public IQueryable<T> GetAsQueryable(params string[] includes)
-        {
-            var query = dbContext.Set<T>().AsQueryable();
-            if (includes.Any())
-            {
-                query = includes.Aggregate(query, (current, incl) => current.Include(incl));
-            }
-            return query;
-        }
-
         public T GetById(int id, params string[] includes)
         {
             var query = dbContext.Set<T>().AsQueryable();
@@ -161,31 +151,11 @@ namespace Erp.Data.Repository
             return query.FirstOrDefault(x => x.Id == id);
         }
 
-        public async Task<T> GetByIdAsync(int id, CancellationToken cancellationToken, params string[] includes)
-        {
-            var query = dbContext.Set<T>().AsQueryable();
-            if (includes.Any())
-            {
-                query = includes.Aggregate(query, (current, incl) => current.Include(incl));
-            }
-            return await query.FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
-        }
-
         public void Insert(T entity)
         {
             entity.InsertDate = DateTime.UtcNow;
             entity.IsActive = true;
             dbContext.Set<T>().Add(entity);
-        }
-
-        public void InsertRange(List<T> entities)
-        {
-            entities.ForEach(x =>
-            {
-                x.InsertDate = DateTime.UtcNow;
-                x.IsActive = true;
-            });
-            dbContext.Set<T>().AddRange(entities);
         }
 
         public void Remove(int id)
@@ -205,15 +175,5 @@ namespace Erp.Data.Repository
             dbContext.Set<T>().Update(entity);
         }
 
-        public IEnumerable<T> Where(Expression<Func<T, bool>> expression, params string[] includes)
-        {
-            var query = dbContext.Set<T>().AsQueryable();
-            query.Where(expression);
-            if (includes.Any())
-            {
-                query = includes.Aggregate(query, (current, incl) => current.Include(incl));
-            }
-            return query.ToList();
-        }
     }
 }

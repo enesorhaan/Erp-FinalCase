@@ -38,9 +38,7 @@ namespace Erp.Operation.Command
                 return new ApiResponse<LoginResponse>("Invalid user informations");
             }
 
-            var md5 = Md5.Create(request.Model.Password.ToLower());
-
-            if (company != null && company.Password != md5)
+            if (company != null && company.Password != request.Model.Password)
             {
                 company.LastActivityDate = DateTime.Now;
                 company.PasswordRetryCount++;
@@ -48,7 +46,7 @@ namespace Erp.Operation.Command
 
                 return new ApiResponse<LoginResponse>("Invalid user informations");
             }
-            else if (company != null && company.Password == md5)
+            else if (company != null && company.Password == request.Model.Password)
             {
                 if (!company.IsActive)
                 {
@@ -67,7 +65,7 @@ namespace Erp.Operation.Command
                 return new ApiResponse<LoginResponse>(loginResponse);
             }
 
-            if (dealer != null && dealer.Password != md5)
+            if (dealer != null && dealer.Password != request.Model.Password)
             {
                 dealer.LastActivityDate = DateTime.Now;
                 dealer.PasswordRetryCount++;

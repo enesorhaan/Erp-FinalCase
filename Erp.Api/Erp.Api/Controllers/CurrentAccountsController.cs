@@ -1,25 +1,26 @@
 ﻿using Erp.Base.Response;
-using Erp.Data.UoW;
 using Erp.Dto;
 using Erp.Operation.Cqrs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace Erp.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [Authorize(Roles = "admin")]
     public class CurrentAccountsController : ControllerBase
     {
-        private readonly IUnitOfWork unitOfWork;
         private IMediator mediator;
-        public CurrentAccountsController(IUnitOfWork unitOfWork, IMediator mediator)
+        public CurrentAccountsController(IMediator mediator)
         {
-            this.unitOfWork = unitOfWork;
             this.mediator = mediator;
         }
 
         [HttpGet]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<List<CurrentAccountResponse>>> GetAll()
         {
             var operation = new GetAllCurrentAccountQuery();
@@ -28,6 +29,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<CurrentAccountResponse>> Get(int id)
         {
             var operation = new GetCurrentAccountByIdQuery(id);
@@ -36,6 +38,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<CurrentAccountResponse>> Post([FromBody] CurrentAccountRequest request)
         {
             var operation = new CreateCurrentAccountCommand(request);
@@ -44,6 +47,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Put(int id, [FromBody] CurrentAccountRequest request)
         {
             var operation = new UpdateCurrentAccountCommand(request, id);
@@ -52,6 +56,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Delete(int id)
         {
             var operation = new DeleteCurrentAccountCommand(id);

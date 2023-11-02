@@ -1,9 +1,10 @@
 ﻿using Erp.Base.Response;
-using Erp.Data.UoW;
 using Erp.Dto;
 using Erp.Operation.Cqrs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Erp.Api.Controllers
 {
@@ -11,11 +12,9 @@ namespace Erp.Api.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly IUnitOfWork unitOfWork;
         private IMediator mediator;
-        public OrdersController(IUnitOfWork unitOfWork, IMediator mediator)
+        public OrdersController(IMediator mediator)
         {
-            this.unitOfWork = unitOfWork;
             this.mediator = mediator;
         }
 
@@ -36,15 +35,18 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ApiResponse<OrderResponse>> Post([FromBody] OrderRequest request)
+        [Authorize(Roles = "dealer")]
+        public async Task<ApiResponse<OrderResponse>> Post([FromBody] OrderCreateRequest request)
         {
-            var operation = new CreateOrderCommand(request);
+            var dealerId = (User.Identity as ClaimsIdentity).FindFirst("Id").Value;
+
+            var operation = new CreateOrderCommand(request, int.Parse(dealerId));
             var result = await mediator.Send(operation);
             return result;
         }
 
         [HttpPut("{id}")]
-        public async Task<ApiResponse> Put(int id, [FromBody] OrderRequest request)
+        public async Task<ApiResponse> Put(int id, [FromBody] OrderUpdateRequest request)
         {
             var operation = new UpdateOrderCommand(request, id);
             var result = await mediator.Send(operation);

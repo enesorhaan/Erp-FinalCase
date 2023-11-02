@@ -8,7 +8,7 @@ namespace Erp.Data.Entities
     [Table("Product", Schema = "dbo")]
     public class Product : BaseModel
     {
-        public int CompanyId { get; set; }
+        public int CompanyId { get; set; } = 1;
         public virtual Company Company { get; set; }
 
         public string ProductName { get; set; }

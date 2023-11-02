@@ -3,6 +3,7 @@
     public enum OrderStatus
     {
         WaitingForApproval,
+        WaitingForPayment,
         Approved,
         Rejected,
         Cancelled,

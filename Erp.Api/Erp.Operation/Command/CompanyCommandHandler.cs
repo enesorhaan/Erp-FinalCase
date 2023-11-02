@@ -27,6 +27,11 @@ namespace Erp.Operation.Command
         {
             Company mapped = mapper.Map<Company>(request.Model);
 
+            var company = await dbContext.Set<Company>().FirstOrDefaultAsync(x => x.Email == mapped.Email, cancellationToken);
+
+            if (company != null)
+                return new ApiResponse<CompanyResponse>("Email already exists!");
+
             var entity = await dbContext.Set<Company>().AddAsync(mapped, cancellationToken);
             entity.Entity.InsertDate = DateTime.Now;
             await dbContext.SaveChangesAsync(cancellationToken);
@@ -43,7 +48,7 @@ namespace Erp.Operation.Command
                 return new ApiResponse("Record not found!");
 
             entity.UpdateDate = DateTime.Now;
-            entity.CompanyName = request.Model.CompanyName;
+            entity.Email = request.Model.Email;
 
             await dbContext.SaveChangesAsync(cancellationToken);
             return new ApiResponse();

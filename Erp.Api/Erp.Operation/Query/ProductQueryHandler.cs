@@ -11,7 +11,8 @@ namespace Erp.Operation.Query
 {
     public class ProductQueryHandler :
         IRequestHandler<GetAllProductQuery, ApiResponse<List<ProductResponse>>>,
-        IRequestHandler<GetProductByIdQuery, ApiResponse<ProductResponse>>
+        IRequestHandler<GetProductByIdQuery, ApiResponse<ProductResponse>>,
+        IRequestHandler<GetProductByDealerIdQuery, ApiResponse<List<ProductResponse>>>
     {
         private readonly MyDbContext dbContext;
         private readonly IMapper mapper;
@@ -32,10 +33,28 @@ namespace Erp.Operation.Query
             return new ApiResponse<List<ProductResponse>>(mapped);
         }
 
+        public async Task<ApiResponse<List<ProductResponse>>> Handle(GetProductByDealerIdQuery request, CancellationToken cancellationToken)
+        {
+            Dealer? dealer = await dbContext.Set<Dealer>()
+                .FirstOrDefaultAsync(x => x.Id == request.DealerId, cancellationToken);
+
+            List<Product> list = await dbContext.Set<Product>()
+                .Include(x => x.OrderItems)
+                .ToListAsync(cancellationToken);
+
+            foreach (var item in list)
+            {
+                item.ProductPrice += item.ProductPrice*dealer.MarginPercentage/100; 
+            }
+
+            var mapped = mapper.Map<List<ProductResponse>>(list);
+
+            return new ApiResponse<List<ProductResponse>>(mapped);
+        }
+
         public async Task<ApiResponse<ProductResponse>> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             Product? entity = await dbContext.Set<Product>()
-                .Include(x => x.OrderItems)
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity is null)
@@ -45,5 +64,7 @@ namespace Erp.Operation.Query
 
             return new ApiResponse<ProductResponse>(mapped);
         }
+
+        
     }
 }

@@ -26,6 +26,13 @@ namespace Erp.Operation.Query
         {
             List<CurrentAccount> list = await dbContext.Set<CurrentAccount>()
                 .ToListAsync(cancellationToken);
+
+            foreach (var item in list)
+            {
+                item.Company = await dbContext.Set<Company>().FirstOrDefaultAsync(x => x.Id == item.CompanyId, cancellationToken);
+                item.Dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == item.DealerId, cancellationToken);
+            }
+
             var mapped = mapper.Map<List<CurrentAccountResponse>>(list);
 
             return new ApiResponse<List<CurrentAccountResponse>>(mapped);
@@ -38,6 +45,9 @@ namespace Erp.Operation.Query
 
             if (entity is null)
                 return new ApiResponse<CurrentAccountResponse>("Record not found!");
+
+            entity.Company = await dbContext.Set<Company>().FirstOrDefaultAsync(x => x.Id == entity.CompanyId, cancellationToken);
+            entity.Dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == entity.DealerId, cancellationToken);
 
             var mapped = mapper.Map<CurrentAccountResponse>(entity);
 

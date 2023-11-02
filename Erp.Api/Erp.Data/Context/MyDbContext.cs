@@ -15,6 +15,7 @@ namespace Erp.Data.Context
         DbSet<Product> Products { get; set; }
         DbSet<OrderItem> OrderItems { get; set; }
         DbSet<Message> Messages { get; set; }
+        DbSet<Expense> Expenses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +26,7 @@ namespace Erp.Data.Context
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new OrderItemConfiguration());
             modelBuilder.ApplyConfiguration(new MessageConfiguration());
+            modelBuilder.ApplyConfiguration(new ExpenseConfiguration());
             
             base.OnModelCreating(modelBuilder);
         }

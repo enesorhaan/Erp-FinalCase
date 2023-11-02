@@ -1,9 +1,14 @@
 ﻿namespace Erp.Dto
 {
-    public class MessageRequest
+    public class AdminMessageRequest
     {
         public int ReceiverId { get; set; }
-        public string Messages { get; set; }
+        public string TransmitterMessage { get; set; }
+    }
+
+    public class DealerMessageRequest
+    {
+        public string TransmitterMessage { get; set; }
     }
 
     public class MessageResponse
@@ -13,6 +18,8 @@
         public string Dealer { get; set; }
         public int CompanyId { get; set; }
         public string Company { get; set; }
-        public string Messages { get; set; }
+        public string Email { get; set; }
+        public string ReceiverMessage { get; set; }
+        public string TransmitterMessage { get; set; }
     }
 }

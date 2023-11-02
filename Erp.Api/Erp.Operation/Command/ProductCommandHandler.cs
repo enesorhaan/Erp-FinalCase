@@ -27,6 +27,11 @@ namespace Erp.Operation.Command
         {
             Product mapped = mapper.Map<Product>(request.Model);
 
+            var product = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.ProductName == mapped.ProductName, cancellationToken);
+
+            if (product != null)
+                return new ApiResponse<ProductResponse>("Product already exists!");
+
             var entity = await dbContext.Set<Product>().AddAsync(mapped, cancellationToken);
             entity.Entity.InsertDate = DateTime.Now;
 

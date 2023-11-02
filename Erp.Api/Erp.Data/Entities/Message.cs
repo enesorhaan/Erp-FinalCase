@@ -14,7 +14,10 @@ namespace Erp.Data.Entities
         public int CompanyId { get; set; }
         public virtual Company Company { get; set; }
 
-        public string Messages { get; set; }
+        public string Email { get; set; }
+        public string? ReceiverMessage { get; set; }
+        public string? TransmitterMessage { get; set; }
+        public DateTime MessageDate { get; set; }
     }
 
     public class MessageConfiguration : IEntityTypeConfiguration<Message>
@@ -25,9 +28,14 @@ namespace Erp.Data.Entities
             builder.Property(x => x.UpdateDate).IsRequired(false);
             builder.Property(x => x.IsActive).IsRequired().HasDefaultValue(true);
 
-            builder.Property(x => x.Messages).IsRequired().HasMaxLength(500);
+            builder.Property(x => x.Email).IsRequired().HasMaxLength(50);
+            builder.Property(x => x.ReceiverMessage).IsRequired(false).HasMaxLength(500);
+            builder.Property(x => x.TransmitterMessage).IsRequired(false).HasMaxLength(500);
+            builder.Property(x => x.MessageDate).IsRequired();
 
-            builder.HasIndex(x => new { x.DealerId, x.CompanyId }).IsUnique(true);
+
+            builder.HasIndex(x => new { x.DealerId, x.CompanyId });
+            builder.HasIndex(x => x.Email);
 
             builder.HasOne(x => x.Dealer)
                    .WithMany(x => x.Messages)

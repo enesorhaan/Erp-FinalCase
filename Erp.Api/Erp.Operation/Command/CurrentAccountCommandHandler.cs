@@ -27,6 +27,15 @@ namespace Erp.Operation.Command
         {
             CurrentAccount mapped = mapper.Map<CurrentAccount>(request.Model);
 
+            mapped.CompanyId = 1;
+            mapped.Company = await dbContext.Set<Company>().FirstOrDefaultAsync(x => x.Id == mapped.CompanyId, cancellationToken);
+            mapped.Dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == request.Model.DealerId, cancellationToken);
+            
+            var Dealer = await dbContext.Set<CurrentAccount>().FirstOrDefaultAsync(x => x.DealerId == request.Model.DealerId, cancellationToken);
+
+            if (Dealer != null)
+                return new ApiResponse<CurrentAccountResponse>("Dealer Account already exists!");
+
             var entity = await dbContext.Set<CurrentAccount>().AddAsync(mapped, cancellationToken);
             entity.Entity.InsertDate = DateTime.Now;
             await dbContext.SaveChangesAsync(cancellationToken);

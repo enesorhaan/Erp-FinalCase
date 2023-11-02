@@ -5,12 +5,15 @@ using Erp.Data.UoW;
 using Erp.Dto;
 using Erp.Operation.Cqrs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace Erp.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [Authorize(Roles = "admin")]
     public class DealersController : ControllerBase
     {
         private readonly IUnitOfWork unitOfWork;

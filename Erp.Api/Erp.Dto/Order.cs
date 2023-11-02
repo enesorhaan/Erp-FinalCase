@@ -2,13 +2,13 @@
 
 namespace Erp.Dto
 {
-    public class OrderRequest
+    public class OrderCreateRequest
     {
-        public int DealerId { get; set; }
-        public string BillingNumber { get; set; }
-        public decimal TotalPrice { get; set; }
-        public DateTime OrderDate { get; set; }
         public PaymentMethod PaymentMethod { get; set; }
+    }
+
+    public class OrderUpdateRequest
+    {
         public OrderStatus OrderStatus { get; set; }
     }
 

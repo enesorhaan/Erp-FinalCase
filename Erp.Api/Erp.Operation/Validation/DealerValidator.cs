@@ -7,10 +7,6 @@ namespace Erp.Operation.Validation
     {
         public CreateDealerValidator()
         {
-            RuleFor(x => x.CompanyId)
-                .NotEmpty().WithMessage("Company ID field cannot be empty.")
-                .GreaterThan(0).WithMessage("Company ID must be greater than 0.");
-
             RuleFor(x => x.Email)
                 .NotEmpty().WithMessage("Email field cannot be empty.")
                 .EmailAddress().WithMessage("Please enter a valid email address.");

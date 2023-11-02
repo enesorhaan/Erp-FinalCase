@@ -27,6 +27,20 @@ namespace Erp.Operation.Command
         {
             OrderItem mapped = mapper.Map<OrderItem>(request.Model);
 
+            Product product = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == request.Model.ProductId, cancellationToken);
+            
+            if (product == null || !product.IsActive)
+                return new ApiResponse<OrderItemResponse>("Product not found.");
+
+            if (product.ProductStock < request.Model.Quantity)
+                return new ApiResponse<OrderItemResponse>("Not enough Product Stock.");
+
+            product.ProductStock -= request.Model.Quantity;
+
+            Dealer dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == request.DealerId, cancellationToken);
+            mapped.DealerId = dealer.Id;
+            mapped.MarginPrice = request.Model.Quantity * (product.ProductPrice + (product.ProductPrice * dealer.MarginPercentage) / 100);
+
             var entity = await dbContext.Set<OrderItem>().AddAsync(mapped, cancellationToken);
             entity.Entity.InsertDate = DateTime.Now;
             await dbContext.SaveChangesAsync(cancellationToken);
@@ -42,8 +56,18 @@ namespace Erp.Operation.Command
             if (entity == null)
                 return new ApiResponse("Record not found!");
 
+            Product product = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == entity.ProductId, cancellationToken);
+            Dealer dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == entity.DealerId, cancellationToken);
+
+            product.ProductStock += entity.Quantity;
+
+            if (product.ProductStock < request.Model.Quantity)
+                return new ApiResponse("Not enough Product Stock.");
+
+            product.ProductStock -= request.Model.Quantity;
+
+            entity.MarginPrice = request.Model.Quantity * (product.ProductPrice + (product.ProductPrice * dealer.MarginPercentage) / 100);
             entity.UpdateDate = DateTime.Now;
-            entity.MarginPrice = request.Model.MarginPrice;
             entity.Quantity = request.Model.Quantity;
 
             await dbContext.SaveChangesAsync(cancellationToken);
@@ -52,12 +76,12 @@ namespace Erp.Operation.Command
 
         public async Task<ApiResponse> Handle(DeleteOrderItemCommand request, CancellationToken cancellationToken)
         {
-            var entity = await dbContext.Set<OrderItem>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+            var entity = await dbContext.Set<OrderItem>().FirstOrDefaultAsync(x => x.Id == request.Id && x.DealerId == request.DealerId, cancellationToken);
 
             if (entity == null)
                 return new ApiResponse("Record not found!");
-
-            entity.IsActive = false;
+            
+            dbContext.Set<OrderItem>().Remove(entity);
 
             await dbContext.SaveChangesAsync(cancellationToken);
             return new ApiResponse();

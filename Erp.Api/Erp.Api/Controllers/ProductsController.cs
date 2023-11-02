@@ -1,9 +1,10 @@
 ﻿using Erp.Base.Response;
-using Erp.Data.UoW;
 using Erp.Dto;
 using Erp.Operation.Cqrs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Erp.Api.Controllers
 {
@@ -11,15 +12,14 @@ namespace Erp.Api.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IUnitOfWork unitOfWork;
         private IMediator mediator;
-        public ProductsController(IUnitOfWork unitOfWork, IMediator mediator)
+        public ProductsController(IMediator mediator)
         {
-            this.unitOfWork = unitOfWork;
             this.mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("admin")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<List<ProductResponse>>> GetAll()
         {
             var operation = new GetAllProductQuery();
@@ -27,7 +27,19 @@ namespace Erp.Api.Controllers
             return result;
         }
 
+        [HttpGet("dealer")]
+        [Authorize(Roles = "dealer")]
+        public async Task<ApiResponse<List<ProductResponse>>> GetAllByDealerId()
+        {
+            var id = (User.Identity as ClaimsIdentity).FindFirst("Id").Value;
+
+            var operation = new GetProductByDealerIdQuery(int.Parse(id));
+            var result = await mediator.Send(operation);
+            return result;
+        }
+
         [HttpGet("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<ProductResponse>> Get(int id)
         {
             var operation = new GetProductByIdQuery(id);
@@ -36,6 +48,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<ProductResponse>> Post([FromBody] ProductRequest request)
         {
             var operation = new CreateProductCommand(request);
@@ -44,6 +57,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Put(int id, [FromBody] ProductRequest request)
         {
             var operation = new UpdateProductCommand(request, id);
@@ -52,6 +66,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Delete(int id)
         {
             var operation = new DeleteProductCommand(id);
