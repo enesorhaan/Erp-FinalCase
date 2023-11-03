@@ -10,7 +10,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Erp.Operation.Query
 {
     public class OrderQueryHandler :
-        IRequestHandler<GetAllOrderQuery, ApiResponse<List<OrderResponse>>>,
+        IRequestHandler<GetAllOrderByCompanyQuery, ApiResponse<List<OrderResponse>>>,
+        IRequestHandler<GetAllOrderByDealerQuery, ApiResponse<List<OrderResponse>>>,
         IRequestHandler<GetOrderByIdQuery, ApiResponse<OrderResponse>>
     {
         private readonly MyDbContext dbContext;
@@ -22,10 +23,21 @@ namespace Erp.Operation.Query
             this.mapper = mapper;
         }
 
-        public async Task<ApiResponse<List<OrderResponse>>> Handle(GetAllOrderQuery request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<List<OrderResponse>>> Handle(GetAllOrderByCompanyQuery request, CancellationToken cancellationToken)
         {
             List<Order> list = await dbContext.Set<Order>()
                 .Include(x => x.OrderItems)
+                .ToListAsync(cancellationToken);
+            var mapped = mapper.Map<List<OrderResponse>>(list);
+
+            return new ApiResponse<List<OrderResponse>>(mapped);
+        }
+
+        public async Task<ApiResponse<List<OrderResponse>>> Handle(GetAllOrderByDealerQuery request, CancellationToken cancellationToken)
+        {
+            List<Order> list = await dbContext.Set<Order>()
+                .Include(x => x.OrderItems)
+                .Where(x => x.DealerId == request.DealerId)
                 .ToListAsync(cancellationToken);
             var mapped = mapper.Map<List<OrderResponse>>(list);
 

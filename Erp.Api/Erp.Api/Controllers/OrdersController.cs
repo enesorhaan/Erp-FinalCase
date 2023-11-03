@@ -18,15 +18,28 @@ namespace Erp.Api.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet]
-        public async Task<ApiResponse<List<OrderResponse>>> GetAll()
+        [HttpGet("byCompany")]
+        [Authorize(Roles = "admin")]
+        public async Task<ApiResponse<List<OrderResponse>>> GetAllByCompany()
         {
-            var operation = new GetAllOrderQuery();
+            var operation = new GetAllOrderByCompanyQuery();
+            var result = await mediator.Send(operation);
+            return result;
+        }
+
+        [HttpGet("byDealer")]
+        [Authorize(Roles = "dealer")]
+        public async Task<ApiResponse<List<OrderResponse>>> GetAllByDealer()
+        {
+            var dealerId = (User.Identity as ClaimsIdentity).FindFirst("Id").Value;
+
+            var operation = new GetAllOrderByDealerQuery(int.Parse(dealerId));
             var result = await mediator.Send(operation);
             return result;
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse<OrderResponse>> Get(int id)
         {
             var operation = new GetOrderByIdQuery(id);
@@ -45,15 +58,28 @@ namespace Erp.Api.Controllers
             return result;
         }
 
-        [HttpPut("{id}")]
-        public async Task<ApiResponse> Put(int id, [FromBody] OrderUpdateRequest request)
+        [HttpPut("byCompany/{id}")]
+        [Authorize(Roles = "admin")]
+        public async Task<ApiResponse> PutByCompany(int id, [FromBody] OrderUpdateRequest request)
         {
-            var operation = new UpdateOrderCommand(request, id);
+            var operation = new UpdateOrderCommandByCompany(request, id);
+            var result = await mediator.Send(operation);
+            return result;
+        }
+
+        [HttpPut("byDealer/{id}")]
+        [Authorize(Roles = "dealer")]
+        public async Task<ApiResponse> PutByDealer(int id, [FromBody] OrderUpdateRequest request)
+        {
+            var dealerId = (User.Identity as ClaimsIdentity).FindFirst("Id").Value;
+
+            var operation = new UpdateOrderCommandByDealer(request, int.Parse(dealerId), id);
             var result = await mediator.Send(operation);
             return result;
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ApiResponse> Delete(int id)
         {
             var operation = new DeleteOrderCommand(id);

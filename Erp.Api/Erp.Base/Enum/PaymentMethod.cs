@@ -2,8 +2,8 @@
 {
     public enum PaymentMethod
     {
-        Remittance,
-        CreditCard,
-        OpenAccount
+        Remittance = 1,
+        CreditCard = 2,
+        OpenAccount = 3
     }
 }

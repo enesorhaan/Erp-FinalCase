@@ -36,6 +36,7 @@ namespace Erp.Operation.Command
                 return new ApiResponse<OrderItemResponse>("Not enough Product Stock.");
 
             product.ProductStock -= request.Model.Quantity;
+            product.UpdateDate = DateTime.Now;
 
             Dealer dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == request.DealerId, cancellationToken);
             mapped.DealerId = dealer.Id;
@@ -60,6 +61,7 @@ namespace Erp.Operation.Command
             Dealer dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == entity.DealerId, cancellationToken);
 
             product.ProductStock += entity.Quantity;
+            product.UpdateDate = DateTime.Now;
 
             if (product.ProductStock < request.Model.Quantity)
                 return new ApiResponse("Not enough Product Stock.");
@@ -80,7 +82,11 @@ namespace Erp.Operation.Command
 
             if (entity == null)
                 return new ApiResponse("Record not found!");
-            
+
+            Product product = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == entity.ProductId, cancellationToken);
+
+            product.ProductStock += entity.Quantity;
+            product.UpdateDate = DateTime.Now;
             dbContext.Set<OrderItem>().Remove(entity);
 
             await dbContext.SaveChangesAsync(cancellationToken);
