@@ -25,10 +25,6 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<CompanyResponse>>> Handle(GetAllCompanyQuery request, CancellationToken cancellationToken)
         {
             List<Company> list = await dbContext.Set<Company>()
-                .Include(x => x.Dealers)
-                .Include(x => x.Products)
-                .Include(x => x.Messages)
-                .Include(x => x.CurrentAccounts)
                 .ToListAsync(cancellationToken);
             var mapped = mapper.Map<List<CompanyResponse>>(list);
 
@@ -39,10 +35,6 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<CompanyResponse>> Handle(GetCompanyByIdQuery request, CancellationToken cancellationToken)
         {
             Company? entity = await dbContext.Set<Company>()
-                .Include(x => x.Dealers)
-                .Include(x => x.Products)
-                .Include(x => x.Messages)
-                .Include(x => x.CurrentAccounts)
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity is null)

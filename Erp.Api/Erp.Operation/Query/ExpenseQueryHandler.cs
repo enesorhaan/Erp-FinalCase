@@ -31,6 +31,8 @@ namespace Erp.Operation.Query
                 .Where(x => x.DealerId == request.DealerId)
                 .ToListAsync(cancellationToken);
 
+            
+
             var mapped = mapper.Map<List<ExpenseResponse>>(list);
 
             return new ApiResponse<List<ExpenseResponse>>(mapped);
@@ -58,6 +60,9 @@ namespace Erp.Operation.Query
                 .Where(x => x.DealerId == request.DealerId && x.IsActive == true)
                 .ToListAsync(cancellationToken);
 
+            if (list.Count == 0)
+                return new ApiResponse<List<ExpenseResponse>>("Record not found!");
+
             var mapped = mapper.Map<List<ExpenseResponse>>(list);
 
             return new ApiResponse<List<ExpenseResponse>>(mapped);
@@ -69,6 +74,9 @@ namespace Erp.Operation.Query
                 .Include(x => x.Dealer)
                 .Where(x => x.DealerId == request.DealerId && x.IsActive == false)
                 .ToListAsync(cancellationToken);
+
+            if (list.Count == 0)
+                return new ApiResponse<List<ExpenseResponse>>("Record not found!");
 
             var mapped = mapper.Map<List<ExpenseResponse>>(list);
 

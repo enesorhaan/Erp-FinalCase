@@ -46,14 +46,14 @@ namespace Erp.Operation.Mapper
             CreateMap<DealerMessageRequest, Message>();
             CreateMap<Message, MessageResponse>()
                 .ForMember(dest => dest.Dealer,
-                    opt => opt.MapFrom(src => src.Dealer))
+                    opt => opt.MapFrom(src => src.Dealer.DealerName))
                 .ForMember(dest => dest.Company,
                     opt => opt.MapFrom(src => src.Company.CompanyName));
 
             CreateMap<ExpenseRequest, Expense>();
             CreateMap<Expense, ExpenseResponse>()
                 .ForMember(dest => dest.DealerName,
-                    opt => opt.MapFrom(src => src.Dealer));
+                    opt => opt.MapFrom(src => src.Dealer.DealerName));
 
             CreateMap<LoginRequest, Company>();
             CreateMap<Company, LoginResponse>();

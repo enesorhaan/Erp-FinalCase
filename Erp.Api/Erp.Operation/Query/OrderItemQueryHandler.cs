@@ -28,6 +28,9 @@ namespace Erp.Operation.Query
                 .Where(x => x.DealerId == request.DealerId && x.IsActive)
                 .ToListAsync(cancellationToken);
 
+            if(list.Count == 0)
+                return new ApiResponse<List<OrderItemResponse>>("Record not found!");
+
             foreach (var item in list)
             {
                 item.Product = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == item.ProductId, cancellationToken);

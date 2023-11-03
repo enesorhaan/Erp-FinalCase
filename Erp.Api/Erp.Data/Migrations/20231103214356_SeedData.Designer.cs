@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Erp.Data.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20231101104923_update")]
-    partial class update
+    [Migration("20231103214356_SeedData")]
+    partial class SeedData
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -306,7 +306,6 @@ namespace Erp.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("BillingNumber")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
@@ -340,7 +339,8 @@ namespace Erp.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("BillingNumber")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[BillingNumber] IS NOT NULL");
 
                     b.HasIndex("DealerId");
 
@@ -366,16 +366,15 @@ namespace Erp.Data.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
-                    b.Property<decimal>("MarginPrice")
+                    b.Property<decimal?>("MarginPrice")
+                        .IsRequired()
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("OrderId")
-                        .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProductId")
-                        .IsRequired()
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -516,8 +515,7 @@ namespace Erp.Data.Migrations
 
                     b.HasOne("Erp.Data.Entities.Order", "Order")
                         .WithMany("OrderItems")
-                        .HasForeignKey("OrderId")
-                        .IsRequired();
+                        .HasForeignKey("OrderId");
 
                     b.HasOne("Erp.Data.Entities.Product", "Product")
                         .WithMany("OrderItems")

@@ -29,8 +29,12 @@ namespace Erp.Operation.Query
                 .FirstOrDefaultAsync(x => x.Id == request.AdminId, cancellationToken);
 
             List<Message> list = await dbContext.Set<Message>()
+                .Include(x => x.Dealer)
                 .Where(x => x.CompanyId == request.AdminId && x.Email == company.Email)
                 .ToListAsync(cancellationToken);
+
+            if (list.Count == 0)
+                return new ApiResponse<List<MessageResponse>>("Record not found!");
 
             var mapped = mapper.Map<List<MessageResponse>>(list);
 
@@ -40,11 +44,16 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<MessageResponse>>> Handle(GetAllMessageQueryByDealer request, CancellationToken cancellationToken)
         {
             var dealer = await dbContext.Set<Dealer>()
+                .Include(x => x.Company)
                 .FirstOrDefaultAsync(x => x.Id == request.DealerId, cancellationToken);
 
             List<Message> list = await dbContext.Set<Message>()
                 .Where(x => x.DealerId == request.DealerId && x.Email == dealer.Email)
                 .ToListAsync(cancellationToken);
+
+            if (list.Count == 0)
+                return new ApiResponse<List<MessageResponse>>("Record not found!");
+
             var mapped = mapper.Map<List<MessageResponse>>(list);
 
             return new ApiResponse<List<MessageResponse>>(mapped);

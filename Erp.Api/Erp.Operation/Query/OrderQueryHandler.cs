@@ -26,8 +26,13 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<OrderResponse>>> Handle(GetAllOrderByCompanyQuery request, CancellationToken cancellationToken)
         {
             List<Order> list = await dbContext.Set<Order>()
+                .Include(x => x.Dealer)
                 .Include(x => x.OrderItems)
                 .ToListAsync(cancellationToken);
+
+            if (list.Count == 0)
+                return new ApiResponse<List<OrderResponse>>("Record not found!");
+
             var mapped = mapper.Map<List<OrderResponse>>(list);
 
             return new ApiResponse<List<OrderResponse>>(mapped);
@@ -36,9 +41,19 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<OrderResponse>>> Handle(GetAllOrderByDealerQuery request, CancellationToken cancellationToken)
         {
             List<Order> list = await dbContext.Set<Order>()
+                .Include(x => x.Dealer)
                 .Include(x => x.OrderItems)
                 .Where(x => x.DealerId == request.DealerId)
                 .ToListAsync(cancellationToken);
+
+            if (list.Count == 0)
+                return new ApiResponse<List<OrderResponse>>("Record not found!");
+
+            foreach (var item in list)
+            {
+                item.Dealer = await dbContext.Set<Dealer>().FirstOrDefaultAsync(x => x.Id == item.DealerId, cancellationToken);
+            }
+
             var mapped = mapper.Map<List<OrderResponse>>(list);
 
             return new ApiResponse<List<OrderResponse>>(mapped);

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Erp.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -45,7 +45,7 @@ namespace Erp.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     DealerId = table.Column<int>(type: "int", nullable: false),
                     CompanyId = table.Column<int>(type: "int", nullable: false),
-                    CreditLimit = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    CreditLimit = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: true),
                     InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true)
@@ -71,8 +71,8 @@ namespace Erp.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CompanyId = table.Column<int>(type: "int", nullable: false),
                     ProductName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    ProductPrice = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
-                    ProductStock = table.Column<int>(type: "int", nullable: false),
+                    ProductPrice = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: true),
+                    ProductStock = table.Column<int>(type: "int", nullable: true),
                     InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true)
@@ -104,8 +104,8 @@ namespace Erp.Data.Migrations
                     Address = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
                     BillingAddress = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
                     TaxOffice = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    TaxNumber = table.Column<int>(type: "int", nullable: false),
-                    MarginPercentage = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    TaxNumber = table.Column<int>(type: "int", nullable: true),
+                    MarginPercentage = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: true),
                     Role = table.Column<int>(type: "int", nullable: false),
                     LastActivityDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PasswordRetryCount = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
@@ -132,6 +132,33 @@ namespace Erp.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Expense",
+                schema: "dbo",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DealerId = table.Column<int>(type: "int", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
+                    Amount = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    ExpenseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Expense", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Expense_Dealer_DealerId",
+                        column: x => x.DealerId,
+                        principalSchema: "dbo",
+                        principalTable: "Dealer",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Message",
                 schema: "dbo",
                 columns: table => new
@@ -140,7 +167,10 @@ namespace Erp.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     DealerId = table.Column<int>(type: "int", nullable: false),
                     CompanyId = table.Column<int>(type: "int", nullable: false),
-                    Messages = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    ReceiverMessage = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    TransmitterMessage = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    MessageDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true)
@@ -163,15 +193,15 @@ namespace Erp.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Order",
+                name: "Orders",
                 schema: "dbo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     DealerId = table.Column<int>(type: "int", nullable: false),
-                    BillingNumber = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    TotalPrice = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    BillingNumber = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    TotalPrice = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: true),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PaymentMethod = table.Column<int>(type: "int", nullable: false),
                     OrderStatus = table.Column<int>(type: "int", nullable: false),
@@ -181,9 +211,9 @@ namespace Erp.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Order", x => x.Id);
+                    table.PrimaryKey("PK_Orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Order_Dealer_DealerId",
+                        name: "FK_Orders_Dealer_DealerId",
                         column: x => x.DealerId,
                         principalSchema: "dbo",
                         principalTable: "Dealer",
@@ -198,8 +228,9 @@ namespace Erp.Data.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    OrderId = table.Column<int>(type: "int", nullable: false),
+                    OrderId = table.Column<int>(type: "int", nullable: true),
                     ProductId = table.Column<int>(type: "int", nullable: false),
+                    DealerId = table.Column<int>(type: "int", nullable: false),
                     MarginPrice = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
                     InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -210,10 +241,17 @@ namespace Erp.Data.Migrations
                 {
                     table.PrimaryKey("PK_OrderItem", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_OrderItem_Order_OrderId",
+                        name: "FK_OrderItem_Dealer_DealerId",
+                        column: x => x.DealerId,
+                        principalSchema: "dbo",
+                        principalTable: "Dealer",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_OrderItem_Orders_OrderId",
                         column: x => x.OrderId,
                         principalSchema: "dbo",
-                        principalTable: "Order",
+                        principalTable: "Orders",
                         principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_OrderItem_Product_ProductId",
@@ -265,6 +303,12 @@ namespace Erp.Data.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
+                name: "IX_Expense_DealerId",
+                schema: "dbo",
+                table: "Expense",
+                column: "DealerId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Message_CompanyId",
                 schema: "dbo",
                 table: "Message",
@@ -274,34 +318,45 @@ namespace Erp.Data.Migrations
                 name: "IX_Message_DealerId_CompanyId",
                 schema: "dbo",
                 table: "Message",
-                columns: new[] { "DealerId", "CompanyId" },
-                unique: true);
+                columns: new[] { "DealerId", "CompanyId" });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_BillingNumber",
+                name: "IX_Message_Email",
                 schema: "dbo",
-                table: "Order",
-                column: "BillingNumber",
-                unique: true);
+                table: "Message",
+                column: "Email");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_DealerId",
+                name: "IX_OrderItem_DealerId",
                 schema: "dbo",
-                table: "Order",
+                table: "OrderItem",
                 column: "DealerId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_OrderItem_OrderId_ProductId",
                 schema: "dbo",
                 table: "OrderItem",
-                columns: new[] { "OrderId", "ProductId" },
-                unique: true);
+                columns: new[] { "OrderId", "ProductId" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_OrderItem_ProductId",
                 schema: "dbo",
                 table: "OrderItem",
                 column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Orders_BillingNumber",
+                schema: "dbo",
+                table: "Orders",
+                column: "BillingNumber",
+                unique: true,
+                filter: "[BillingNumber] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Orders_DealerId",
+                schema: "dbo",
+                table: "Orders",
+                column: "DealerId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Product_CompanyId",
@@ -321,6 +376,10 @@ namespace Erp.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Expense",
+                schema: "dbo");
+
+            migrationBuilder.DropTable(
                 name: "Message",
                 schema: "dbo");
 
@@ -329,7 +388,7 @@ namespace Erp.Data.Migrations
                 schema: "dbo");
 
             migrationBuilder.DropTable(
-                name: "Order",
+                name: "Orders",
                 schema: "dbo");
 
             migrationBuilder.DropTable(

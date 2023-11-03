@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Erp.Data.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20231102221305_updateOrder")]
-    partial class updateOrder
+    [Migration("20231103214329_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
