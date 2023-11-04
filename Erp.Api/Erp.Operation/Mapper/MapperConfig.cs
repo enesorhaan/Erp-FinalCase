@@ -56,10 +56,14 @@ namespace Erp.Operation.Mapper
                     opt => opt.MapFrom(src => src.Dealer.DealerName));
 
             CreateMap<LoginRequest, Company>();
-            CreateMap<Company, LoginResponse>();
+            CreateMap<Company, LoginResponse>()
+                .ForMember(dest => dest.User,
+                    opt => opt.MapFrom(src => src.CompanyName));
 
             CreateMap<LoginRequest, Dealer>();
-            CreateMap<Dealer, LoginResponse>();
+            CreateMap<Dealer, LoginResponse>()
+                .ForMember(dest => dest.User,
+                    opt => opt.MapFrom(src => src.DealerName));
 
             CreateMap<AdminMessageRequest, MessageResponse>();
             CreateMap<DealerMessageRequest, MessageResponse>();

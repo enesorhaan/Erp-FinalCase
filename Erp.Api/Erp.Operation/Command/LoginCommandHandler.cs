@@ -59,7 +59,7 @@ namespace Erp.Operation.Command
                 {
                     Token = token,
                     ExpireDate = DateTime.Now.AddMinutes(jwtConfig.AccessTokenExpiration),
-                    Email = company.Email
+                    User = company.CompanyName
                 };
 
                 return new ApiResponse<LoginResponse>(loginResponse);
@@ -86,7 +86,7 @@ namespace Erp.Operation.Command
                 {
                     Token = token,
                     ExpireDate = DateTime.Now.AddMinutes(jwtConfig.AccessTokenExpiration),
-                    Email = dealer.Email
+                    User = dealer.DealerName
                 };
 
                 return new ApiResponse<LoginResponse>(loginResponse);

@@ -53,3 +53,349 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T02:02:05.2437548+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkwNTI1MjUsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.FWAxGOY9DZ_tWeNX1FXm-3WtwCFgI9CFlKdt158Ygm8","email":"info@abc.com"}}
 2023-11-04 01:52:05.246 [INF] -------------Request-End------------
+2023-11-04 13:34:10.972 [INF] App server is starting.
+2023-11-04 13:34:25.433 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 13:34:25.437 [INF] HeartBeat
+2023-11-04 13:34:25.440 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 13:34:25.456 [WRN] Failed to determine the https port for redirect.
+2023-11-04 13:34:25.606 [INF] -------------Request-Begin------------
+2023-11-04 13:34:25.608 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5165 
+Path: /api/v1/Companies 
+QueryString:  
+Request Body: 
+2023-11-04 13:34:25.609 [INF] 
+
+2023-11-04 13:34:25.610 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5165 
+Path: /api/v1/Companies 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-04 13:34:25.611 [INF] -------------Request-End------------
+2023-11-04 14:00:42.262 [INF] App server is starting.
+2023-11-04 14:00:58.902 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 14:00:58.904 [INF] HeartBeat
+2023-11-04 14:00:58.906 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 14:00:59.935 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.937 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.937 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.937 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.938 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.938 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.938 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:00:59.938 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 14:01:01.167 [INF] -------------Request-Begin------------
+2023-11-04 14:01:01.167 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-11-04 14:01:01.167 [INF] 
+
+2023-11-04 14:01:01.167 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-04 14:01:01.167 [INF] -------------Request-End------------
+2023-11-04 14:02:04.671 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 14:02:04.671 [INF] HeartBeat
+2023-11-04 14:02:04.671 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 14:02:05.157 [INF] -------------Request-Begin------------
+2023-11-04 14:02:05.157 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-04 14:02:05.157 [INF] 
+
+2023-11-04 14:02:05.157 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T14:12:05.1464996+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkwOTYzMjQsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.c_WAePEOkWJGt-7TUzD8oxjSe0N4j0zxg1yAyrtAy9U","email":"info@orhan.com"}}
+2023-11-04 14:02:05.157 [INF] -------------Request-End------------
+2023-11-04 14:02:36.853 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 14:02:36.854 [INF] HeartBeat
+2023-11-04 14:02:36.854 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 14:02:36.876 [INF] -------------Request-Begin------------
+2023-11-04 14:02:36.876 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"abc"}
+2023-11-04 14:02:36.876 [INF] 
+
+2023-11-04 14:02:36.877 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-e123f19f60961d99b6e418d8bab8afb5-6d12cdb3f70fa24a-00","errors":{"Password":["Password must be at least 5 characters long"]}}
+2023-11-04 14:02:36.877 [INF] -------------Request-End------------
+2023-11-04 14:02:40.461 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 14:02:40.461 [INF] HeartBeat
+2023-11-04 14:02:40.461 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 14:02:40.465 [INF] -------------Request-Begin------------
+2023-11-04 14:02:40.465 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"bcd"}
+2023-11-04 14:02:40.465 [INF] 
+
+2023-11-04 14:02:40.465 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-79bbba800c752e3a16f590dfdde1c1bf-ea14a461bcc7cd41-00","errors":{"Password":["Password must be at least 5 characters long"]}}
+2023-11-04 14:02:40.465 [INF] -------------Request-End------------
+2023-11-04 14:02:46.388 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 14:02:46.388 [INF] HeartBeat
+2023-11-04 14:02:46.388 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 14:02:46.434 [INF] -------------Request-Begin------------
+2023-11-04 14:02:46.434 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-04 14:02:46.434 [INF] 
+
+2023-11-04 14:02:46.434 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T14:12:46.4340918+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkwOTYzNjYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.ejppL6mEIJXg4Z92V0soGkZn9lk_-t_hXb1j3qFR-gI","email":"info@abc.com"}}
+2023-11-04 14:02:46.434 [INF] -------------Request-End------------
+2023-11-04 14:51:05.887 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 14:51:05.895 [INF] HeartBeat
+2023-11-04 14:51:05.895 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 14:51:06.108 [INF] -------------Request-Begin------------
+2023-11-04 14:51:06.108 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-04 14:51:06.108 [INF] 
+
+2023-11-04 14:51:06.108 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T15:01:06.1031518+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkwOTkyNjYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.zPcs518dSf5CKmQS5Pq3JT_V7CA_lgWIB6e8vRsW6e8","email":"info@abc.com"}}
+2023-11-04 14:51:06.108 [INF] -------------Request-End------------
+2023-11-04 15:00:37.779 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:00:37.779 [INF] HeartBeat
+2023-11-04 15:00:37.780 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:00:37.857 [INF] -------------Request-Begin------------
+2023-11-04 15:00:37.858 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"fdsf","password":"dsfdsf"}
+2023-11-04 15:00:37.858 [INF] 
+
+2023-11-04 15:00:37.858 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-04 15:00:37.858 [INF] -------------Request-End------------
+2023-11-04 15:00:42.734 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:00:42.735 [INF] HeartBeat
+2023-11-04 15:00:42.735 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:00:42.756 [INF] -------------Request-Begin------------
+2023-11-04 15:00:42.756 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-04 15:00:42.756 [INF] 
+
+2023-11-04 15:00:42.756 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T15:10:42.7555809+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkwOTk4NDIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.Uowp5bWkDCP0VEQngDOvv__s57P3cbt3AOv5BbkXMbE","email":"info@abc.com"}}
+2023-11-04 15:00:42.756 [INF] -------------Request-End------------
+2023-11-04 15:01:22.322 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:01:22.322 [INF] HeartBeat
+2023-11-04 15:01:22.323 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:01:22.343 [INF] -------------Request-Begin------------
+2023-11-04 15:01:22.344 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-04 15:01:22.344 [INF] 
+
+2023-11-04 15:01:22.344 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-522e1c7f6d962e7cadd21e761483ac84-d689a56b5bdc810c-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-04 15:01:22.344 [INF] -------------Request-End------------
+2023-11-04 15:01:24.445 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:01:24.445 [INF] HeartBeat
+2023-11-04 15:01:24.445 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:01:24.449 [INF] -------------Request-Begin------------
+2023-11-04 15:01:24.449 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-04 15:01:24.449 [INF] 
+
+2023-11-04 15:01:24.449 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-aca8616548985917eab0f611454c539c-1964e43705014801-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-04 15:01:24.449 [INF] -------------Request-End------------
+2023-11-04 15:01:28.619 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:01:28.619 [INF] HeartBeat
+2023-11-04 15:01:28.619 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:01:28.622 [INF] -------------Request-Begin------------
+2023-11-04 15:01:28.622 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"dsfds","password":"sdf"}
+2023-11-04 15:01:28.622 [INF] 
+
+2023-11-04 15:01:28.622 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-c44ecdda502c99d5d8bacc95c3f986b0-e3b2faff19a71ec6-00","errors":{"Password":["Password must be at least 5 characters long"]}}
+2023-11-04 15:01:28.622 [INF] -------------Request-End------------
+2023-11-04 15:01:35.636 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:01:35.636 [INF] HeartBeat
+2023-11-04 15:01:35.636 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:01:35.661 [INF] -------------Request-Begin------------
+2023-11-04 15:01:35.661 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-04 15:01:35.661 [INF] 
+
+2023-11-04 15:01:35.661 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T15:11:35.6591777+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkwOTk4OTUsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.W4ipQxIoMAX4Zb8RJvlCGe8-5teYt4Mh2UkPmWZA5CA","email":"info@abc.com"}}
+2023-11-04 15:01:35.661 [INF] -------------Request-End------------
+2023-11-04 15:27:52.894 [INF] App server is starting.
+2023-11-04 15:28:03.539 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:28:03.543 [INF] HeartBeat
+2023-11-04 15:28:03.544 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:28:05.424 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.429 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.429 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.429 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.429 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.430 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.430 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:05.430 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-04 15:28:08.337 [INF] -------------Request-Begin------------
+2023-11-04 15:28:08.338 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "patika"
+}
+2023-11-04 15:28:08.338 [INF] 
+
+2023-11-04 15:28:08.338 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T15:38:08.3147053+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkxMDE0ODgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.L9tsHXIasFe8yh5UYz-HCiJMISEljC7h94_bmbFy5OA","user":"ABC A.S."}}
+2023-11-04 15:28:08.338 [INF] -------------Request-End------------
+2023-11-04 15:29:13.251 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:29:13.251 [INF] HeartBeat
+2023-11-04 15:29:13.251 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:29:13.337 [INF] -------------Request-Begin------------
+2023-11-04 15:29:13.337 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-04 15:29:13.337 [INF] 
+
+2023-11-04 15:29:13.337 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T15:39:13.3345319+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkxMDE1NTMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.qWOLpA0dxtukSEy3fle4Q-7Fa-Qw7UdEfeb-0xa_JA0","user":"ABC A.S."}}
+2023-11-04 15:29:13.337 [INF] -------------Request-End------------
+2023-11-04 15:29:29.696 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-04 15:29:29.696 [INF] HeartBeat
+2023-11-04 15:29:29.696 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-04 15:29:29.771 [INF] -------------Request-Begin------------
+2023-11-04 15:29:29.771 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-04 15:29:29.771 [INF] 
+
+2023-11-04 15:29:29.771 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-04T15:39:29.770931+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkxMDE1NjksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.jeGo_BvH_R8-ecEdk-UjZUq4kIQEivL1RFXK_Bywf0s","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-04 15:29:29.774 [INF] -------------Request-End------------
