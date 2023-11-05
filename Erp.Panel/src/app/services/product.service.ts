@@ -39,6 +39,6 @@ export class ProductService {
   }
 
   delete(id:number): Observable<any>{
-    return this.http.put(`${AUTH_API}products/${id}`, httpOptions)
+    return this.http.delete(`${AUTH_API}products/${id}`, httpOptions)
   }
 }

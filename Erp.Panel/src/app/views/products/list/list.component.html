@@ -21,7 +21,7 @@
                 <td>{{ p.productPrice }} TRY</td>
                 <td>{{ p.productStock }}</td>
                 <td><a routerLink="/product/edit/{{ p.id }}"><i class="bi bi-pencil">edit</i></a></td>
-                <td><a (click)="isDelete()"></a>x</td>
+                <td><a routerLink="/product/list" (click)="isDelete(p.id)">x</a></td>
             </tr>
           </tbody>
         </table>

@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from 'src/app/services/product.service';
 
 @Component({
@@ -8,7 +9,12 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class ListComponent implements OnInit, OnDestroy {
   product:any[] = []
-  constructor(private productService: ProductService) { }
+  
+  constructor(
+    private productService: ProductService,
+    private router: Router,
+    private route: ActivatedRoute  
+  ) { }
 
   ngOnInit(): void {
     this.load();
@@ -21,15 +27,16 @@ export class ListComponent implements OnInit, OnDestroy {
     })
   }
 
-  isDelete(){
-    // this.productService.delete(1).subscribe({
-    //   next: data => {
-    //     console.log(data);
-    //   },
-    //   error: error => {
-    //     console.log(error, "Error");
-    //   }
-    // })
+  isDelete(productId:number){
+    this.productService.delete(productId).subscribe({
+      next: data => {
+        console.log(data);
+        this.router.navigate(['/product/list']);
+      },
+      error: error => {
+        console.log(error, "Error");
+      }
+    })
     console.log("Delete");
   }
 
