@@ -5,8 +5,9 @@ import { AddComponent } from './add/add.component';
 import { ListComponent } from './list/list.component';
 import { EditComponent } from './edit/edit.component';
 import { ButtonModule, CardModule, FormModule, TableModule } from '@coreui/angular';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { IconModule } from '@coreui/icons-angular';
 
 
 @NgModule({
@@ -23,7 +24,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     ButtonModule,
     FormModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    IconModule
   ]
 })
 export class ProductsModule { }
