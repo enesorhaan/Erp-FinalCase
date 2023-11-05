@@ -32,6 +32,7 @@ import {
   ProgressModule,
   SharedModule,
   SidebarModule,
+  SpinnerModule,
   TabsModule,
   UtilitiesModule
 } from '@coreui/angular';
@@ -78,7 +79,8 @@ const APP_CONTAINERS = [
     CardModule,
     NgScrollbarModule,
     HttpClientModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    SpinnerModule
   ],
   providers: [
     {
