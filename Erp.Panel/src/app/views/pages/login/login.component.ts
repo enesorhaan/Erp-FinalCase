@@ -46,6 +46,8 @@ export class LoginComponent {
               this.toastr.error(`${errorMessage}`, 'Error');
             }
           }
+        }else{
+          this.toastr.error('API Connection Refused!', 'Error');
         }
       }
     })
