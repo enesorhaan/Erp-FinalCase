@@ -1,1 +1,31 @@
-<p>add works!</p>
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+        <strong>Add Current Account</strong>
+    </c-card-header>
+    <c-card-body>
+        <form [formGroup]="currentAccountForm" cForm>
+            <div class="mb-3">
+                <label cLabel for="exampleFormControlInput1">Dealer Name</label>
+                <select cFormControl
+                        id="exampleFormControlInput1"
+                        formControlName="dealerId"
+                        type="text"
+                        cSelect>
+                    <option *ngFor="let d of dealer" [value]="d.id">{{d.dealerName}}</option>
+                </select>
+            </div>
+            <div class="mb-3">
+              <label cLabel for="exampleFormControlInput2">Credit Limit</label>
+              <input cFormControl
+                     id="exampleFormControlInput2"
+                     placeholder=""
+                     type="number"
+                     formControlName="creditLimit"
+              />
+            </div>
+            <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+                Save
+            </button>
+          </form>
+    </c-card-body>
+</c-card>

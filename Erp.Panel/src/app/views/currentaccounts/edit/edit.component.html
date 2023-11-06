@@ -1,1 +1,21 @@
-<p>edit works!</p>
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+        <strong>Edit Current Account</strong>
+    </c-card-header>
+    <c-card-body>
+        <form [formGroup]="currentAccountForm" cForm>
+            <div class="mb-3">
+              <label cLabel for="exampleFormControlInput2">Credit Limit</label>
+              <input cFormControl
+                     id="exampleFormControlInput2"
+                     placeholder=""
+                     type="number"
+                     formControlName="creditLimit"
+              />
+            </div>
+            <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+                Save
+            </button>
+          </form>
+    </c-card-body>
+</c-card>

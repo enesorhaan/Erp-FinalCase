@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Router } from '@angular/router';
-import { StorageService } from './storage.service';
 
 const AUTH_API = "https://localhost:44319/api/v1/";
 const httpOptions = {
