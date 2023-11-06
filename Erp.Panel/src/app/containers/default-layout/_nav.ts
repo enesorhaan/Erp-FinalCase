@@ -11,6 +11,36 @@ export const navItems: INavData[] = [
     }
   },
   {
+    name: 'Dealers',
+    url: '/dealer',
+    iconComponent: { name: 'cil-description' },
+    children: [
+      {
+        name: 'Dealer List',
+        url: '/dealer/list'
+      },
+      {
+        name: 'Add Dealer',
+        url: '/dealer/add'
+      }
+    ]
+  },
+  {
+    name: 'Current Accounts',
+    url: '/currentaccount',
+    iconComponent: { name: 'cil-description' },
+    children: [
+      {
+        name: 'Current Account List',
+        url: '/currentaccount/list'
+      },
+      {
+        name: 'Add Current Account',
+        url: '/currentaccount/add'
+      }
+    ]
+  },
+  {
     name: 'Products',
     url: '/product',
     iconComponent: { name: 'cil-description' },

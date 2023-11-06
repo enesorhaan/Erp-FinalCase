@@ -28,6 +28,18 @@ const routes: Routes = [
           import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule)
       },
       {
+        path: 'dealer',
+        canActivate: [AuthGuardService],
+        loadChildren: () =>
+          import('./views/dealers/dealers.module').then((m) => m.DealersModule)
+      },
+      {
+        path: 'currentaccount',
+        canActivate: [AuthGuardService],
+        loadChildren: () =>
+          import('./views/currentaccounts/currentaccounts.module').then((m) => m.CurrentaccountsModule)
+      },
+      {
         path: 'product',
         canActivate: [AuthGuardService],
         loadChildren: () =>

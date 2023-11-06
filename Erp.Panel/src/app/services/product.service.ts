@@ -27,7 +27,7 @@ export class ProductService {
   }
 
   get(): Observable<any>{
-    return this.http.get(AUTH_API + 'products/admin', httpOptions)
+    return this.http.get(AUTH_API + 'products', httpOptions)
   }
 
   getById(id:number): Observable<any>{
