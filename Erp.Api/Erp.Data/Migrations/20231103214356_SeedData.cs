@@ -16,10 +16,10 @@ namespace Erp.Data.Migrations
             VALUES ('info@orhan.com' ,'vakifbank' ,'Orhan Teknolojileri San. ve Tic. A.S.' ,0 ,'2023-10-30' ,0 ,'2023-10-30' ,'2023-10-30' ,1)
             
             INSERT INTO [dbo].[Dealer] ([CompanyId] ,[CurrentAccountId] ,[Email] ,[Password] ,[DealerName] ,[Address] ,[BillingAddress] ,[TaxOffice] ,[TaxNumber] ,[MarginPercentage] ,[Role] ,[LastActivityDate] ,[PasswordRetryCount] ,[InsertDate] ,[UpdateDate] ,[IsActive])
-            VALUES (1 ,null ,'info@abc.com' ,'patika' ,'ABC A.S.' ,'Istanbul/Turkey' ,'Istanbul/Turkey' ,'Istanbul' ,111111 ,null ,1 ,'2023-10-30' ,0 ,'2023-10-30' ,'2023-10-30' ,1)
+            VALUES (1 ,null ,'info@abc.com' ,'patika' ,'ABC A.S.' ,'Istanbul/Turkey' ,'Istanbul/Turkey' ,'Istanbul' ,111111 ,10 ,1 ,'2023-10-30' ,0 ,'2023-10-30' ,'2023-10-30' ,1)
 
             INSERT INTO [dbo].[Dealer] ([CompanyId] ,[CurrentAccountId] ,[Email] ,[Password] ,[DealerName] ,[Address] ,[BillingAddress] ,[TaxOffice] ,[TaxNumber] ,[MarginPercentage] ,[Role] ,[LastActivityDate] ,[PasswordRetryCount] ,[InsertDate] ,[UpdateDate] ,[IsActive])
-            VALUES (1 ,null ,'info@def.com' ,'patika' ,'DEF A.S.' ,'Istanbul/Turkey' ,'Istanbul/Turkey' ,'Istanbul' ,111112 ,null ,1 ,'2023-10-30' ,0 ,'2023-10-30' ,'2023-10-30' ,1)
+            VALUES (1 ,null ,'info@def.com' ,'patika' ,'DEF A.S.' ,'Istanbul/Turkey' ,'Istanbul/Turkey' ,'Istanbul' ,111112 ,15 ,1 ,'2023-10-30' ,0 ,'2023-10-30' ,'2023-10-30' ,1)
 
             INSERT INTO [dbo].[CurrentAccount] ([DealerId] ,[CompanyId] ,[CreditLimit] ,[InsertDate] ,[UpdateDate] ,[IsActive]) 
             VALUES (1 ,1 ,NULL ,'2023-10-30' ,NULL ,1)

@@ -1,0 +1,2740 @@
+2023-11-06 00:12:11.435 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 00:12:11.658 [INF] HeartBeat
+2023-11-06 00:12:11.658 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 00:12:12.799 [INF] -------------Request-Begin------------
+2023-11-06 00:12:12.800 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/companies 
+QueryString:  
+Request Body: 
+2023-11-06 00:12:12.800 [INF] 
+
+2023-11-06 00:12:12.800 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/companies 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@orhan.com","password":"vakifbank","companyName":"Orhan Teknolojileri San. ve Tic. A.S.","role":0,"lastActivityDate":"2023-11-05T23:57:22.6271087","passwordRetryCount":8,"dealers":[],"products":[],"messages":[],"currentAccounts":[]}]}
+2023-11-06 00:12:12.800 [INF] -------------Request-End------------
+2023-11-06 00:50:31.692 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 00:50:31.702 [INF] HeartBeat
+2023-11-06 00:50:31.702 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 00:50:31.760 [INF] -------------Request-Begin------------
+2023-11-06 00:50:31.760 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 00:50:31.760 [INF] 
+
+2023-11-06 00:50:31.761 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-d1ea994fee9cd0c6bcee952834b2df46-9c8438c09323c167-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 00:50:31.761 [INF] -------------Request-End------------
+2023-11-06 00:50:35.172 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 00:50:35.172 [INF] HeartBeat
+2023-11-06 00:50:35.172 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 00:50:35.424 [INF] -------------Request-Begin------------
+2023-11-06 00:50:35.424 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 00:50:35.424 [INF] 
+
+2023-11-06 00:50:35.425 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T02:30:35.421997+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyMjcwMzUsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.J8XBbPSMg2O5I00TitMpgB82f7CGOElT3FwxKTu9tqM","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 00:50:35.425 [INF] -------------Request-End------------
+2023-11-06 01:00:07.203 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:00:07.203 [INF] HeartBeat
+2023-11-06 01:00:07.203 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:00:07.587 [INF] -------------Request-Begin------------
+2023-11-06 01:00:07.587 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:00:07.587 [INF] 
+
+2023-11-06 01:00:07.587 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:00:07.587 [INF] -------------Request-End------------
+2023-11-06 01:00:24.200 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:00:24.200 [INF] HeartBeat
+2023-11-06 01:00:24.200 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:00:24.230 [INF] -------------Request-Begin------------
+2023-11-06 01:00:24.230 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:00:24.230 [INF] 
+
+2023-11-06 01:00:24.230 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:00:24.230 [INF] -------------Request-End------------
+2023-11-06 01:00:44.741 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:00:44.742 [INF] HeartBeat
+2023-11-06 01:00:44.742 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:00:44.776 [INF] -------------Request-Begin------------
+2023-11-06 01:00:44.776 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:00:44.776 [INF] 
+
+2023-11-06 01:00:44.776 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:00:44.776 [INF] -------------Request-End------------
+2023-11-06 01:00:53.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:00:53.823 [INF] HeartBeat
+2023-11-06 01:00:53.824 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:00:53.839 [INF] -------------Request-Begin------------
+2023-11-06 01:00:53.840 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:00:53.840 [INF] 
+
+2023-11-06 01:00:53.840 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:00:53.840 [INF] -------------Request-End------------
+2023-11-06 01:02:48.522 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:02:48.522 [INF] HeartBeat
+2023-11-06 01:02:48.522 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:02:48.560 [INF] -------------Request-Begin------------
+2023-11-06 01:02:48.560 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:02:48.560 [INF] 
+
+2023-11-06 01:02:48.560 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:02:48.560 [INF] -------------Request-End------------
+2023-11-06 01:06:53.900 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:06:53.903 [INF] HeartBeat
+2023-11-06 01:06:53.903 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:06:53.972 [INF] -------------Request-Begin------------
+2023-11-06 01:06:53.973 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:06:53.973 [INF] 
+
+2023-11-06 01:06:53.973 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:06:53.973 [INF] -------------Request-End------------
+2023-11-06 01:07:02.481 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:07:02.482 [INF] HeartBeat
+2023-11-06 01:07:02.482 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:07:02.498 [INF] -------------Request-Begin------------
+2023-11-06 01:07:02.499 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:07:02.499 [INF] 
+
+2023-11-06 01:07:02.499 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:07:02.499 [INF] -------------Request-End------------
+2023-11-06 01:07:03.562 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:07:03.562 [INF] HeartBeat
+2023-11-06 01:07:03.562 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:07:03.621 [INF] -------------Request-Begin------------
+2023-11-06 01:07:03.622 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/2 
+QueryString:  
+Request Body: 
+2023-11-06 01:07:03.622 [INF] 
+
+2023-11-06 01:07:03.622 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":20}}
+2023-11-06 01:07:03.622 [INF] -------------Request-End------------
+2023-11-06 01:07:09.134 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:07:09.134 [INF] HeartBeat
+2023-11-06 01:07:09.134 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:07:09.245 [INF] -------------Request-Begin------------
+2023-11-06 01:07:09.246 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/2 
+QueryString:  
+Request Body: {"productName":"Motor Driver","productPrice":750,"productStock":10}
+2023-11-06 01:07:09.246 [INF] 
+
+2023-11-06 01:07:09.246 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 01:07:09.246 [INF] -------------Request-End------------
+2023-11-06 01:07:09.284 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:07:09.284 [INF] HeartBeat
+2023-11-06 01:07:09.284 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:07:09.289 [INF] -------------Request-Begin------------
+2023-11-06 01:07:09.289 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:07:09.289 [INF] 
+
+2023-11-06 01:07:09.290 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:07:09.290 [INF] -------------Request-End------------
+2023-11-06 01:23:19.128 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:23:19.130 [INF] HeartBeat
+2023-11-06 01:23:19.130 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:23:19.227 [INF] -------------Request-Begin------------
+2023-11-06 01:23:19.227 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/1 
+QueryString:  
+Request Body: 
+2023-11-06 01:23:19.227 [INF] 
+
+2023-11-06 01:23:19.227 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90}}
+2023-11-06 01:23:19.227 [INF] -------------Request-End------------
+2023-11-06 01:23:20.816 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:23:20.817 [INF] HeartBeat
+2023-11-06 01:23:20.817 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:23:20.900 [INF] -------------Request-Begin------------
+2023-11-06 01:23:20.900 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:23:20.900 [INF] 
+
+2023-11-06 01:23:20.900 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:23:20.900 [INF] -------------Request-End------------
+2023-11-06 01:29:05.462 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:29:05.463 [INF] HeartBeat
+2023-11-06 01:29:05.463 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:29:05.517 [INF] -------------Request-Begin------------
+2023-11-06 01:29:05.517 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"","productPrice":"","productStock":""}
+2023-11-06 01:29:05.518 [INF] 
+
+2023-11-06 01:29:05.518 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-c505921584eb5a4ba1e6c4de7ade5469-0412c2e06388c304-00","errors":{"request":["The request field is required."],"$.productPrice":["The JSON value could not be converted to System.Decimal. Path: $.productPrice | LineNumber: 0 | BytePositionInLine: 35."]}
+2023-11-06 01:29:05.518 [INF] -------------Request-End------------
+2023-11-06 01:34:58.629 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:34:58.629 [INF] HeartBeat
+2023-11-06 01:34:58.630 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:34:58.678 [INF] -------------Request-Begin------------
+2023-11-06 01:34:58.678 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 01:34:58.678 [INF] 
+
+2023-11-06 01:34:58.678 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-e2c1a6ffbf7b931ca889f16640fb862d-e7a8c648b2474031-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 01:34:58.679 [INF] -------------Request-End------------
+2023-11-06 01:35:00.506 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:35:00.506 [INF] HeartBeat
+2023-11-06 01:35:00.506 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:35:00.517 [INF] -------------Request-Begin------------
+2023-11-06 01:35:00.517 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 01:35:00.517 [INF] 
+
+2023-11-06 01:35:00.517 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3b87dd4a21049d5aa8c2a06858e7bd4d-c8bd34534e56acd6-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 01:35:00.517 [INF] -------------Request-End------------
+2023-11-06 01:35:02.921 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:35:02.921 [INF] HeartBeat
+2023-11-06 01:35:02.921 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:35:02.928 [INF] -------------Request-Begin------------
+2023-11-06 01:35:02.928 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"dgsfds","password":""}
+2023-11-06 01:35:02.928 [INF] 
+
+2023-11-06 01:35:02.928 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-7f333fef79ba9c8a9a2b52ba35744c32-aa035d2661ed0e86-00","errors":{"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 01:35:02.928 [INF] -------------Request-End------------
+2023-11-06 01:35:06.559 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:35:06.560 [INF] HeartBeat
+2023-11-06 01:35:06.560 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:35:06.746 [INF] -------------Request-Begin------------
+2023-11-06 01:35:06.746 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"dgsfds","password":"sdfdsfsdf"}
+2023-11-06 01:35:06.746 [INF] 
+
+2023-11-06 01:35:06.746 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-06 01:35:06.746 [INF] -------------Request-End------------
+2023-11-06 01:35:07.730 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:35:07.730 [INF] HeartBeat
+2023-11-06 01:35:07.730 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:35:07.741 [INF] -------------Request-Begin------------
+2023-11-06 01:35:07.741 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"dgsfds","password":"sdfdsfsdf"}
+2023-11-06 01:35:07.741 [INF] 
+
+2023-11-06 01:35:07.741 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-06 01:35:07.741 [INF] -------------Request-End------------
+2023-11-06 01:35:13.266 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:35:13.267 [INF] HeartBeat
+2023-11-06 01:35:13.267 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:35:13.281 [INF] -------------Request-Begin------------
+2023-11-06 01:35:13.281 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 01:35:13.281 [INF] 
+
+2023-11-06 01:35:13.281 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T03:15:13.2807619+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyMjk3MTMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.CP-bh95EOKJU1OxSDkvhZNCnv79Hlb1XZihZeVMzA3k","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 01:35:13.281 [INF] -------------Request-End------------
+2023-11-06 01:36:30.220 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:36:30.221 [INF] HeartBeat
+2023-11-06 01:36:30.221 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:36:30.222 [INF] -------------Request-Begin------------
+2023-11-06 01:36:30.222 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 01:36:30.222 [INF] 
+
+2023-11-06 01:36:30.222 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-07a0f3b97b61cdc086f8987975d962f1-ddd4624006f2d146-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 01:36:30.222 [INF] -------------Request-End------------
+2023-11-06 01:36:36.058 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:36:36.058 [INF] HeartBeat
+2023-11-06 01:36:36.058 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:36:36.195 [INF] -------------Request-Begin------------
+2023-11-06 01:36:36.195 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"fdfdfdfdfd"}
+2023-11-06 01:36:36.195 [INF] 
+
+2023-11-06 01:36:36.195 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-06 01:36:36.195 [INF] -------------Request-End------------
+2023-11-06 01:36:40.107 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:36:40.108 [INF] HeartBeat
+2023-11-06 01:36:40.108 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:36:40.196 [INF] -------------Request-Begin------------
+2023-11-06 01:36:40.196 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 01:36:40.196 [INF] 
+
+2023-11-06 01:36:40.196 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T03:16:40.1953471+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyMjk4MDAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.EKSG3XLHPqjz9K_idWPVK7ov4tmvCzRAtJwy_lI0v6c","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 01:36:40.196 [INF] -------------Request-End------------
+2023-11-06 01:37:57.573 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:37:57.573 [INF] HeartBeat
+2023-11-06 01:37:57.573 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:37:57.631 [INF] -------------Request-Begin------------
+2023-11-06 01:37:57.631 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"","productPrice":"","productStock":""}
+2023-11-06 01:37:57.631 [INF] 
+
+2023-11-06 01:37:57.631 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-64d28e580e334965f43c93f70a5e968a-468717991f6182df-00","errors":{"request":["The request field is required."],"$.productPrice":["The JSON value could not be converted to System.Decimal. Path: $.productPrice | LineNumber: 0 | BytePositionInLine: 35."]}
+2023-11-06 01:37:57.631 [INF] -------------Request-End------------
+2023-11-06 01:38:26.492 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:38:26.492 [INF] HeartBeat
+2023-11-06 01:38:26.492 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:38:26.526 [INF] -------------Request-Begin------------
+2023-11-06 01:38:26.527 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"","productPrice":"","productStock":""}
+2023-11-06 01:38:26.527 [INF] 
+
+2023-11-06 01:38:26.527 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-c4f4e652c276df72011bf211cb1f54c7-45d3bc93be54b7d3-00","errors":{"request":["The request field is required."],"$.productPrice":["The JSON value could not be converted to System.Decimal. Path: $.productPrice | LineNumber: 0 | BytePositionInLine: 35."]}
+2023-11-06 01:38:26.527 [INF] -------------Request-End------------
+2023-11-06 01:48:35.173 [INF] App server is starting.
+2023-11-06 01:58:34.139 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:58:34.171 [INF] HeartBeat
+2023-11-06 01:58:34.175 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:58:39.194 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.381 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.381 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.381 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.413 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.413 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.413 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:39.413 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 01:58:40.542 [INF] -------------Request-Begin------------
+2023-11-06 01:58:40.543 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:58:40.543 [INF] 
+
+2023-11-06 01:58:40.543 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:58:40.543 [INF] -------------Request-End------------
+2023-11-06 01:58:40.826 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:58:40.826 [INF] HeartBeat
+2023-11-06 01:58:40.826 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:58:41.154 [INF] -------------Request-Begin------------
+2023-11-06 01:58:41.154 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 01:58:41.154 [INF] 
+
+2023-11-06 01:58:41.154 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T03:38:41.1475526+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyMzExMjEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.agRC9-ISlVrQx7PYuSYFOG5LKVAUJavxLpHCe9UjuqE","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 01:58:41.154 [INF] -------------Request-End------------
+2023-11-06 01:58:46.551 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:58:46.551 [INF] HeartBeat
+2023-11-06 01:58:46.551 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:58:46.588 [INF] -------------Request-Begin------------
+2023-11-06 01:58:46.588 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:58:46.588 [INF] 
+
+2023-11-06 01:58:46.588 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:58:46.588 [INF] -------------Request-End------------
+2023-11-06 01:58:48.913 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 01:58:48.913 [INF] HeartBeat
+2023-11-06 01:58:48.913 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 01:58:48.927 [INF] -------------Request-Begin------------
+2023-11-06 01:58:48.927 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 01:58:48.927 [INF] 
+
+2023-11-06 01:58:48.927 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 01:58:48.927 [INF] -------------Request-End------------
+2023-11-06 02:00:13.837 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:13.837 [INF] HeartBeat
+2023-11-06 02:00:13.837 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:13.875 [INF] -------------Request-Begin------------
+2023-11-06 02:00:13.875 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-06 02:00:13.875 [INF] 
+
+2023-11-06 02:00:13.875 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T03:40:13.8747832+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkyMzEyMTMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.L5Q_gYk7T4nk6p_TTCvUgGIBmdsXrqtCtYVP6FotONQ","user":"ABC A.S."}}
+2023-11-06 02:00:13.875 [INF] -------------Request-End------------
+2023-11-06 02:00:16.452 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:16.452 [INF] HeartBeat
+2023-11-06 02:00:16.452 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:16.457 [INF] -------------Request-Begin------------
+2023-11-06 02:00:16.457 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:00:16.457 [INF] 
+
+2023-11-06 02:00:16.457 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 02:00:16.457 [INF] -------------Request-End------------
+2023-11-06 02:00:23.728 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:23.729 [INF] HeartBeat
+2023-11-06 02:00:23.729 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:23.733 [INF] -------------Request-Begin------------
+2023-11-06 02:00:23.733 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:00:23.733 [INF] 
+
+2023-11-06 02:00:23.733 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 02:00:23.733 [INF] -------------Request-End------------
+2023-11-06 02:00:30.164 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:30.164 [INF] HeartBeat
+2023-11-06 02:00:30.164 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:30.164 [INF] -------------Request-Begin------------
+2023-11-06 02:00:30.165 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:00:30.165 [INF] 
+
+2023-11-06 02:00:30.165 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 02:00:30.165 [INF] -------------Request-End------------
+2023-11-06 02:00:37.196 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:37.196 [INF] HeartBeat
+2023-11-06 02:00:37.196 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:37.220 [INF] -------------Request-Begin------------
+2023-11-06 02:00:37.220 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 02:00:37.220 [INF] 
+
+2023-11-06 02:00:37.220 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T03:40:37.2195703+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyMzEyMzcsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0._bHhLMzyi1wbwIv9uaCYlGzSBm2XuulmpSa4eg1k9xs","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 02:00:37.220 [INF] -------------Request-End------------
+2023-11-06 02:00:39.997 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:39.997 [INF] HeartBeat
+2023-11-06 02:00:39.997 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:40.005 [INF] -------------Request-Begin------------
+2023-11-06 02:00:40.005 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:00:40.005 [INF] 
+
+2023-11-06 02:00:40.005 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:00:40.005 [INF] -------------Request-End------------
+2023-11-06 02:00:41.726 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:00:41.726 [INF] HeartBeat
+2023-11-06 02:00:41.726 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:00:41.746 [INF] -------------Request-Begin------------
+2023-11-06 02:00:41.746 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:00:41.746 [INF] 
+
+2023-11-06 02:00:41.746 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:00:41.746 [INF] -------------Request-End------------
+2023-11-06 02:01:04.288 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:01:04.288 [INF] HeartBeat
+2023-11-06 02:01:04.288 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:01:04.332 [INF] -------------Request-Begin------------
+2023-11-06 02:01:04.332 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:01:04.332 [INF] 
+
+2023-11-06 02:01:04.332 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:01:04.332 [INF] -------------Request-End------------
+2023-11-06 02:01:07.920 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:01:07.920 [INF] HeartBeat
+2023-11-06 02:01:07.920 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:01:07.937 [INF] -------------Request-Begin------------
+2023-11-06 02:01:07.937 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:01:07.938 [INF] 
+
+2023-11-06 02:01:07.938 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:01:07.938 [INF] -------------Request-End------------
+2023-11-06 02:10:20.464 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:10:20.464 [INF] HeartBeat
+2023-11-06 02:10:20.464 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:10:20.724 [INF] -------------Request-Begin------------
+2023-11-06 02:10:20.724 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:10:20.724 [INF] 
+
+2023-11-06 02:10:20.724 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:10:20.724 [INF] -------------Request-End------------
+2023-11-06 02:10:52.010 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:10:52.010 [INF] HeartBeat
+2023-11-06 02:10:52.010 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:10:52.058 [INF] -------------Request-Begin------------
+2023-11-06 02:10:52.059 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:10:52.059 [INF] 
+
+2023-11-06 02:10:52.059 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:10:52.059 [INF] -------------Request-End------------
+2023-11-06 02:11:13.207 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:11:13.208 [INF] HeartBeat
+2023-11-06 02:11:13.208 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:11:13.238 [INF] -------------Request-Begin------------
+2023-11-06 02:11:13.238 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:11:13.238 [INF] 
+
+2023-11-06 02:11:13.238 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:11:13.238 [INF] -------------Request-End------------
+2023-11-06 02:12:09.522 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:12:09.522 [INF] HeartBeat
+2023-11-06 02:12:09.522 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:12:09.570 [INF] -------------Request-Begin------------
+2023-11-06 02:12:09.570 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:12:09.570 [INF] 
+
+2023-11-06 02:12:09.570 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:12:09.570 [INF] -------------Request-End------------
+2023-11-06 02:14:54.903 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:14:54.903 [INF] HeartBeat
+2023-11-06 02:14:54.903 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:14:54.919 [INF] -------------Request-Begin------------
+2023-11-06 02:14:54.919 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:14:54.919 [INF] 
+
+2023-11-06 02:14:54.919 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:14:54.919 [INF] -------------Request-End------------
+2023-11-06 02:16:58.810 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:16:58.810 [INF] HeartBeat
+2023-11-06 02:16:58.810 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:16:58.972 [INF] -------------Request-Begin------------
+2023-11-06 02:16:58.972 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/2 
+QueryString:  
+Request Body: 
+2023-11-06 02:16:58.972 [INF] 
+
+2023-11-06 02:16:58.972 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10}}
+2023-11-06 02:16:58.972 [INF] -------------Request-End------------
+2023-11-06 02:17:00.660 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:17:00.660 [INF] HeartBeat
+2023-11-06 02:17:00.660 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:17:00.687 [INF] -------------Request-Begin------------
+2023-11-06 02:17:00.687 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:17:00.687 [INF] 
+
+2023-11-06 02:17:00.687 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:17:00.687 [INF] -------------Request-End------------
+2023-11-06 02:17:02.220 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:17:02.220 [INF] HeartBeat
+2023-11-06 02:17:02.220 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:17:02.245 [INF] -------------Request-Begin------------
+2023-11-06 02:17:02.245 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+Request Body: 
+2023-11-06 02:17:02.245 [INF] 
+
+2023-11-06 02:17:02.245 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}}
+2023-11-06 02:17:02.245 [INF] -------------Request-End------------
+2023-11-06 02:17:03.693 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:17:03.693 [INF] HeartBeat
+2023-11-06 02:17:03.693 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:17:03.702 [INF] -------------Request-Begin------------
+2023-11-06 02:17:03.702 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:17:03.702 [INF] 
+
+2023-11-06 02:17:03.702 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:17:03.702 [INF] -------------Request-End------------
+2023-11-06 02:17:36.235 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:17:36.236 [INF] HeartBeat
+2023-11-06 02:17:36.236 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:17:36.260 [INF] -------------Request-Begin------------
+2023-11-06 02:17:36.261 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:17:36.261 [INF] 
+
+2023-11-06 02:17:36.261 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:17:36.261 [INF] -------------Request-End------------
+2023-11-06 02:18:24.124 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:18:24.124 [INF] HeartBeat
+2023-11-06 02:18:24.124 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:18:24.249 [INF] -------------Request-Begin------------
+2023-11-06 02:18:24.249 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:18:24.249 [INF] 
+
+2023-11-06 02:18:24.249 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:18:24.249 [INF] -------------Request-End------------
+2023-11-06 02:18:52.882 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:18:52.882 [INF] HeartBeat
+2023-11-06 02:18:52.882 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:18:52.914 [INF] -------------Request-Begin------------
+2023-11-06 02:18:52.914 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:18:52.914 [INF] 
+
+2023-11-06 02:18:52.914 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:18:52.914 [INF] -------------Request-End------------
+2023-11-06 02:19:02.213 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:19:02.213 [INF] HeartBeat
+2023-11-06 02:19:02.213 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:19:02.230 [INF] -------------Request-Begin------------
+2023-11-06 02:19:02.230 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:19:02.230 [INF] 
+
+2023-11-06 02:19:02.230 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:19:02.230 [INF] -------------Request-End------------
+2023-11-06 02:19:44.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:19:44.823 [INF] HeartBeat
+2023-11-06 02:19:44.823 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:19:44.871 [INF] -------------Request-Begin------------
+2023-11-06 02:19:44.871 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:19:44.871 [INF] 
+
+2023-11-06 02:19:44.871 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:19:44.871 [INF] -------------Request-End------------
+2023-11-06 02:19:46.735 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:19:46.735 [INF] HeartBeat
+2023-11-06 02:19:46.735 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:19:46.820 [INF] -------------Request-Begin------------
+2023-11-06 02:19:46.820 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null,"lazyInit":null,"headers":{}}
+2023-11-06 02:19:46.820 [INF] 
+
+2023-11-06 02:19:46.820 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-67ed971fd2112445b0332b1d29ac9475-02d901abd4f69d70-00","errors":{"ProductName":["The ProductName field is required.","ProductName field is required."],"ProductPrice":["ProductPrice field is required.","ProductPrice must be greater than 0."],"ProductStock":["ProductStock field is required."]}}
+2023-11-06 02:19:46.820 [INF] -------------Request-End------------
+2023-11-06 02:20:17.725 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:20:17.729 [INF] HeartBeat
+2023-11-06 02:20:17.729 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:20:17.767 [INF] -------------Request-Begin------------
+2023-11-06 02:20:17.767 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:20:17.767 [INF] 
+
+2023-11-06 02:20:17.767 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:20:17.767 [INF] -------------Request-End------------
+2023-11-06 02:20:19.659 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:20:19.659 [INF] HeartBeat
+2023-11-06 02:20:19.659 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:20:19.833 [INF] -------------Request-Begin------------
+2023-11-06 02:20:19.833 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+Request Body: 
+2023-11-06 02:20:19.833 [INF] 
+
+2023-11-06 02:20:19.833 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 02:20:19.833 [INF] -------------Request-End------------
+2023-11-06 02:20:25.523 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:20:25.524 [INF] HeartBeat
+2023-11-06 02:20:25.524 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:20:25.546 [INF] -------------Request-Begin------------
+2023-11-06 02:20:25.546 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:20:25.546 [INF] 
+
+2023-11-06 02:20:25.546 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:20:25.546 [INF] -------------Request-End------------
+2023-11-06 02:20:29.306 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:20:29.306 [INF] HeartBeat
+2023-11-06 02:20:29.306 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:20:29.322 [INF] -------------Request-Begin------------
+2023-11-06 02:20:29.322 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+Request Body: 
+2023-11-06 02:20:29.322 [INF] 
+
+2023-11-06 02:20:29.322 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/4 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 02:20:29.322 [INF] -------------Request-End------------
+2023-11-06 02:20:32.463 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:20:32.463 [INF] HeartBeat
+2023-11-06 02:20:32.463 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:20:32.495 [INF] -------------Request-Begin------------
+2023-11-06 02:20:32.495 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:20:32.495 [INF] 
+
+2023-11-06 02:20:32.496 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":4,"productName":"Things","productPrice":50.00,"productStock":10}]}
+2023-11-06 02:20:32.496 [INF] -------------Request-End------------
+2023-11-06 02:24:53.236 [INF] App server is starting.
+2023-11-06 02:25:02.361 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:02.367 [INF] HeartBeat
+2023-11-06 02:25:02.370 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:03.912 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.915 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.915 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.915 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.915 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.915 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.915 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:03.916 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 02:25:04.848 [INF] -------------Request-Begin------------
+2023-11-06 02:25:04.848 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:25:04.848 [INF] 
+
+2023-11-06 02:25:04.848 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:25:04.848 [INF] -------------Request-End------------
+2023-11-06 02:25:14.560 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:14.560 [INF] HeartBeat
+2023-11-06 02:25:14.560 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:14.916 [INF] -------------Request-Begin------------
+2023-11-06 02:25:14.916 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"dsfsfs","productPrice":123,"productStock":15}
+2023-11-06 02:25:14.916 [INF] 
+
+2023-11-06 02:25:14.916 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"productName":"dsfsfs","productPrice":123,"productStock":15}}
+2023-11-06 02:25:14.916 [INF] -------------Request-End------------
+2023-11-06 02:25:14.949 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:14.949 [INF] HeartBeat
+2023-11-06 02:25:14.949 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:15.002 [INF] -------------Request-Begin------------
+2023-11-06 02:25:15.002 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:25:15.002 [INF] 
+
+2023-11-06 02:25:15.002 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":5,"productName":"dsfsfs","productPrice":123.00,"productStock":15}]}
+2023-11-06 02:25:15.002 [INF] -------------Request-End------------
+2023-11-06 02:25:16.986 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:16.986 [INF] HeartBeat
+2023-11-06 02:25:16.986 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:17.020 [INF] -------------Request-Begin------------
+2023-11-06 02:25:17.020 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/5 
+QueryString:  
+Request Body: 
+2023-11-06 02:25:17.020 [INF] 
+
+2023-11-06 02:25:17.020 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"productName":"dsfsfs","productPrice":123.00,"productStock":15}}
+2023-11-06 02:25:17.020 [INF] -------------Request-End------------
+2023-11-06 02:25:27.792 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:27.792 [INF] HeartBeat
+2023-11-06 02:25:27.792 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:27.832 [INF] -------------Request-Begin------------
+2023-11-06 02:25:27.832 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/5 
+QueryString:  
+Request Body: {"productName":"dsfsfs","productPrice":123,"productStock":10}
+2023-11-06 02:25:27.832 [INF] 
+
+2023-11-06 02:25:27.832 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 02:25:27.832 [INF] -------------Request-End------------
+2023-11-06 02:25:27.869 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:27.869 [INF] HeartBeat
+2023-11-06 02:25:27.869 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:27.878 [INF] -------------Request-Begin------------
+2023-11-06 02:25:27.879 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:25:27.879 [INF] 
+
+2023-11-06 02:25:27.879 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":5,"productName":"dsfsfs","productPrice":123.00,"productStock":10}]}
+2023-11-06 02:25:27.879 [INF] -------------Request-End------------
+2023-11-06 02:25:33.212 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:33.212 [INF] HeartBeat
+2023-11-06 02:25:33.212 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:33.231 [INF] -------------Request-Begin------------
+2023-11-06 02:25:33.231 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/5 
+QueryString:  
+Request Body: 
+2023-11-06 02:25:33.231 [INF] 
+
+2023-11-06 02:25:33.231 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 02:25:33.231 [INF] -------------Request-End------------
+2023-11-06 02:25:37.458 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:25:37.458 [INF] HeartBeat
+2023-11-06 02:25:37.458 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:25:37.493 [INF] -------------Request-Begin------------
+2023-11-06 02:25:37.493 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:25:37.494 [INF] 
+
+2023-11-06 02:25:37.494 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:25:37.494 [INF] -------------Request-End------------
+2023-11-06 02:26:24.412 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:26:24.412 [INF] HeartBeat
+2023-11-06 02:26:24.412 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:26:24.466 [INF] -------------Request-Begin------------
+2023-11-06 02:26:24.466 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:26:24.466 [INF] 
+
+2023-11-06 02:26:24.466 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:26:24.466 [INF] -------------Request-End------------
+2023-11-06 02:27:13.686 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:13.686 [INF] HeartBeat
+2023-11-06 02:27:13.686 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:13.721 [INF] -------------Request-Begin------------
+2023-11-06 02:27:13.721 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:13.721 [INF] 
+
+2023-11-06 02:27:13.722 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:27:13.722 [INF] -------------Request-End------------
+2023-11-06 02:27:20.068 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:20.068 [INF] HeartBeat
+2023-11-06 02:27:20.068 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:20.093 [INF] -------------Request-Begin------------
+2023-11-06 02:27:20.093 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"dfdsfsd","productPrice":12,"productStock":323}
+2023-11-06 02:27:20.093 [INF] 
+
+2023-11-06 02:27:20.093 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":6,"productName":"dfdsfsd","productPrice":12,"productStock":323}}
+2023-11-06 02:27:20.093 [INF] -------------Request-End------------
+2023-11-06 02:27:20.134 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:20.134 [INF] HeartBeat
+2023-11-06 02:27:20.134 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:20.143 [INF] -------------Request-Begin------------
+2023-11-06 02:27:20.143 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:20.143 [INF] 
+
+2023-11-06 02:27:20.143 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":6,"productName":"dfdsfsd","productPrice":12.00,"productStock":323}]}
+2023-11-06 02:27:20.143 [INF] -------------Request-End------------
+2023-11-06 02:27:22.370 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:22.370 [INF] HeartBeat
+2023-11-06 02:27:22.370 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:22.416 [INF] -------------Request-Begin------------
+2023-11-06 02:27:22.416 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/6 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:22.416 [INF] 
+
+2023-11-06 02:27:22.416 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/6 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 02:27:22.416 [INF] -------------Request-End------------
+2023-11-06 02:27:27.350 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:27.350 [INF] HeartBeat
+2023-11-06 02:27:27.351 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:27.364 [INF] -------------Request-Begin------------
+2023-11-06 02:27:27.364 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:27.364 [INF] 
+
+2023-11-06 02:27:27.364 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:27:27.364 [INF] -------------Request-End------------
+2023-11-06 02:27:39.914 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:39.914 [INF] HeartBeat
+2023-11-06 02:27:39.914 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:39.927 [INF] -------------Request-Begin------------
+2023-11-06 02:27:39.927 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:39.927 [INF] 
+
+2023-11-06 02:27:39.927 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:27:39.927 [INF] -------------Request-End------------
+2023-11-06 02:27:54.145 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:54.145 [INF] HeartBeat
+2023-11-06 02:27:54.145 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:54.161 [INF] -------------Request-Begin------------
+2023-11-06 02:27:54.161 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"sdfds","productPrice":222,"productStock":22}
+2023-11-06 02:27:54.161 [INF] 
+
+2023-11-06 02:27:54.161 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":7,"productName":"sdfds","productPrice":222,"productStock":22}}
+2023-11-06 02:27:54.161 [INF] -------------Request-End------------
+2023-11-06 02:27:54.205 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:54.205 [INF] HeartBeat
+2023-11-06 02:27:54.206 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:54.211 [INF] -------------Request-Begin------------
+2023-11-06 02:27:54.211 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:54.211 [INF] 
+
+2023-11-06 02:27:54.211 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5},{"id":7,"productName":"sdfds","productPrice":222.00,"productStock":22}]}
+2023-11-06 02:27:54.211 [INF] -------------Request-End------------
+2023-11-06 02:27:57.204 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:27:57.204 [INF] HeartBeat
+2023-11-06 02:27:57.204 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:27:57.221 [INF] -------------Request-Begin------------
+2023-11-06 02:27:57.221 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/7 
+QueryString:  
+Request Body: 
+2023-11-06 02:27:57.222 [INF] 
+
+2023-11-06 02:27:57.222 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/7 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-06 02:27:57.222 [INF] -------------Request-End------------
+2023-11-06 02:28:01.944 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:28:01.944 [INF] HeartBeat
+2023-11-06 02:28:01.944 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:28:01.958 [INF] -------------Request-Begin------------
+2023-11-06 02:28:01.958 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:28:01.958 [INF] 
+
+2023-11-06 02:28:01.958 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:28:01.958 [INF] -------------Request-End------------
+2023-11-06 02:31:08.729 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:31:08.730 [INF] HeartBeat
+2023-11-06 02:31:08.730 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:31:08.755 [INF] -------------Request-Begin------------
+2023-11-06 02:31:08.755 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:31:08.755 [INF] 
+
+2023-11-06 02:31:08.755 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:31:08.756 [INF] -------------Request-End------------
+2023-11-06 02:32:56.854 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:32:56.855 [INF] HeartBeat
+2023-11-06 02:32:56.855 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:32:56.884 [INF] -------------Request-Begin------------
+2023-11-06 02:32:56.884 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:32:56.884 [INF] 
+
+2023-11-06 02:32:56.884 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:32:56.884 [INF] -------------Request-End------------
+2023-11-06 02:33:19.409 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:33:19.409 [INF] HeartBeat
+2023-11-06 02:33:19.409 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:33:19.431 [INF] -------------Request-Begin------------
+2023-11-06 02:33:19.431 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:33:19.431 [INF] 
+
+2023-11-06 02:33:19.431 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:33:19.431 [INF] -------------Request-End------------
+2023-11-06 02:33:45.629 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:33:45.629 [INF] HeartBeat
+2023-11-06 02:33:45.629 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:33:45.652 [INF] -------------Request-Begin------------
+2023-11-06 02:33:45.652 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:33:45.652 [INF] 
+
+2023-11-06 02:33:45.652 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:33:45.652 [INF] -------------Request-End------------
+2023-11-06 02:34:44.328 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:34:44.328 [INF] HeartBeat
+2023-11-06 02:34:44.329 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:34:44.342 [INF] -------------Request-Begin------------
+2023-11-06 02:34:44.342 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:34:44.342 [INF] 
+
+2023-11-06 02:34:44.342 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:34:44.342 [INF] -------------Request-End------------
+2023-11-06 02:37:14.242 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:37:14.243 [INF] HeartBeat
+2023-11-06 02:37:14.243 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:37:14.273 [INF] -------------Request-Begin------------
+2023-11-06 02:37:14.273 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:37:14.273 [INF] 
+
+2023-11-06 02:37:14.273 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:37:14.273 [INF] -------------Request-End------------
+2023-11-06 02:40:15.069 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:40:15.070 [INF] HeartBeat
+2023-11-06 02:40:15.070 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:40:15.112 [INF] -------------Request-Begin------------
+2023-11-06 02:40:15.112 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:40:15.112 [INF] 
+
+2023-11-06 02:40:15.112 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:40:15.112 [INF] -------------Request-End------------
+2023-11-06 02:40:21.495 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:40:21.495 [INF] HeartBeat
+2023-11-06 02:40:21.495 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:40:21.547 [INF] -------------Request-Begin------------
+2023-11-06 02:40:21.547 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/1 
+QueryString:  
+Request Body: 
+2023-11-06 02:40:21.547 [INF] 
+
+2023-11-06 02:40:21.547 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90}}
+2023-11-06 02:40:21.547 [INF] -------------Request-End------------
+2023-11-06 02:40:22.879 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:40:22.879 [INF] HeartBeat
+2023-11-06 02:40:22.879 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:40:22.897 [INF] -------------Request-Begin------------
+2023-11-06 02:40:22.897 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:40:22.897 [INF] 
+
+2023-11-06 02:40:22.898 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:40:22.898 [INF] -------------Request-End------------
+2023-11-06 02:41:37.628 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:41:37.629 [INF] HeartBeat
+2023-11-06 02:41:37.629 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:41:37.708 [INF] -------------Request-Begin------------
+2023-11-06 02:41:37.708 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:41:37.708 [INF] 
+
+2023-11-06 02:41:37.708 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:41:37.708 [INF] -------------Request-End------------
+2023-11-06 02:41:51.320 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 02:41:51.320 [INF] HeartBeat
+2023-11-06 02:41:51.320 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 02:41:51.336 [INF] -------------Request-Begin------------
+2023-11-06 02:41:51.336 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 02:41:51.336 [INF] 
+
+2023-11-06 02:41:51.336 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 02:41:51.336 [INF] -------------Request-End------------
+2023-11-06 15:28:30.197 [INF] App server is starting.
+2023-11-06 15:29:07.478 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:29:07.482 [INF] HeartBeat
+2023-11-06 15:29:07.484 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:29:08.585 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.587 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.587 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.587 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.587 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.587 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.587 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:08.588 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:29:09.950 [INF] -------------Request-Begin------------
+2023-11-06 15:29:09.951 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-11-06 15:29:09.951 [INF] 
+
+2023-11-06 15:29:09.951 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T17:09:09.9243633+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyNzk3NDksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.S_tVdOsdNh17opoYn_Kfbdm-Om-KVWmz8bczutceavQ","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 15:29:09.951 [INF] -------------Request-End------------
+2023-11-06 15:29:22.009 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:29:22.009 [INF] HeartBeat
+2023-11-06 15:29:22.009 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:29:22.188 [INF] -------------Request-Begin------------
+2023-11-06 15:29:22.188 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+Request Body: 
+2023-11-06 15:29:22.188 [INF] 
+
+2023-11-06 15:29:22.188 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":0,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":0,"productStock":10},{"id":3,"productName":"Controller","productPrice":0,"productStock":5}]}
+2023-11-06 15:29:22.188 [INF] -------------Request-End------------
+2023-11-06 15:30:19.818 [INF] App server is starting.
+2023-11-06 15:30:24.501 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:30:24.503 [INF] HeartBeat
+2023-11-06 15:30:24.504 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:30:25.540 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.542 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.543 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.543 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.543 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.543 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.543 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:25.543 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:30:26.468 [INF] -------------Request-Begin------------
+2023-11-06 15:30:26.469 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+Request Body: 
+2023-11-06 15:30:26.469 [INF] 
+
+2023-11-06 15:30:26.469 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":0,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":0,"productStock":10},{"id":3,"productName":"Controller","productPrice":0,"productStock":5}]}
+2023-11-06 15:30:26.469 [INF] -------------Request-End------------
+2023-11-06 15:30:53.188 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:30:53.188 [INF] HeartBeat
+2023-11-06 15:30:53.188 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:30:53.272 [INF] -------------Request-Begin------------
+2023-11-06 15:30:53.272 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Admin 
+QueryString:  
+Request Body: 
+2023-11-06 15:30:53.272 [INF] 
+
+2023-11-06 15:30:53.272 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 15:30:53.272 [INF] -------------Request-End------------
+2023-11-06 15:31:01.038 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:31:01.039 [INF] HeartBeat
+2023-11-06 15:31:01.039 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:31:01.196 [INF] -------------Request-Begin------------
+2023-11-06 15:31:01.196 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "patika"
+}
+2023-11-06 15:31:01.196 [INF] 
+
+2023-11-06 15:31:01.196 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T17:11:01.1893212+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkyNzk4NjEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.C8udWOhjlbGACVPgH_BY_bM6C8-j6FfxHMb7T_dbtfs","user":"ABC A.S."}}
+2023-11-06 15:31:01.196 [INF] -------------Request-End------------
+2023-11-06 15:31:08.714 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:31:08.715 [INF] HeartBeat
+2023-11-06 15:31:08.715 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:31:08.743 [INF] -------------Request-Begin------------
+2023-11-06 15:31:08.743 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+Request Body: 
+2023-11-06 15:31:08.743 [INF] 
+
+2023-11-06 15:31:08.743 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":0,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":0,"productStock":10},{"id":3,"productName":"Controller","productPrice":0,"productStock":5}]}
+2023-11-06 15:31:08.743 [INF] -------------Request-End------------
+2023-11-06 15:31:39.126 [INF] App server is starting.
+2023-11-06 15:31:50.227 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:31:50.232 [INF] HeartBeat
+2023-11-06 15:31:50.234 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:31:51.365 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.367 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.367 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.367 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.367 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.368 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.368 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:51.368 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:31:52.401 [INF] -------------Request-Begin------------
+2023-11-06 15:31:52.401 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+Request Body: 
+2023-11-06 15:31:52.402 [INF] 
+
+2023-11-06 15:31:52.402 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":0,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":0,"productStock":10},{"id":3,"productName":"Controller","productPrice":0,"productStock":5}]}
+2023-11-06 15:31:52.402 [INF] -------------Request-End------------
+2023-11-06 15:32:27.070 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:32:27.070 [INF] HeartBeat
+2023-11-06 15:32:27.071 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:32:27.215 [INF] -------------Request-Begin------------
+2023-11-06 15:32:27.216 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+Request Body: 
+2023-11-06 15:32:27.216 [INF] 
+
+2023-11-06 15:32:27.216 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":0,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":0,"productStock":10},{"id":3,"productName":"Controller","productPrice":0,"productStock":5}]}
+2023-11-06 15:32:27.216 [INF] -------------Request-End------------
+2023-11-06 15:32:55.119 [INF] App server is starting.
+2023-11-06 15:33:52.621 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 15:33:52.624 [INF] HeartBeat
+2023-11-06 15:33:52.625 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 15:33:53.898 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.900 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.900 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.900 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.900 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.900 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.900 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:53.901 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 15:33:54.999 [INF] -------------Request-Begin------------
+2023-11-06 15:33:54.999 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+Request Body: 
+2023-11-06 15:33:54.999 [INF] 
+
+2023-11-06 15:33:54.999 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":0,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":0,"productStock":10},{"id":3,"productName":"Controller","productPrice":0,"productStock":5}]}
+2023-11-06 15:33:54.999 [INF] -------------Request-End------------
+2023-11-06 20:40:29.001 [INF] App server is starting.
+2023-11-06 20:40:31.427 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:40:31.427 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:40:31.430 [INF] HeartBeat
+2023-11-06 20:40:31.430 [INF] HeartBeat
+2023-11-06 20:40:31.431 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:40:31.431 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:40:31.720 [INF] -------------Request-Begin------------
+2023-11-06 20:40:31.720 [INF] -------------Request-Begin------------
+2023-11-06 20:40:31.720 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 20:40:31.720 [INF] 
+
+2023-11-06 20:40:31.720 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 20:40:31.721 [INF] 
+
+2023-11-06 20:40:31.721 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-945c9309552cceb3a8b4af541e585fdc-ab768d0b6b104d42-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 20:40:31.721 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-88650d54289705a63aa2b9e374a1767f-c317cdec816b34d5-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 20:40:31.721 [INF] -------------Request-End------------
+2023-11-06 20:40:31.721 [INF] -------------Request-End------------
+2023-11-06 20:40:34.461 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:40:34.461 [INF] HeartBeat
+2023-11-06 20:40:34.462 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:40:34.469 [INF] -------------Request-Begin------------
+2023-11-06 20:40:34.469 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 20:40:34.469 [INF] 
+
+2023-11-06 20:40:34.470 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-c8a75ce07c9006f87e24192c568a5fec-1670ec86b5de3235-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 20:40:34.470 [INF] -------------Request-End------------
+2023-11-06 20:40:35.873 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:40:35.873 [INF] HeartBeat
+2023-11-06 20:40:35.873 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:40:35.876 [INF] -------------Request-Begin------------
+2023-11-06 20:40:35.876 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-06 20:40:35.876 [INF] 
+
+2023-11-06 20:40:35.877 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-2ba799fdea0098e0be461fc37e204fe7-1d3af9cf09b30c88-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-06 20:40:35.877 [INF] -------------Request-End------------
+2023-11-06 20:44:25.785 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:44:25.786 [INF] HeartBeat
+2023-11-06 20:44:25.786 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:44:27.045 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.049 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.049 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.049 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.050 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.050 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.050 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:27.050 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:44:28.208 [INF] -------------Request-Begin------------
+2023-11-06 20:44:28.208 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 20:44:28.208 [INF] 
+
+2023-11-06 20:44:28.208 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:24:28.1939259+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyOTg2NjgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.CL_5JUEzbYxiEMJapCqdH8KBWdlwAQH6NRiWH_2p1qk","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 20:44:28.209 [INF] -------------Request-End------------
+2023-11-06 20:44:31.757 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:44:31.758 [INF] HeartBeat
+2023-11-06 20:44:31.758 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:44:31.961 [INF] -------------Request-Begin------------
+2023-11-06 20:44:31.962 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 20:44:31.962 [INF] 
+
+2023-11-06 20:44:31.962 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 20:44:31.962 [INF] -------------Request-End------------
+2023-11-06 20:45:01.194 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:45:01.194 [INF] HeartBeat
+2023-11-06 20:45:01.194 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:45:01.316 [INF] -------------Request-Begin------------
+2023-11-06 20:45:01.317 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 20:45:01.317 [INF] 
+
+2023-11-06 20:45:01.317 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 20:45:01.317 [INF] -------------Request-End------------
+2023-11-06 20:45:02.552 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:45:02.553 [INF] HeartBeat
+2023-11-06 20:45:02.553 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:45:02.588 [INF] -------------Request-Begin------------
+2023-11-06 20:45:02.588 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/1 
+QueryString:  
+Request Body: 
+2023-11-06 20:45:02.588 [INF] 
+
+2023-11-06 20:45:02.588 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90}}
+2023-11-06 20:45:02.588 [INF] -------------Request-End------------
+2023-11-06 20:45:05.003 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:45:05.004 [INF] HeartBeat
+2023-11-06 20:45:05.004 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:45:05.012 [INF] -------------Request-Begin------------
+2023-11-06 20:45:05.012 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 20:45:05.012 [INF] 
+
+2023-11-06 20:45:05.012 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 20:45:05.013 [INF] -------------Request-End------------
+2023-11-06 20:45:30.892 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:45:30.892 [INF] HeartBeat
+2023-11-06 20:45:30.894 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:45:30.922 [INF] -------------Request-Begin------------
+2023-11-06 20:45:30.922 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-11-06 20:45:30.922 [INF] 
+
+2023-11-06 20:45:30.922 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:25:30.921408+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyOTg3MzAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.zyuchodBye2lnvLwWoZEW2AHpgU8u8iVbnqprTHSdc8","user":"Orhan Teknolojileri San. ve Tic. A.S."}}
+2023-11-06 20:45:30.922 [INF] -------------Request-End------------
+2023-11-06 20:48:34.701 [INF] App server is starting.
+2023-11-06 20:49:01.684 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:49:01.687 [INF] HeartBeat
+2023-11-06 20:49:01.690 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:49:02.833 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.835 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.836 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.836 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.836 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.836 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.836 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:02.836 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:49:04.219 [INF] -------------Request-Begin------------
+2023-11-06 20:49:04.219 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-11-06 20:49:04.219 [INF] 
+
+2023-11-06 20:49:04.219 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:29:04.1987638+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyOTg5NDQsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.6-BOpcXfT0gSNx7WA1zVaCHRS-_pGbzohXadCiQB_Ss","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-06 20:49:04.219 [INF] -------------Request-End------------
+2023-11-06 20:49:18.049 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:49:18.049 [INF] HeartBeat
+2023-11-06 20:49:18.049 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:49:18.141 [INF] -------------Request-Begin------------
+2023-11-06 20:49:18.141 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "patika"
+}
+2023-11-06 20:49:18.141 [INF] 
+
+2023-11-06 20:49:18.141 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:29:18.1395274+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkyOTg5NTgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.bZDOGvLnHfY7o1Uby3CDjH-kXA2GzCB7on5xdEN0xu4","user":"ABC A.S.","role":1}}
+2023-11-06 20:49:18.141 [INF] -------------Request-End------------
+2023-11-06 20:56:57.756 [INF] App server is starting.
+2023-11-06 20:57:44.765 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:57:44.769 [INF] HeartBeat
+2023-11-06 20:57:44.772 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:57:45.949 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:45.951 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 20:57:47.251 [INF] -------------Request-Begin------------
+2023-11-06 20:57:47.251 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-11-06 20:57:47.251 [INF] 
+
+2023-11-06 20:57:47.252 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:37:47.2278393+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyOTk0NjcsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.O9Zq5LQgkmXKPkh7PD4IkD8ipMF6A9nw_on6v8IUhvA","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-06 20:57:47.252 [INF] -------------Request-End------------
+2023-11-06 20:57:59.397 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:57:59.397 [INF] HeartBeat
+2023-11-06 20:57:59.397 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:57:59.621 [INF] -------------Request-Begin------------
+2023-11-06 20:57:59.621 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Admin 
+QueryString:  
+Request Body: 
+2023-11-06 20:57:59.621 [INF] 
+
+2023-11-06 20:57:59.622 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 20:57:59.622 [INF] -------------Request-End------------
+2023-11-06 20:58:33.724 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 20:58:33.725 [INF] HeartBeat
+2023-11-06 20:58:33.725 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 20:58:33.767 [INF] -------------Request-Begin------------
+2023-11-06 20:58:33.767 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Admin 
+QueryString:  
+Request Body: 
+2023-11-06 20:58:33.767 [INF] 
+
+2023-11-06 20:58:33.767 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products/Admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":10},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-06 20:58:33.767 [INF] -------------Request-End------------
+2023-11-06 20:59:46.726 [INF] App server is starting.
+2023-11-06 21:00:01.992 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:00:01.995 [INF] HeartBeat
+2023-11-06 21:00:01.997 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:00:02.815 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.818 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.818 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.818 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.818 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.818 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.819 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:02.819 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:00:03.758 [INF] -------------Request-Begin------------
+2023-11-06 21:00:03.758 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-06 21:00:03.758 [INF] 
+
+2023-11-06 21:00:03.758 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:40:03.733274+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkyOTk2MDMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.9_c1hkHZooks0Kch5ccGfwLiKwmEq3H-pwJAQiSi-ak","user":"ABC A.S.","role":1}}
+2023-11-06 21:00:03.759 [INF] -------------Request-End------------
+2023-11-06 21:00:06.697 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:00:06.697 [INF] HeartBeat
+2023-11-06 21:00:06.697 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:00:06.927 [INF] -------------Request-Begin------------
+2023-11-06 21:00:06.927 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 21:00:06.928 [INF] 
+
+2023-11-06 21:00:06.928 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":10},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-06 21:00:06.928 [INF] -------------Request-End------------
+2023-11-06 21:00:13.255 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:00:13.255 [INF] HeartBeat
+2023-11-06 21:00:13.255 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:00:13.268 [INF] -------------Request-Begin------------
+2023-11-06 21:00:13.268 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: {"productName":"","productPrice":"","productStock":""}
+2023-11-06 21:00:13.268 [INF] 
+
+2023-11-06 21:00:13.268 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 21:00:13.268 [INF] -------------Request-End------------
+2023-11-06 21:00:18.670 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:00:18.670 [INF] HeartBeat
+2023-11-06 21:00:18.670 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:00:18.710 [INF] -------------Request-Begin------------
+2023-11-06 21:00:18.710 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 21:00:18.710 [INF] 
+
+2023-11-06 21:00:18.710 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":10},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-06 21:00:18.710 [INF] -------------Request-End------------
+2023-11-06 21:00:26.435 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:00:26.435 [INF] HeartBeat
+2023-11-06 21:00:26.435 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:00:26.477 [INF] -------------Request-Begin------------
+2023-11-06 21:00:26.477 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 21:00:26.477 [INF] 
+
+2023-11-06 21:00:26.477 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:40:26.4769881+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyOTk2MjYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.0GLLjmBiUDU6sfKk2r--Hs1XGkkj8_xJbdlt4rXhGkc","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-06 21:00:26.477 [INF] -------------Request-End------------
+2023-11-06 21:01:03.851 [INF] App server is starting.
+2023-11-06 21:01:08.936 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:01:08.938 [INF] HeartBeat
+2023-11-06 21:01:08.940 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:01:10.298 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.300 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.300 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.301 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.301 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.301 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.301 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:10.301 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:01:11.517 [INF] -------------Request-Begin------------
+2023-11-06 21:01:11.517 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products 
+QueryString:  
+Request Body: 
+2023-11-06 21:01:11.518 [INF] 
+
+2023-11-06 21:01:11.518 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":10},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-06 21:01:11.518 [INF] -------------Request-End------------
+2023-11-06 21:01:31.795 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:01:31.823 [INF] HeartBeat
+2023-11-06 21:01:31.823 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:01:31.996 [INF] -------------Request-Begin------------
+2023-11-06 21:01:31.997 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products 
+QueryString:  
+Request Body: 
+2023-11-06 21:01:31.997 [INF] 
+
+2023-11-06 21:01:31.997 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 21:01:31.997 [INF] -------------Request-End------------
+2023-11-06 21:01:50.357 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:01:50.357 [INF] HeartBeat
+2023-11-06 21:01:50.357 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:01:50.399 [INF] -------------Request-Begin------------
+2023-11-06 21:01:50.399 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products 
+QueryString:  
+Request Body: 
+2023-11-06 21:01:50.399 [INF] 
+
+2023-11-06 21:01:50.399 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":10},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-06 21:01:50.399 [INF] -------------Request-End------------
+2023-11-06 21:02:53.344 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:02:53.344 [INF] HeartBeat
+2023-11-06 21:02:53.344 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:02:53.766 [INF] -------------Request-Begin------------
+2023-11-06 21:02:53.767 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-11-06 21:02:53.767 [INF] 
+
+2023-11-06 21:02:53.767 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:42:53.7452787+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkyOTk3NzMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.pHBZVdl-dj02exKJc4xRVURUKLTAOfFE3MYV3aM_A2M","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-06 21:02:53.767 [INF] -------------Request-End------------
+2023-11-06 21:07:14.426 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:07:14.426 [INF] HeartBeat
+2023-11-06 21:07:14.426 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:07:14.455 [INF] -------------Request-Begin------------
+2023-11-06 21:07:14.455 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 21:07:14.456 [INF] 
+
+2023-11-06 21:07:14.456 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a22fc06543e7c671eb85d44501a62173-9fe9427bfbb257b8-00","errors":{"id":["The value 'admin' is not valid."]}}
+2023-11-06 21:07:14.456 [INF] -------------Request-End------------
+2023-11-06 21:07:24.639 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:07:24.639 [INF] HeartBeat
+2023-11-06 21:07:24.639 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:07:24.667 [INF] -------------Request-Begin------------
+2023-11-06 21:07:24.667 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-06 21:07:24.667 [INF] 
+
+2023-11-06 21:07:24.667 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-06T22:47:24.6670431+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkzMDAwNDQsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.bF4aUUsZOvWkY5etmUJJW9kqqsoPj2UIyq7gUJlYgdE","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-06 21:07:24.667 [INF] -------------Request-End------------
+2023-11-06 21:07:27.507 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:07:27.507 [INF] HeartBeat
+2023-11-06 21:07:27.507 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:07:27.510 [INF] -------------Request-Begin------------
+2023-11-06 21:07:27.510 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+Request Body: 
+2023-11-06 21:07:27.511 [INF] 
+
+2023-11-06 21:07:27.511 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/admin 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-b53605c1349fd7585bd2ed92a21c2ed2-495cbd8f10559f0d-00","errors":{"id":["The value 'admin' is not valid."]}}
+2023-11-06 21:07:27.511 [INF] -------------Request-End------------
+2023-11-06 21:08:16.500 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:08:16.500 [INF] HeartBeat
+2023-11-06 21:08:16.500 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:08:16.940 [INF] -------------Request-Begin------------
+2023-11-06 21:08:16.940 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-06 21:08:16.940 [INF] 
+
+2023-11-06 21:08:16.941 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 21:08:16.941 [INF] -------------Request-End------------
+2023-11-06 21:22:16.072 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:22:16.073 [INF] HeartBeat
+2023-11-06 21:22:16.073 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:22:16.350 [INF] -------------Request-Begin------------
+2023-11-06 21:22:16.350 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/CurrentAccounts 
+QueryString:  
+Request Body: 
+2023-11-06 21:22:16.350 [INF] 
+
+2023-11-06 21:22:16.350 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/CurrentAccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerId":1,"dealer":"ABC A.S.","companyId":1,"company":"Orhan Teknolojileri San. ve Tic. A.S.","creditLimit":0},{"id":2,"dealerId":2,"dealer":"DEF A.S.","companyId":1,"company":"Orhan Teknolojileri San. ve Tic. A.S.","creditLimit":0}]}
+2023-11-06 21:22:16.350 [INF] -------------Request-End------------
+2023-11-06 21:26:54.608 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:26:54.608 [INF] HeartBeat
+2023-11-06 21:26:54.609 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:26:54.714 [INF] -------------Request-Begin------------
+2023-11-06 21:26:54.714 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-06 21:26:54.715 [INF] 
+
+2023-11-06 21:26:54.715 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 21:26:54.715 [INF] -------------Request-End------------
+2023-11-06 21:29:14.944 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:29:14.945 [INF] HeartBeat
+2023-11-06 21:29:14.945 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:29:15.546 [INF] -------------Request-Begin------------
+2023-11-06 21:29:15.547 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-06 21:29:15.547 [INF] 
+
+2023-11-06 21:29:15.547 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 21:29:15.547 [INF] -------------Request-End------------
+2023-11-06 21:29:53.380 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:29:53.381 [INF] HeartBeat
+2023-11-06 21:29:53.381 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:29:53.411 [INF] -------------Request-Begin------------
+2023-11-06 21:29:53.411 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-06 21:29:53.411 [INF] 
+
+2023-11-06 21:29:53.412 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":10},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-06 21:29:53.412 [INF] -------------Request-End------------

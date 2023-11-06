@@ -1,4 +1,6 @@
-﻿namespace Erp.Dto
+﻿using Erp.Base.Enum;
+
+namespace Erp.Dto
 {
     public class LoginRequest
     {
@@ -11,5 +13,6 @@
         public DateTime ExpireDate { get; set; }
         public string Token { get; set; }
         public string User { get; set; }
+        public UserRole Role { get; set; }
     }
 }

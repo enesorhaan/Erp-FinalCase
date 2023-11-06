@@ -18,22 +18,14 @@ namespace Erp.Api.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet("admin")]
-        [Authorize(Roles = "admin")]
+        [HttpGet]
+        [Authorize(Roles = "admin, dealer")]
         public async Task<ApiResponse<List<ProductResponse>>> GetAll()
         {
-            var operation = new GetAllProductQuery();
-            var result = await mediator.Send(operation);
-            return result;
-        }
-
-        [HttpGet("dealer")]
-        [Authorize(Roles = "dealer")]
-        public async Task<ApiResponse<List<ProductResponse>>> GetAllByDealerId()
-        {
+            var role = (User.Identity as ClaimsIdentity).FindFirst("Role").Value;
             var id = (User.Identity as ClaimsIdentity).FindFirst("Id").Value;
 
-            var operation = new GetProductByDealerIdQuery(int.Parse(id));
+            var operation = new GetAllProductQuery(role, int.Parse(id));
             var result = await mediator.Send(operation);
             return result;
         }

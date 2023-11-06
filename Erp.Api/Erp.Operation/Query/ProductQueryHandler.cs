@@ -11,8 +11,7 @@ namespace Erp.Operation.Query
 {
     public class ProductQueryHandler :
         IRequestHandler<GetAllProductQuery, ApiResponse<List<ProductResponse>>>,
-        IRequestHandler<GetProductByIdQuery, ApiResponse<ProductResponse>>,
-        IRequestHandler<GetProductByDealerIdQuery, ApiResponse<List<ProductResponse>>>
+        IRequestHandler<GetProductByIdQuery, ApiResponse<ProductResponse>>
     {
         private readonly MyDbContext dbContext;
         private readonly IMapper mapper;
@@ -26,25 +25,19 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<ProductResponse>>> Handle(GetAllProductQuery request, CancellationToken cancellationToken)
         {
             List<Product> list = await dbContext.Set<Product>()
-                .Include(x => x.OrderItems)
-                .ToListAsync(cancellationToken);
-            var mapped = mapper.Map<List<ProductResponse>>(list);
+                    .Where(x => x.IsActive)
+                    .Include(x => x.OrderItems)
+                    .ToListAsync(cancellationToken);
 
-            return new ApiResponse<List<ProductResponse>>(mapped);
-        }
-
-        public async Task<ApiResponse<List<ProductResponse>>> Handle(GetProductByDealerIdQuery request, CancellationToken cancellationToken)
-        {
             Dealer? dealer = await dbContext.Set<Dealer>()
                 .FirstOrDefaultAsync(x => x.Id == request.DealerId, cancellationToken);
 
-            List<Product> list = await dbContext.Set<Product>()
-                .Include(x => x.OrderItems)
-                .ToListAsync(cancellationToken);
-
-            foreach (var item in list)
+            if (request.role == "dealer")
             {
-                item.ProductPrice += item.ProductPrice*dealer.MarginPercentage/100; 
+                foreach (var item in list)
+                {
+                    item.ProductPrice += item.ProductPrice * dealer.MarginPercentage / 100;
+                }
             }
 
             var mapped = mapper.Map<List<ProductResponse>>(list);
