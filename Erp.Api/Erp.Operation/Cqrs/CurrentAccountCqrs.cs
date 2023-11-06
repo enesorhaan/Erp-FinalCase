@@ -5,7 +5,7 @@ using MediatR;
 namespace Erp.Operation.Cqrs
 {
     public record CreateCurrentAccountCommand(CurrentAccountRequest Model) : IRequest<ApiResponse<CurrentAccountResponse>>;
-    public record UpdateCurrentAccountCommand(CurrentAccountRequest Model, int Id) : IRequest<ApiResponse>;
+    public record UpdateCurrentAccountCommand(CurrentAccountUpdateRequest Model, int Id) : IRequest<ApiResponse>;
     public record DeleteCurrentAccountCommand(int Id) : IRequest<ApiResponse>;
 
     public record GetAllCurrentAccountQuery() : IRequest<ApiResponse<List<CurrentAccountResponse>>>;

@@ -17,8 +17,6 @@ namespace Erp.Dto
     public class DealerResponse
     {
         public int Id { get; set; }
-        public int CompanyId { get; set; }
-        public string Company { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public string DealerName { get; set; }
@@ -27,9 +25,5 @@ namespace Erp.Dto
         public string TaxOffice { get; set; }
         public int TaxNumber { get; set; }
         public decimal? MarginPercentage { get; set; }
-        public UserRole Role { get; set; } = UserRole.dealer;
-
-        public virtual List<OrderResponse> Orders { get; set; }
-        public virtual List<MessageResponse> Messages { get; set; }
     }
 }

@@ -48,7 +48,7 @@ namespace Erp.Api.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "admin")]
-        public async Task<ApiResponse> Put(int id, [FromBody] CurrentAccountRequest request)
+        public async Task<ApiResponse> Put(int id, [FromBody] CurrentAccountUpdateRequest request)
         {
             var operation = new UpdateCurrentAccountCommand(request, id);
             var result = await mediator.Send(operation);

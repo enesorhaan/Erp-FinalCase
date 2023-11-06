@@ -14,16 +14,13 @@ namespace Erp.Operation.Mapper
                     opt => opt.MapFrom(src => src.Role));
 
             CreateMap<DealerRequest, Dealer>();
-            CreateMap<Dealer, DealerResponse>()
-                .ForMember(dest => dest.Company,
-                    opt => opt.MapFrom(src => src.Company.CompanyName));
+            CreateMap<Dealer, DealerResponse>();
 
             CreateMap<CurrentAccountRequest, CurrentAccount>();
+            CreateMap<CurrentAccountUpdateRequest, CurrentAccount>();
             CreateMap<CurrentAccount, CurrentAccountResponse>()
                 .ForMember(dest => dest.Dealer,
-                    opt => opt.MapFrom(src => src.Dealer.DealerName))
-                .ForMember(dest => dest.Company,
-                    opt => opt.MapFrom(src => src.Company.CompanyName));
+                    opt => opt.MapFrom(src => src.Dealer.DealerName));
 
             CreateMap<ProductRequest, Product>();
             CreateMap<Product, ProductResponse>();

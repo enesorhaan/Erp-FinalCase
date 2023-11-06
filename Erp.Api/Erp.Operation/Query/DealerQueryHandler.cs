@@ -25,6 +25,7 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<DealerResponse>>> Handle(GetAllDealerQuery request, CancellationToken cancellationToken)
         {
             List<Dealer> list = await dbContext.Set<Dealer>()
+                .Where(x => x.IsActive)
                 .ToListAsync(cancellationToken);
             
             foreach (var item in list)
@@ -41,6 +42,7 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<DealerResponse>> Handle(GetDealerByIdQuery request, CancellationToken cancellationToken)
         {
             Dealer? entity = await dbContext.Set<Dealer>()
+                .Where(x => x.IsActive)
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity is null)

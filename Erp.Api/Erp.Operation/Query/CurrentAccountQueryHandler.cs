@@ -25,6 +25,7 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<List<CurrentAccountResponse>>> Handle(GetAllCurrentAccountQuery request, CancellationToken cancellationToken)
         {
             List<CurrentAccount> list = await dbContext.Set<CurrentAccount>()
+                .Where(x => x.IsActive)
                 .ToListAsync(cancellationToken);
 
             foreach (var item in list)
@@ -41,6 +42,7 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<CurrentAccountResponse>> Handle(GetCurrentAccountByIdQuery request, CancellationToken cancellationToken)
         {
             CurrentAccount? entity = await dbContext.Set<CurrentAccount>()
+                .Where(x => x.IsActive)
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity is null)
