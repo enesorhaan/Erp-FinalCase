@@ -4,6 +4,10 @@ import { AddComponent } from './add/add.component';
 import { ListComponent } from './list/list.component';
 import { EditComponent } from './edit/edit.component';
 import { DealersRoutingModule } from './dealers-routing.module';
+import { ButtonModule, CardModule, FormModule, TableModule } from '@coreui/angular';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { IconModule } from '@coreui/icons-angular';
 
 
 @NgModule({
@@ -14,7 +18,15 @@ import { DealersRoutingModule } from './dealers-routing.module';
   ],
   imports: [
     CommonModule,
-    DealersRoutingModule
+    DealersRoutingModule,
+    CardModule,
+    TableModule,
+    ButtonModule,
+    FormModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+    IconModule
   ]
 })
 export class DealersModule { }
