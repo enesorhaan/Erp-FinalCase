@@ -52,6 +52,12 @@ const routes: Routes = [
           import('./views/expenses/expenses.module').then((m) => m.ExpensesModule)
       },
       {
+        path: 'message',
+        canActivate: [AuthGuardService],
+        loadChildren: () =>
+          import('./views/messages/messages.module').then((m) => m.MessagesModule)
+      },
+      {
         path: 'theme',
         loadChildren: () =>
           import('./views/theme/theme.module').then((m) => m.ThemeModule)

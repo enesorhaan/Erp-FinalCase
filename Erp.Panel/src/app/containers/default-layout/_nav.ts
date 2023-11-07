@@ -71,6 +71,29 @@ export const navItems: INavData[] = [
     ]
   },
   {
+    name: 'Messages',
+    url: '/message',
+    iconComponent: { name: 'cil-description' },
+    children: [
+      {
+        name: 'Admin Message List',
+        url: '/message/list/admin'
+      },
+      {
+        name: 'Message List',
+        url: '/message/list/dealer'
+      },
+      {
+        name: 'Add Admin Message',
+        url: '/message/add/admin'
+      },
+      {
+        name: 'Add Message',
+        url: '/message/add/dealer'
+      }
+    ]
+  },
+  {
     title: true,
     name: 'Theme'
   },
