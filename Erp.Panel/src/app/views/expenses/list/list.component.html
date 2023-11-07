@@ -1,0 +1,39 @@
+<c-card class="mb-4">
+    <c-card-header>
+      <strong>Expense List</strong>
+    </c-card-header>
+    <div class="mb-3 filter-container col-10">
+        <div class="col-2">
+            <label cLabel for="exampleFormControlInput1" aria-label="Floating label select example">Filter</label>
+            <select id="exampleFormControlInput1" cSelect [(ngModel)]="selectedValue" (ngModelChange)="onFilterChange()">
+                <option value="1">Get All</option>
+                <option value="2">Get Actives</option>
+                <option value="3">Get Passives</option>
+            </select>
+        </div>
+    </div>
+    <c-card-body *ngIf="expense.length > 0">
+        <table cTable>
+          <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Description</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Expense Date</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let e of expense">
+                <th scope="row">{{ e.id }}</th>
+                <td>{{ e.description }}</td>
+                <td>{{ e.amount }} TRY</td>
+                <td>{{ e.expenseDate }}</td>
+                <td><a routerLink="/expense/edit/{{ e.id }}"><i class="bi bi-pencil"></i></a></td>
+                <td><a routerLink="/expense/list" (click)="isDelete(e.id)"><i class="bi bi-trash"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+  </c-card>

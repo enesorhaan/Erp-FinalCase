@@ -56,6 +56,21 @@ export const navItems: INavData[] = [
     ]
   },
   {
+    name: 'Expenses',
+    url: '/expense',
+    iconComponent: { name: 'cil-description' },
+    children: [
+      {
+        name: 'Expense List',
+        url: '/expense/list'
+      },
+      {
+        name: 'Add Expense',
+        url: '/expense/add'
+      }
+    ]
+  },
+  {
     title: true,
     name: 'Theme'
   },
