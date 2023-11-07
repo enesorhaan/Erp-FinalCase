@@ -55,10 +55,7 @@ namespace Erp.Operation.Command
             await dbContext.SaveChangesAsync(cancellationToken);
 
             var response = mapper.Map<MessageResponse>(request.Model);
-            response.DealerId = checkReceiverUser.Response.Id;
-            response.CompanyId = 1;
             response.Dealer = checkReceiverUser.Response.DealerName;
-            response.Company = checkTransmitterUser.CompanyName;
 
             return new ApiResponse<MessageResponse>(response);
         }
@@ -93,10 +90,7 @@ namespace Erp.Operation.Command
             await dbContext.SaveChangesAsync(cancellationToken);
 
             var response = mapper.Map<MessageResponse>(request.Model);
-            response.DealerId = checkTransmitterUser.Response.Id;
-            response.CompanyId = 1;
             response.Dealer = checkTransmitterUser.Response.DealerName;
-            response.Company = checkReceiverUser.CompanyName;
 
             return new ApiResponse<MessageResponse>(response);
         }
