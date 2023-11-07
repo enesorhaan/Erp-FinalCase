@@ -1231,3 +1231,1780 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":[]}
 2023-11-07 02:00:29.786 [INF] -------------Request-End------------
+2023-11-07 09:24:00.937 [INF] App server is starting.
+2023-11-07 09:24:21.626 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:24:21.635 [INF] HeartBeat
+2023-11-07 09:24:21.638 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:24:24.853 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.857 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.858 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.858 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.858 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.858 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.858 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:24.858 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:24:29.045 [INF] -------------Request-Begin------------
+2023-11-07 09:24:29.045 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "patika"
+}
+2023-11-07 09:24:29.045 [INF] 
+
+2023-11-07 09:24:29.046 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-07T11:04:28.9323634+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkzNDQyNjgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.Hhc08rh3wsPdTdQwHDAOJ1etJrExwB4pRf6wh2yUNg8","user":"ABC A.S.","role":1}}
+2023-11-07 09:24:29.046 [INF] -------------Request-End------------
+2023-11-07 09:25:09.273 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:25:09.273 [INF] HeartBeat
+2023-11-07 09:25:09.273 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:25:09.806 [INF] -------------Request-Begin------------
+2023-11-07 09:25:09.806 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses 
+QueryString:  
+Request Body: {
+  "description": "same things",
+  "amount": 1000,
+  "expenseDate": "2023-11-01T06:41:55.137Z"
+}
+2023-11-07 09:25:09.806 [INF] 
+
+2023-11-07 09:25:09.806 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"dealerName":null,"description":"same things","amount":1000,"expenseDate":"2023-11-01T06:41:55.137Z","isActive":false}}
+2023-11-07 09:25:09.807 [INF] -------------Request-End------------
+2023-11-07 09:25:29.869 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:25:29.870 [INF] HeartBeat
+2023-11-07 09:25:29.870 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:25:29.979 [INF] -------------Request-Begin------------
+2023-11-07 09:25:29.979 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:25:29.979 [INF] 
+
+2023-11-07 09:25:29.979 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true}]}
+2023-11-07 09:25:29.979 [INF] -------------Request-End------------
+2023-11-07 09:25:58.745 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:25:58.745 [INF] HeartBeat
+2023-11-07 09:25:58.745 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:25:58.810 [INF] -------------Request-Begin------------
+2023-11-07 09:25:58.810 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses 
+QueryString:  
+Request Body: {
+  "description": "electrical",
+  "amount": 2000,
+  "expenseDate": "2022-11-01T06:41:55.137Z"
+}
+2023-11-07 09:25:58.810 [INF] 
+
+2023-11-07 09:25:58.810 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"dealerName":null,"description":"electrical","amount":2000,"expenseDate":"2022-11-01T06:41:55.137Z","isActive":false}}
+2023-11-07 09:25:58.810 [INF] -------------Request-End------------
+2023-11-07 09:26:02.380 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:26:02.380 [INF] HeartBeat
+2023-11-07 09:26:02.380 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:26:02.394 [INF] -------------Request-Begin------------
+2023-11-07 09:26:02.394 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:26:02.394 [INF] 
+
+2023-11-07 09:26:02.394 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":true}]}
+2023-11-07 09:26:02.394 [INF] -------------Request-End------------
+2023-11-07 09:26:14.855 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:26:14.855 [INF] HeartBeat
+2023-11-07 09:26:14.855 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:26:15.090 [INF] -------------Request-Begin------------
+2023-11-07 09:26:15.090 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/2 
+QueryString:  
+Request Body: 
+2023-11-07 09:26:15.090 [INF] 
+
+2023-11-07 09:26:15.090 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/2 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-07 09:26:15.090 [INF] -------------Request-End------------
+2023-11-07 09:26:19.431 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:26:19.431 [INF] HeartBeat
+2023-11-07 09:26:19.431 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:26:19.535 [INF] -------------Request-Begin------------
+2023-11-07 09:26:19.535 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/2 
+QueryString:  
+Request Body: 
+2023-11-07 09:26:19.535 [INF] 
+
+2023-11-07 09:26:19.535 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-07 09:26:19.535 [INF] -------------Request-End------------
+2023-11-07 09:26:36.123 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:26:36.123 [INF] HeartBeat
+2023-11-07 09:26:36.123 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:26:36.137 [INF] -------------Request-Begin------------
+2023-11-07 09:26:36.137 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:26:36.137 [INF] 
+
+2023-11-07 09:26:36.138 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":true}]}
+2023-11-07 09:26:36.138 [INF] -------------Request-End------------
+2023-11-07 09:26:39.157 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:26:39.157 [INF] HeartBeat
+2023-11-07 09:26:39.157 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:26:39.167 [INF] -------------Request-Begin------------
+2023-11-07 09:26:39.167 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:26:39.167 [INF] 
+
+2023-11-07 09:26:39.167 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":true}]}
+2023-11-07 09:26:39.167 [INF] -------------Request-End------------
+2023-11-07 09:26:58.396 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:26:58.396 [INF] HeartBeat
+2023-11-07 09:26:58.397 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:26:58.411 [INF] -------------Request-Begin------------
+2023-11-07 09:26:58.411 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:26:58.411 [INF] 
+
+2023-11-07 09:26:58.411 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":true}]}
+2023-11-07 09:26:58.411 [INF] -------------Request-End------------
+2023-11-07 09:27:34.986 [INF] App server is starting.
+2023-11-07 09:27:43.060 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:27:43.063 [INF] HeartBeat
+2023-11-07 09:27:43.064 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:27:44.251 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:44.253 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:27:45.332 [INF] -------------Request-Begin------------
+2023-11-07 09:27:45.332 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:27:45.333 [INF] 
+
+2023-11-07 09:27:45.333 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false}]}
+2023-11-07 09:27:45.333 [INF] -------------Request-End------------
+2023-11-07 09:28:50.894 [INF] App server is starting.
+2023-11-07 09:29:02.542 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:29:02.544 [INF] HeartBeat
+2023-11-07 09:29:02.546 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:29:03.819 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.822 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.822 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.822 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.822 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.823 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.823 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:03.823 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:29:04.877 [INF] -------------Request-Begin------------
+2023-11-07 09:29:04.877 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:29:04.877 [INF] 
+
+2023-11-07 09:29:04.877 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":true}]}
+2023-11-07 09:29:04.877 [INF] -------------Request-End------------
+2023-11-07 09:31:01.787 [INF] App server is starting.
+2023-11-07 09:31:11.120 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:31:11.127 [INF] HeartBeat
+2023-11-07 09:31:11.132 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:31:12.220 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.222 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.222 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.222 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.222 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.223 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.223 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:12.223 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:31:13.165 [INF] -------------Request-Begin------------
+2023-11-07 09:31:13.165 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:31:13.166 [INF] 
+
+2023-11-07 09:31:13.166 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false}]}
+2023-11-07 09:31:13.166 [INF] -------------Request-End------------
+2023-11-07 09:32:37.358 [INF] App server is starting.
+2023-11-07 09:33:38.748 [INF] App server is starting.
+2023-11-07 09:33:52.365 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:33:52.367 [INF] HeartBeat
+2023-11-07 09:33:52.369 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:33:52.790 [INF] -------------Request-Begin------------
+2023-11-07 09:33:52.790 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+Request Body: 
+2023-11-07 09:33:52.790 [INF] 
+
+2023-11-07 09:33:52.790 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses/GetAll 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-ae7db082c5c132ed92c827eba09cf5f0-bc57ee52fdbf8cfb-00","errors":{"id":["The value 'GetAll' is not valid."]}}
+2023-11-07 09:33:52.790 [INF] -------------Request-End------------
+2023-11-07 09:33:59.985 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:33:59.985 [INF] HeartBeat
+2023-11-07 09:33:59.985 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:34:00.835 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.837 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.837 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.837 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.837 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.837 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.838 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:00.838 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-07 09:34:02.096 [INF] -------------Request-Begin------------
+2023-11-07 09:34:02.096 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses 
+QueryString:  
+Request Body: 
+2023-11-07 09:34:02.096 [INF] 
+
+2023-11-07 09:34:02.096 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/Expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false}]}
+2023-11-07 09:34:02.096 [INF] -------------Request-End------------
+2023-11-07 09:45:09.941 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:45:09.952 [INF] HeartBeat
+2023-11-07 09:45:09.953 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:45:10.853 [INF] -------------Request-Begin------------
+2023-11-07 09:45:10.853 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-07 09:45:10.853 [INF] 
+
+2023-11-07 09:45:10.853 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-07T11:25:10.8404094+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTkzNDU1MTAsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.wLHqcQzkovsOVM3sS5PfWD9sHeeTVCB8mMKKEN6_CtY","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-07 09:45:10.853 [INF] -------------Request-End------------
+2023-11-07 09:56:26.007 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:56:26.010 [INF] HeartBeat
+2023-11-07 09:56:26.010 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:56:26.109 [INF] -------------Request-Begin------------
+2023-11-07 09:56:26.109 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-07 09:56:26.109 [INF] 
+
+2023-11-07 09:56:26.109 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-07T11:36:26.1086895+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTkzNDYxODYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.iQEwSclbaZTi_gKPU8vhRC312hFMG0WfGv6RADhK4Fk","user":"ABC A.S.","role":1}}
+2023-11-07 09:56:26.110 [INF] -------------Request-End------------
+2023-11-07 09:56:44.366 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:56:44.366 [INF] HeartBeat
+2023-11-07 09:56:44.366 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:56:44.703 [INF] -------------Request-Begin------------
+2023-11-07 09:56:44.703 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: {"description":"abcdds","amount":500,"expenseDate":"2023-11-05"}
+2023-11-07 09:56:44.703 [INF] 
+
+2023-11-07 09:56:44.703 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"dealerName":null,"description":"abcdds","amount":500,"expenseDate":"2023-11-05T00:00:00","isActive":true}}
+2023-11-07 09:56:44.703 [INF] -------------Request-End------------
+2023-11-07 09:59:06.526 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 09:59:06.526 [INF] HeartBeat
+2023-11-07 09:59:06.526 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 09:59:06.593 [INF] -------------Request-Begin------------
+2023-11-07 09:59:06.593 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 09:59:06.593 [INF] 
+
+2023-11-07 09:59:06.593 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 09:59:06.593 [INF] -------------Request-End------------
+2023-11-07 10:00:25.491 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:00:25.492 [INF] HeartBeat
+2023-11-07 10:00:25.492 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:00:25.617 [INF] -------------Request-Begin------------
+2023-11-07 10:00:25.617 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:00:25.617 [INF] 
+
+2023-11-07 10:00:25.617 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:00:25.617 [INF] -------------Request-End------------
+2023-11-07 10:02:22.579 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:02:22.579 [INF] HeartBeat
+2023-11-07 10:02:22.579 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:02:22.598 [INF] -------------Request-Begin------------
+2023-11-07 10:02:22.598 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:02:22.599 [INF] 
+
+2023-11-07 10:02:22.599 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:02:22.599 [INF] -------------Request-End------------
+2023-11-07 10:02:57.775 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:02:57.776 [INF] HeartBeat
+2023-11-07 10:02:57.776 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:02:57.833 [INF] -------------Request-Begin------------
+2023-11-07 10:02:57.833 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:02:57.833 [INF] 
+
+2023-11-07 10:02:57.833 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:02:57.833 [INF] -------------Request-End------------
+2023-11-07 10:03:04.206 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:03:04.206 [INF] HeartBeat
+2023-11-07 10:03:04.206 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:03:04.220 [INF] -------------Request-Begin------------
+2023-11-07 10:03:04.221 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/3 
+QueryString:  
+Request Body: 
+2023-11-07 10:03:04.221 [INF] 
+
+2023-11-07 10:03:04.221 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products/3 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-07 10:03:04.221 [INF] -------------Request-End------------
+2023-11-07 10:03:13.242 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:03:13.242 [INF] HeartBeat
+2023-11-07 10:03:13.242 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:03:13.362 [INF] -------------Request-Begin------------
+2023-11-07 10:03:13.362 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:03:13.362 [INF] 
+
+2023-11-07 10:03:13.362 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:03:13.362 [INF] -------------Request-End------------
+2023-11-07 10:03:40.508 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:03:40.508 [INF] HeartBeat
+2023-11-07 10:03:40.508 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:03:40.556 [INF] -------------Request-Begin------------
+2023-11-07 10:03:40.556 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:03:40.556 [INF] 
+
+2023-11-07 10:03:40.556 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:03:40.556 [INF] -------------Request-End------------
+2023-11-07 10:03:46.040 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:03:46.040 [INF] HeartBeat
+2023-11-07 10:03:46.040 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:03:46.052 [INF] -------------Request-Begin------------
+2023-11-07 10:03:46.052 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:03:46.052 [INF] 
+
+2023-11-07 10:03:46.052 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:03:46.052 [INF] -------------Request-End------------
+2023-11-07 10:03:48.956 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:03:48.956 [INF] HeartBeat
+2023-11-07 10:03:48.957 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:03:48.968 [INF] -------------Request-Begin------------
+2023-11-07 10:03:48.968 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:03:48.968 [INF] 
+
+2023-11-07 10:03:48.968 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:03:48.968 [INF] -------------Request-End------------
+2023-11-07 10:09:11.009 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:09:11.009 [INF] HeartBeat
+2023-11-07 10:09:11.009 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:09:11.065 [INF] -------------Request-Begin------------
+2023-11-07 10:09:11.066 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:09:11.066 [INF] 
+
+2023-11-07 10:09:11.066 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:09:11.066 [INF] -------------Request-End------------
+2023-11-07 10:11:32.250 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:11:32.250 [INF] HeartBeat
+2023-11-07 10:11:32.250 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:11:32.325 [INF] -------------Request-Begin------------
+2023-11-07 10:11:32.326 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:11:32.326 [INF] 
+
+2023-11-07 10:11:32.326 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:11:32.326 [INF] -------------Request-End------------
+2023-11-07 10:12:03.089 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:12:03.089 [INF] HeartBeat
+2023-11-07 10:12:03.089 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:12:03.124 [INF] -------------Request-Begin------------
+2023-11-07 10:12:03.124 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:12:03.124 [INF] 
+
+2023-11-07 10:12:03.124 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:12:03.124 [INF] -------------Request-End------------
+2023-11-07 10:12:06.964 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:12:06.964 [INF] HeartBeat
+2023-11-07 10:12:06.964 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:12:06.981 [INF] -------------Request-Begin------------
+2023-11-07 10:12:06.981 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:12:06.981 [INF] 
+
+2023-11-07 10:12:06.981 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:12:06.981 [INF] -------------Request-End------------
+2023-11-07 10:13:20.758 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:13:20.758 [INF] HeartBeat
+2023-11-07 10:13:20.758 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:13:20.785 [INF] -------------Request-Begin------------
+2023-11-07 10:13:20.785 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:13:20.785 [INF] 
+
+2023-11-07 10:13:20.785 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:13:20.785 [INF] -------------Request-End------------
+2023-11-07 10:13:42.257 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:13:42.259 [INF] HeartBeat
+2023-11-07 10:13:42.259 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:13:42.274 [INF] -------------Request-Begin------------
+2023-11-07 10:13:42.274 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:13:42.274 [INF] 
+
+2023-11-07 10:13:42.274 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:13:42.274 [INF] -------------Request-End------------
+2023-11-07 10:20:46.083 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:20:46.084 [INF] HeartBeat
+2023-11-07 10:20:46.084 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:20:46.135 [INF] -------------Request-Begin------------
+2023-11-07 10:20:46.135 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:20:46.135 [INF] 
+
+2023-11-07 10:20:46.135 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:20:46.135 [INF] -------------Request-End------------
+2023-11-07 10:21:20.516 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:21:20.516 [INF] HeartBeat
+2023-11-07 10:21:20.516 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:21:20.535 [INF] -------------Request-Begin------------
+2023-11-07 10:21:20.535 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:21:20.535 [INF] 
+
+2023-11-07 10:21:20.535 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:21:20.535 [INF] -------------Request-End------------
+2023-11-07 10:21:55.992 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:21:55.992 [INF] HeartBeat
+2023-11-07 10:21:55.992 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:21:56.081 [INF] -------------Request-Begin------------
+2023-11-07 10:21:56.081 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:21:56.081 [INF] 
+
+2023-11-07 10:21:56.081 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:21:56.081 [INF] -------------Request-End------------
+2023-11-07 10:22:35.612 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:22:35.612 [INF] HeartBeat
+2023-11-07 10:22:35.612 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:22:35.763 [INF] -------------Request-Begin------------
+2023-11-07 10:22:35.763 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:22:35.763 [INF] 
+
+2023-11-07 10:22:35.763 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:22:35.763 [INF] -------------Request-End------------
+2023-11-07 10:23:17.645 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:23:17.645 [INF] HeartBeat
+2023-11-07 10:23:17.645 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:23:17.671 [INF] -------------Request-Begin------------
+2023-11-07 10:23:17.671 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:23:17.671 [INF] 
+
+2023-11-07 10:23:17.671 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:23:17.671 [INF] -------------Request-End------------
+2023-11-07 10:24:29.026 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:24:29.026 [INF] HeartBeat
+2023-11-07 10:24:29.026 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:24:29.094 [INF] -------------Request-Begin------------
+2023-11-07 10:24:29.094 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:24:29.094 [INF] 
+
+2023-11-07 10:24:29.095 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:24:29.095 [INF] -------------Request-End------------
+2023-11-07 10:28:26.973 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:28:26.974 [INF] HeartBeat
+2023-11-07 10:28:26.974 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:28:27.123 [INF] -------------Request-Begin------------
+2023-11-07 10:28:27.123 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:28:27.123 [INF] 
+
+2023-11-07 10:28:27.123 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:28:27.123 [INF] -------------Request-End------------
+2023-11-07 10:29:00.642 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:29:00.643 [INF] HeartBeat
+2023-11-07 10:29:00.643 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:29:00.722 [INF] -------------Request-Begin------------
+2023-11-07 10:29:00.722 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:29:00.723 [INF] 
+
+2023-11-07 10:29:00.723 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:29:00.723 [INF] -------------Request-End------------
+2023-11-07 10:29:47.007 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:29:47.007 [INF] HeartBeat
+2023-11-07 10:29:47.007 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:29:47.130 [INF] -------------Request-Begin------------
+2023-11-07 10:29:47.130 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:29:47.130 [INF] 
+
+2023-11-07 10:29:47.130 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:29:47.130 [INF] -------------Request-End------------
+2023-11-07 10:31:32.870 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:31:32.871 [INF] HeartBeat
+2023-11-07 10:31:32.871 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:31:32.907 [INF] -------------Request-Begin------------
+2023-11-07 10:31:32.907 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:31:32.907 [INF] 
+
+2023-11-07 10:31:32.907 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:31:32.907 [INF] -------------Request-End------------
+2023-11-07 10:31:41.058 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:31:41.061 [INF] HeartBeat
+2023-11-07 10:31:41.061 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:31:41.184 [INF] -------------Request-Begin------------
+2023-11-07 10:31:41.185 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:31:41.185 [INF] 
+
+2023-11-07 10:31:41.185 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:31:41.185 [INF] -------------Request-End------------
+2023-11-07 10:33:49.101 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:33:49.102 [INF] HeartBeat
+2023-11-07 10:33:49.102 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:33:49.134 [INF] -------------Request-Begin------------
+2023-11-07 10:33:49.134 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:33:49.134 [INF] 
+
+2023-11-07 10:33:49.134 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:33:49.134 [INF] -------------Request-End------------
+2023-11-07 10:34:00.558 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:34:00.558 [INF] HeartBeat
+2023-11-07 10:34:00.558 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:34:00.601 [INF] -------------Request-Begin------------
+2023-11-07 10:34:00.601 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:34:00.601 [INF] 
+
+2023-11-07 10:34:00.601 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:34:00.601 [INF] -------------Request-End------------
+2023-11-07 10:34:07.200 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:34:07.200 [INF] HeartBeat
+2023-11-07 10:34:07.200 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:34:07.217 [INF] -------------Request-Begin------------
+2023-11-07 10:34:07.218 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:34:07.218 [INF] 
+
+2023-11-07 10:34:07.218 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:34:07.218 [INF] -------------Request-End------------
+2023-11-07 10:34:16.796 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:34:16.796 [INF] HeartBeat
+2023-11-07 10:34:16.796 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:34:16.816 [INF] -------------Request-Begin------------
+2023-11-07 10:34:16.816 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:34:16.816 [INF] 
+
+2023-11-07 10:34:16.816 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:34:16.816 [INF] -------------Request-End------------
+2023-11-07 10:35:16.357 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:35:16.357 [INF] HeartBeat
+2023-11-07 10:35:16.357 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:35:16.378 [INF] -------------Request-Begin------------
+2023-11-07 10:35:16.378 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:35:16.378 [INF] 
+
+2023-11-07 10:35:16.378 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:35:16.378 [INF] -------------Request-End------------
+2023-11-07 10:37:36.437 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:37:36.437 [INF] HeartBeat
+2023-11-07 10:37:36.437 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:37:36.611 [INF] -------------Request-Begin------------
+2023-11-07 10:37:36.611 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:37:36.611 [INF] 
+
+2023-11-07 10:37:36.611 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:37:36.611 [INF] -------------Request-End------------
+2023-11-07 10:37:59.030 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:37:59.030 [INF] HeartBeat
+2023-11-07 10:37:59.061 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:37:59.088 [INF] -------------Request-Begin------------
+2023-11-07 10:37:59.088 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:37:59.088 [INF] 
+
+2023-11-07 10:37:59.088 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:37:59.088 [INF] -------------Request-End------------
+2023-11-07 10:39:51.825 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:39:51.825 [INF] HeartBeat
+2023-11-07 10:39:51.825 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:39:51.859 [INF] -------------Request-Begin------------
+2023-11-07 10:39:51.860 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:39:51.860 [INF] 
+
+2023-11-07 10:39:51.860 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:39:51.860 [INF] -------------Request-End------------
+2023-11-07 10:40:00.135 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:40:00.135 [INF] HeartBeat
+2023-11-07 10:40:00.135 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:40:00.148 [INF] -------------Request-Begin------------
+2023-11-07 10:40:00.149 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:40:00.149 [INF] 
+
+2023-11-07 10:40:00.149 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:40:00.149 [INF] -------------Request-End------------
+2023-11-07 10:40:06.587 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:40:06.587 [INF] HeartBeat
+2023-11-07 10:40:06.587 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:40:06.619 [INF] -------------Request-Begin------------
+2023-11-07 10:40:06.619 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:40:06.619 [INF] 
+
+2023-11-07 10:40:06.619 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:40:06.619 [INF] -------------Request-End------------
+2023-11-07 10:40:14.846 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:40:14.846 [INF] HeartBeat
+2023-11-07 10:40:14.846 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:40:14.857 [INF] -------------Request-Begin------------
+2023-11-07 10:40:14.857 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:40:14.857 [INF] 
+
+2023-11-07 10:40:14.857 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:40:14.857 [INF] -------------Request-End------------
+2023-11-07 10:41:25.812 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:41:25.813 [INF] HeartBeat
+2023-11-07 10:41:25.815 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:41:25.899 [INF] -------------Request-Begin------------
+2023-11-07 10:41:25.900 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:41:25.900 [INF] 
+
+2023-11-07 10:41:25.900 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:41:25.900 [INF] -------------Request-End------------
+2023-11-07 10:41:56.683 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:41:56.684 [INF] HeartBeat
+2023-11-07 10:41:56.684 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:41:56.854 [INF] -------------Request-Begin------------
+2023-11-07 10:41:56.854 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:41:56.854 [INF] 
+
+2023-11-07 10:41:56.854 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:41:56.854 [INF] -------------Request-End------------
+2023-11-07 10:42:06.227 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:42:06.227 [INF] HeartBeat
+2023-11-07 10:42:06.227 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:42:06.282 [INF] -------------Request-Begin------------
+2023-11-07 10:42:06.282 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:42:06.282 [INF] 
+
+2023-11-07 10:42:06.282 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:42:06.282 [INF] -------------Request-End------------
+2023-11-07 10:47:26.122 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:47:26.125 [INF] HeartBeat
+2023-11-07 10:47:26.125 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:47:27.030 [INF] -------------Request-Begin------------
+2023-11-07 10:47:27.030 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:47:27.030 [INF] 
+
+2023-11-07 10:47:27.030 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:47:27.030 [INF] -------------Request-End------------
+2023-11-07 10:50:23.643 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:50:23.644 [INF] HeartBeat
+2023-11-07 10:50:23.644 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:50:23.696 [INF] -------------Request-Begin------------
+2023-11-07 10:50:23.696 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:50:23.696 [INF] 
+
+2023-11-07 10:50:23.696 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:50:23.696 [INF] -------------Request-End------------
+2023-11-07 10:50:54.598 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:50:54.601 [INF] HeartBeat
+2023-11-07 10:50:54.601 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:50:54.672 [INF] -------------Request-Begin------------
+2023-11-07 10:50:54.672 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:50:54.672 [INF] 
+
+2023-11-07 10:50:54.673 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:50:54.673 [INF] -------------Request-End------------
+2023-11-07 10:51:41.137 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:51:41.137 [INF] HeartBeat
+2023-11-07 10:51:41.137 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:51:41.227 [INF] -------------Request-Begin------------
+2023-11-07 10:51:41.228 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:51:41.228 [INF] 
+
+2023-11-07 10:51:41.228 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:51:41.228 [INF] -------------Request-End------------
+2023-11-07 10:52:18.204 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:52:18.204 [INF] HeartBeat
+2023-11-07 10:52:18.204 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:52:18.230 [INF] -------------Request-Begin------------
+2023-11-07 10:52:18.230 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:52:18.230 [INF] 
+
+2023-11-07 10:52:18.230 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:52:18.230 [INF] -------------Request-End------------
+2023-11-07 10:53:51.176 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 10:53:51.176 [INF] HeartBeat
+2023-11-07 10:53:51.176 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 10:53:51.205 [INF] -------------Request-Begin------------
+2023-11-07 10:53:51.205 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 10:53:51.205 [INF] 
+
+2023-11-07 10:53:51.205 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 10:53:51.205 [INF] -------------Request-End------------
+2023-11-07 11:02:45.502 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:02:45.502 [INF] HeartBeat
+2023-11-07 11:02:45.503 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:02:45.714 [INF] -------------Request-Begin------------
+2023-11-07 11:02:45.715 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:02:45.715 [INF] 
+
+2023-11-07 11:02:45.715 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:02:45.715 [INF] -------------Request-End------------
+2023-11-07 11:06:07.943 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:07.943 [INF] HeartBeat
+2023-11-07 11:06:07.943 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:07.991 [INF] -------------Request-Begin------------
+2023-11-07 11:06:07.992 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:07.992 [INF] 
+
+2023-11-07 11:06:07.992 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:07.992 [INF] -------------Request-End------------
+2023-11-07 11:06:09.948 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:09.948 [INF] HeartBeat
+2023-11-07 11:06:09.948 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:09.961 [INF] -------------Request-Begin------------
+2023-11-07 11:06:09.961 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:09.961 [INF] 
+
+2023-11-07 11:06:09.961 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:09.961 [INF] -------------Request-End------------
+2023-11-07 11:06:11.732 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:11.732 [INF] HeartBeat
+2023-11-07 11:06:11.732 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:11.737 [INF] -------------Request-Begin------------
+2023-11-07 11:06:11.737 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:11.737 [INF] 
+
+2023-11-07 11:06:11.737 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:11.737 [INF] -------------Request-End------------
+2023-11-07 11:06:13.562 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:13.562 [INF] HeartBeat
+2023-11-07 11:06:13.562 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:13.568 [INF] -------------Request-Begin------------
+2023-11-07 11:06:13.568 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:13.568 [INF] 
+
+2023-11-07 11:06:13.568 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:13.568 [INF] -------------Request-End------------
+2023-11-07 11:06:15.258 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:15.258 [INF] HeartBeat
+2023-11-07 11:06:15.258 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:15.263 [INF] -------------Request-Begin------------
+2023-11-07 11:06:15.263 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:15.263 [INF] 
+
+2023-11-07 11:06:15.263 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:15.263 [INF] -------------Request-End------------
+2023-11-07 11:06:17.910 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:17.910 [INF] HeartBeat
+2023-11-07 11:06:17.910 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:17.923 [INF] -------------Request-Begin------------
+2023-11-07 11:06:17.923 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:17.923 [INF] 
+
+2023-11-07 11:06:17.923 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:17.923 [INF] -------------Request-End------------
+2023-11-07 11:06:19.236 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:19.236 [INF] HeartBeat
+2023-11-07 11:06:19.236 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:19.244 [INF] -------------Request-Begin------------
+2023-11-07 11:06:19.244 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:19.244 [INF] 
+
+2023-11-07 11:06:19.244 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:19.244 [INF] -------------Request-End------------
+2023-11-07 11:06:23.078 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:06:23.078 [INF] HeartBeat
+2023-11-07 11:06:23.078 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:06:23.090 [INF] -------------Request-Begin------------
+2023-11-07 11:06:23.090 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:06:23.090 [INF] 
+
+2023-11-07 11:06:23.090 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:06:23.092 [INF] -------------Request-End------------
+2023-11-07 11:07:10.633 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:07:10.633 [INF] HeartBeat
+2023-11-07 11:07:10.633 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:07:10.663 [INF] -------------Request-Begin------------
+2023-11-07 11:07:10.663 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:07:10.663 [INF] 
+
+2023-11-07 11:07:10.663 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:07:10.663 [INF] -------------Request-End------------
+2023-11-07 11:07:13.549 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:07:13.549 [INF] HeartBeat
+2023-11-07 11:07:13.549 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:07:13.577 [INF] -------------Request-Begin------------
+2023-11-07 11:07:13.577 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:07:13.577 [INF] 
+
+2023-11-07 11:07:13.577 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:07:13.577 [INF] -------------Request-End------------
+2023-11-07 11:07:14.672 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:07:14.672 [INF] HeartBeat
+2023-11-07 11:07:14.672 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:07:14.690 [INF] -------------Request-Begin------------
+2023-11-07 11:07:14.690 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:07:14.690 [INF] 
+
+2023-11-07 11:07:14.690 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:07:14.690 [INF] -------------Request-End------------
+2023-11-07 11:07:16.219 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:07:16.219 [INF] HeartBeat
+2023-11-07 11:07:16.219 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:07:16.235 [INF] -------------Request-Begin------------
+2023-11-07 11:07:16.235 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:07:16.235 [INF] 
+
+2023-11-07 11:07:16.235 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:07:16.235 [INF] -------------Request-End------------
+2023-11-07 11:07:20.839 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:07:20.840 [INF] HeartBeat
+2023-11-07 11:07:20.840 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:07:20.855 [INF] -------------Request-Begin------------
+2023-11-07 11:07:20.855 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:07:20.855 [INF] 
+
+2023-11-07 11:07:20.855 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:07:20.855 [INF] -------------Request-End------------
+2023-11-07 11:09:49.978 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:09:49.978 [INF] HeartBeat
+2023-11-07 11:09:49.978 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:09:50.015 [INF] -------------Request-Begin------------
+2023-11-07 11:09:50.015 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:09:50.015 [INF] 
+
+2023-11-07 11:09:50.015 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:09:50.015 [INF] -------------Request-End------------
+2023-11-07 11:11:45.721 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:11:45.722 [INF] HeartBeat
+2023-11-07 11:11:45.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:11:45.750 [INF] -------------Request-Begin------------
+2023-11-07 11:11:45.750 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:11:45.750 [INF] 
+
+2023-11-07 11:11:45.750 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:11:45.750 [INF] -------------Request-End------------
+2023-11-07 11:11:50.039 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:11:50.039 [INF] HeartBeat
+2023-11-07 11:11:50.039 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:11:50.069 [INF] -------------Request-Begin------------
+2023-11-07 11:11:50.069 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:11:50.069 [INF] 
+
+2023-11-07 11:11:50.069 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:11:50.069 [INF] -------------Request-End------------
+2023-11-07 11:11:52.421 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:11:52.422 [INF] HeartBeat
+2023-11-07 11:11:52.422 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:11:52.445 [INF] -------------Request-Begin------------
+2023-11-07 11:11:52.445 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:11:52.445 [INF] 
+
+2023-11-07 11:11:52.445 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:11:52.445 [INF] -------------Request-End------------
+2023-11-07 11:11:53.695 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:11:53.695 [INF] HeartBeat
+2023-11-07 11:11:53.695 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:11:54.007 [INF] -------------Request-Begin------------
+2023-11-07 11:11:54.009 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses/1 
+QueryString:  
+Request Body: 
+2023-11-07 11:11:54.009 [INF] 
+
+2023-11-07 11:11:54.009 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":1000.00,"expenseDate":"2023-11-01T06:41:55.137","isActive":true}}
+2023-11-07 11:11:54.009 [INF] -------------Request-End------------
+2023-11-07 11:12:06.999 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:12:07.000 [INF] HeartBeat
+2023-11-07 11:12:07.000 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:12:07.289 [INF] -------------Request-Begin------------
+2023-11-07 11:12:07.289 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses/1 
+QueryString:  
+Request Body: {"description":"same things","amount":2000,"expenseDate":"2023-11-03"}
+2023-11-07 11:12:07.289 [INF] 
+
+2023-11-07 11:12:07.289 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-11-07 11:12:07.289 [INF] -------------Request-End------------
+2023-11-07 11:12:07.327 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:12:07.327 [INF] HeartBeat
+2023-11-07 11:12:07.327 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:12:07.334 [INF] -------------Request-Begin------------
+2023-11-07 11:12:07.334 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:12:07.334 [INF] 
+
+2023-11-07 11:12:07.334 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:12:07.334 [INF] -------------Request-End------------
+2023-11-07 11:12:08.435 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-07 11:12:08.435 [INF] HeartBeat
+2023-11-07 11:12:08.435 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-07 11:12:08.457 [INF] -------------Request-Begin------------
+2023-11-07 11:12:08.457 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-07 11:12:08.457 [INF] 
+
+2023-11-07 11:12:08.457 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":true},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":true}]}
+2023-11-07 11:12:08.457 [INF] -------------Request-End------------
