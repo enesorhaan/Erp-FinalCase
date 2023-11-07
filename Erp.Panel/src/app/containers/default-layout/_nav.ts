@@ -94,6 +94,21 @@ export const navItems: INavData[] = [
     ]
   },
   {
+    name: 'Order Items',
+    url: '/orderitem',
+    iconComponent: { name: 'cil-description' },
+    children: [
+      {
+        name: 'Order Item List',
+        url: '/orderitem/list'
+      },
+      {
+        name: 'Add Order Item',
+        url: '/orderitem/add'
+      }
+    ]
+  },
+  {
     title: true,
     name: 'Theme'
   },
