@@ -14,11 +14,7 @@
     public class OrderItemResponse
     {
         public int Id { get; set; }
-        public bool IsActive { get; set; }
-        public int ProductId { get; set; }
         public string Product { get; set; }
-        public int DealerId { get; set; }
-        public string Dealer { get; set; }
         public decimal MarginPrice { get; set; }
         public int Quantity { get; set; }
     }
