@@ -64,6 +64,12 @@ const routes: Routes = [
           import('./views/orderitems/orderitems.module').then((m) => m.OrderitemsModule)
       },
       {
+        path: 'order',
+        canActivate: [AuthGuardService],
+        loadChildren: () =>
+          import('./views/orders/orders.module').then((m) => m.OrdersModule)
+      },
+      {
         path: 'theme',
         loadChildren: () =>
           import('./views/theme/theme.module').then((m) => m.ThemeModule)

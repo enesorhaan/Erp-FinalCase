@@ -17,7 +17,6 @@ export class AddComponent implements OnInit, OnDestroy {
   })
 
   product:any[] = []
-  productPrice: any;
 
   constructor(
     private orderitemService: OrderitemService,
@@ -45,20 +44,12 @@ export class AddComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.getProduct();
-    this.getPrice(this.orderItemForm.value.productId);
   }
 
   getProduct(){
     this.productService.get().subscribe(  (data:any) => {
       this.product = data.response;
       console.log(this.product);
-    })
-  }
-
-  getPrice(productId:any){
-    this.productService.getById(productId).subscribe(  (data:any) => {
-      this.productPrice = data.response.productPrice;
-      console.log(this.productPrice);
     })
   }
   
