@@ -121,7 +121,7 @@ namespace Erp.Data.Repository
 
         public List<Product> GetAllProduct(params string[] includes)
         {
-            var query = "SELECT ProductName, ProductStock FROM Product";
+            var query = "SELECT ProductName, ProductStock FROM Product WHERE IsActive = 1";
 
             using (var connection = dapperContext.CreateConnection())
             {
@@ -132,7 +132,7 @@ namespace Erp.Data.Repository
 
         public List<Product> GetAllProductCheckStock(params string[] includes)
         {
-            var query = "SELECT ProductName, ProductStock FROM Product WHERE ProductStock < 10";
+            var query = "SELECT ProductName, ProductStock FROM Product WHERE IsActive = 1 and ProductStock < 10";
 
             using (var connection = dapperContext.CreateConnection())
             {
