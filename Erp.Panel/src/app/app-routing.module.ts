@@ -70,6 +70,12 @@ const routes: Routes = [
           import('./views/orders/orders.module').then((m) => m.OrdersModule)
       },
       {
+        path: 'report',
+        canActivate: [AuthGuardService],
+        loadChildren: () =>
+          import('./views/reports/reports.module').then((m) => m.ReportsModule)
+      },
+      {
         path: 'theme',
         loadChildren: () =>
           import('./views/theme/theme.module').then((m) => m.ThemeModule)
