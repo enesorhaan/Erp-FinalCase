@@ -13,9 +13,10 @@ import { ToastrService } from 'ngx-toastr'
 export class AddComponent implements OnInit, OnDestroy {
   orderItem:any[] = []
   totalPrice:number = 0;
+  paymentMethod:number = 0;
 
   orderForm = new FormGroup({
-    paymentMethod: new FormControl('1'),
+    paymentMethod: new FormControl<number>(1)
   })
 
   
@@ -28,6 +29,10 @@ export class AddComponent implements OnInit, OnDestroy {
   }
   
   onSubmit(){
+    this.orderForm.setValue({
+      paymentMethod: this.paymentMethod
+    });
+
     this.orderService.add(this.orderForm.value).subscribe({
       next: data => {
         console.log(data);
@@ -35,12 +40,13 @@ export class AddComponent implements OnInit, OnDestroy {
           this.toastr.error(data.message, 'Error');
           return;
         }
+        this.toastr.success('Order Created!', 'Success');
         this.router.navigate(['/order/list/dealer']);
       },
       error: error => {
         console.log(this.orderForm.value);
         console.log(error, "Error");
-        this.toastr.error('Invalid informations!', 'Error');
+        this.toastr.error('Please Choose Payment Method!', 'Error');
       }
     })
   }
@@ -49,7 +55,7 @@ export class AddComponent implements OnInit, OnDestroy {
     this.load();
   }
 
-  setPaymentMethod(method: string) {
+  setPaymentMethod(method: number) {
     this.orderForm.setValue({
       paymentMethod: method
     });

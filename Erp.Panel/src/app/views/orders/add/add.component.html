@@ -36,19 +36,19 @@
             </div>
             <div class="mb-3">
                 <c-form-check inline>
-                    <input cFormCheckInput id="radioinline1" type="radio" formControlName="paymentMethod" [value]="'1'"/>
+                    <input cFormCheckInput id="radioinline1" type="radio" name="paymentMethod" value="1" (change)="paymentMethod = 1"/>
                     <label cFormCheckLabel for="radioinline1">Remittance</label>
                 </c-form-check>
                 <c-form-check inline>
-                    <input cFormCheckInput id="radioinline2" type="radio" formControlName="paymentMethod" [value]="'2'"/>
+                    <input cFormCheckInput id="radioinline2" type="radio" name="paymentMethod" value="2" (change)="paymentMethod = 2"/>
                     <label cFormCheckLabel for="radioinline2">Credit Card</label>
                 </c-form-check>
                 <c-form-check inline>
-                    <input cFormCheckInput id="radioinline3" type="radio" formControlName="paymentMethod" [value]="'3'"/>
+                    <input cFormCheckInput id="radioinline3" type="radio" name="paymentMethod" value="3" (change)="paymentMethod = 3"/>
                     <label cFormCheckLabel for="radioinline3">Credit Limit</label>
                 </c-form-check>
             </div>
-            <div class="mb-3" *ngIf="orderForm?.get('paymentMethod')?.value === '2'">
+            <div class="mb-3" *ngIf="paymentMethod === 2">
                 <div class="mb-3">
                     <label cLabel for="exampleFormControlTextarea1">Name on Card</label>
                     <input cFormControl

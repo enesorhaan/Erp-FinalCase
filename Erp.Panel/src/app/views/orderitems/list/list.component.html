@@ -1,8 +1,8 @@
-<c-card *ngIf="orderItem.length > 0" class="mb-4">
+<c-card class="mb-4">
     <c-card-header>
       <strong>Order Item List</strong>
     </c-card-header>
-    <c-card-body>
+    <c-card-body *ngIf="orderItem.length > 0">
         <table cTable>
           <thead>
             <tr>

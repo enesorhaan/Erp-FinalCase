@@ -1,1 +1,55 @@
-<p>editadmin works!</p>
+<c-card class="mb-4">
+    <c-card-header>
+      <strong>Order</strong>
+    </c-card-header>
+    <c-card-body *ngIf="order.length > 0">
+        <table cTable>
+          <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Dealer Name</th>
+                <th scope="col">Billing Number</th>
+                <th scope="col">Total Price</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">Payment Method</th>
+                <th scope="col">Order Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let o of order">
+                <th scope="row">{{ o.id }}</th>
+                <td>{{ o.dealer }}</td>
+                <td>{{ o.billingNumber }}</td>
+                <td>{{ o.totalPrice }} TRY</td>
+                <td>{{ o.orderDate }}</td>
+                <td>{{ o.paymentMethod }}</td>
+                <td>{{ o.orderStatus }}</td>
+            </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+</c-card>
+
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+        <strong>Edit Order</strong>
+    </c-card-header>
+    <c-card-body>
+        <div class="mb-3">
+            <c-form-check inline>
+                <input cFormCheckInput id="radioinline1" type="radio" name="orderStatus" value="1" (change)="orderStatus = 2"/>
+                <label cFormCheckLabel for="radioinline1">Approve</label>
+            </c-form-check>
+            <c-form-check inline>
+                <input cFormCheckInput id="radioinline2" type="radio" name="orderStatus" value="2" (change)="orderStatus = 3"/>
+                <label cFormCheckLabel for="radioinline2">Reject</label>
+            </c-form-check>
+        </div>
+        <form [formGroup]="orderForm" cForm>
+            <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+                Update
+            </button>
+        </form>
+    </c-card-body>
+</c-card>
+
