@@ -18,7 +18,7 @@ namespace Erp.Api.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet("byCompany")]
+        [HttpGet("admin")]
         [Authorize(Roles = "admin")]
         public async Task<ApiResponse<List<OrderResponse>>> GetAllByCompany()
         {
@@ -27,7 +27,7 @@ namespace Erp.Api.Controllers
             return result;
         }
 
-        [HttpGet("byDealer")]
+        [HttpGet("dealer")]
         [Authorize(Roles = "dealer")]
         public async Task<ApiResponse<List<OrderResponse>>> GetAllByDealer()
         {
@@ -39,7 +39,7 @@ namespace Erp.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin, dealer")]
         public async Task<ApiResponse<OrderResponse>> Get(int id)
         {
             var operation = new GetOrderByIdQuery(id);
@@ -58,7 +58,7 @@ namespace Erp.Api.Controllers
             return result;
         }
 
-        [HttpPut("byCompany/{id}")]
+        [HttpPut("admin/{id}")]
         [Authorize(Roles = "admin")]
         public async Task<ApiResponse> PutByCompany(int id, [FromBody] OrderUpdateRequest request)
         {
@@ -67,7 +67,7 @@ namespace Erp.Api.Controllers
             return result;
         }
 
-        [HttpPut("byDealer/{id}")]
+        [HttpPut("dealer/{id}")]
         [Authorize(Roles = "dealer")]
         public async Task<ApiResponse> PutByDealer(int id, [FromBody] OrderUpdateRequest request)
         {
