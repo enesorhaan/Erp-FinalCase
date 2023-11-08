@@ -15,13 +15,12 @@ namespace Erp.Dto
     public class OrderResponse
     {
         public int Id { get; set; }
-        public int DealerId { get; set; }
         public string Dealer { get; set; }
         public string BillingNumber { get; set; }
         public decimal TotalPrice { get; set; }
         public DateTime OrderDate { get; set; }
-        public PaymentMethod PaymentMethod { get; set; }
-        public OrderStatus OrderStatus { get; set; }
+        public string PaymentMethod { get; set; }
+        public string OrderStatus { get; set; }
 
         public virtual List<OrderItemResponse> OrderItems { get; set; }
     }

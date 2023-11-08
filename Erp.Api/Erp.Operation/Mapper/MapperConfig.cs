@@ -30,7 +30,9 @@ namespace Erp.Operation.Mapper
             CreateMap<OrderUpdateRequest, Order>();
             CreateMap<Order, OrderResponse>()
                 .ForMember(dest => dest.Dealer,
-                    opt => opt.MapFrom(src => src.Dealer.DealerName));
+                    opt => opt.MapFrom(src => src.Dealer.DealerName))
+                .ForMember(dest => dest.OrderItems,
+                    opt => opt.MapFrom(src => src.OrderItems));
 
             CreateMap<OrderItemRequest, OrderItem>();
             CreateMap<OrderItem, OrderItemResponse>()

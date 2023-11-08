@@ -115,7 +115,12 @@ namespace Erp.Operation.Command
             else if (request.Model.OrderStatus == OrderStatus.Rejected)
             {
                 entity.OrderStatus = OrderStatus.Rejected;
-                dealer.CurrentAccount.CreditLimit = (entity.PaymentMethod == PaymentMethod.OpenAccount) ? (dealer.CurrentAccount.CreditLimit + entity.TotalPrice) : dealer.CurrentAccount.CreditLimit;
+
+                if (entity.PaymentMethod == PaymentMethod.OpenAccount)
+                {
+                    dealer.CurrentAccount.CreditLimit = (dealer.CurrentAccount.CreditLimit + entity.TotalPrice);
+                }
+
                 entity.IsActive = false;
                 var response = await OrderCancelOperation(entity, cancellationToken);
                 if (!response.Success)
@@ -139,7 +144,8 @@ namespace Erp.Operation.Command
             if (orderItems == null || orderItems.Count == 0)
                 return new ApiResponse<Order>("Order items not found!");
 
-            dealer.CurrentAccount.CreditLimit = (order.PaymentMethod == PaymentMethod.OpenAccount) ? (dealer.CurrentAccount.CreditLimit + order.TotalPrice) : dealer.CurrentAccount.CreditLimit;
+            if (order.PaymentMethod == PaymentMethod.OpenAccount)
+                dealer.CurrentAccount.CreditLimit = (dealer.CurrentAccount.CreditLimit + order.TotalPrice);
 
             foreach (var item in orderItems)
             {
@@ -159,7 +165,7 @@ namespace Erp.Operation.Command
             if (entity == null)
                 return new ApiResponse("Record not found!");
 
-            if (entity.BillingNumber != null)
+            if (entity.BillingNumber != null || entity.OrderStatus == OrderStatus.Approved)
                 return new ApiResponse("Order already approved!");
 
             if (request.Model.OrderStatus != OrderStatus.Cancelled)
