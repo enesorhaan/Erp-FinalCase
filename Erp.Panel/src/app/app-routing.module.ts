@@ -27,7 +27,6 @@ const routes: Routes = [
       {
         path: 'dealer',
         canActivate: [AuthGuardService],
-        
         loadChildren: () =>
           import('./views/dealers/dealers.module').then((m) => m.DealersModule)
       },
