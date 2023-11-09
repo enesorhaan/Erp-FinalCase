@@ -6,7 +6,7 @@ import { ListdealerComponent } from './listdealer/listdealer.component';
 import { AddComponent } from './add/add.component';
 import { EditadminComponent } from './editadmin/editadmin.component';
 import { EditdealerComponent } from './editdealer/editdealer.component';
-import { ButtonModule, CardModule, FormModule, GridModule, ListGroupModule, SharedModule, TableModule } from '@coreui/angular';
+import { AccordionModule, ButtonModule, CardModule, FormModule, GridModule, ListGroupModule, SharedModule, TableModule } from '@coreui/angular';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IconModule } from '@coreui/icons-angular';
@@ -33,7 +33,8 @@ import { IconModule } from '@coreui/icons-angular';
     IconModule,
     SharedModule,
     ListGroupModule,
-    GridModule
+    GridModule,
+    AccordionModule
   ]
 })
 export class OrdersModule { }

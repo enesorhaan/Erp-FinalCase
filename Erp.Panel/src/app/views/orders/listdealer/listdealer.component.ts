@@ -12,6 +12,7 @@ import { OrderService } from 'src/app/services/order.service';
 export class ListdealerComponent implements OnInit, OnDestroy {
   orderId!:number;
   order:any[] = []
+  orderitems:any[] = []
 
   cancelForm = new FormGroup({
     orderStatus: new FormControl<number>(4)
@@ -31,6 +32,7 @@ export class ListdealerComponent implements OnInit, OnDestroy {
   load(){
     this.orderService.getDealer().subscribe(  (data:any) => {
       this.order = data.response;
+      this.orderitems = data.response.orderitems;
       console.log(this.order);
     })
   }

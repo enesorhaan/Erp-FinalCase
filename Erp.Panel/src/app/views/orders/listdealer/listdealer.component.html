@@ -1,34 +1,55 @@
 <c-card class="mb-4">
-    <c-card-header>
-      <strong>Order List</strong>
-    </c-card-header>
-    <c-card-body *ngIf="order.length > 0">
-      <div class="d-flex justify-content-end mb-3">
-        <button cButton class="btn btn-secondary" routerLink="/orderitem/add">Create Order Item</button>
-      </div>
-        <table cTable>
-          <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Billing Number</th>
-                <th scope="col">Total Price</th>
-                <th scope="col">Order Date</th>
-                <th scope="col">Payment Method</th>
-                <th scope="col">Order Status</th>
-                <th scope="col">Cancel</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let o of order">
-                <th scope="row">{{ o.id }}</th>
-                <td>{{ o.billingNumber }}</td>
-                <td>{{ o.totalPrice }} TRY</td>
-                <td>{{ o.orderDate }}</td>
-                <td>{{ o.paymentMethod }}</td>
-                <td>{{ o.orderStatus }}</td>
-                <td><a routerLink="/order/list/dealer" (click)="isCancel(o.id)"><i class="bi bi-trash"></i></a></td>
-            </tr>
+  <c-card-header>
+    <strong>Order List</strong>
+  </c-card-header>
+  <c-card-body *ngIf="order.length > 0">
+    <div class="d-flex justify-content-end mb-3">
+      <button cButton class="btn btn-secondary" routerLink="/orderitem/add">Create Order</button>
+    </div>
+      <table cTable>
+        <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">Billing Number</th>
+              <th scope="col">Total Price</th>
+              <th scope="col">Order Date</th>
+              <th scope="col">Payment Method</th>
+              <th scope="col">Order Status</th>
+              <th scope="col">Cancel</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let o of order">
+          <tr>
+              <th scope="row">{{ o.id }}</th>
+              <td>{{ o.billingNumber }}</td>
+              <td>{{ o.totalPrice }} TRY</td>
+              <td>{{ o.orderDate }}</td>
+              <td>{{ o.paymentMethod }}</td>
+              <td>{{ o.orderStatus }}</td>
+              <td><a routerLink="/order/list/dealer" (click)="isCancel(o.id)"><i class="bi bi-trash"></i></a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="7">
+              <table cTable>
+                <thead>
+                  <tr>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Margin Price</th>
+                    <th scope="col">Quantity</th>
+                  </tr>
+                </thead>
+                <tbody *ngFor="let or of o.orderItems">
+                  <tr>
+                    <td>{{ or.product }}</td>
+                    <td>{{ or.marginPrice }} TRY</td>
+                    <td>{{ or.quantity }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
           </tbody>
-        </table>
-    </c-card-body>
-  </c-card>
+      </table>
+  </c-card-body>
+</c-card>

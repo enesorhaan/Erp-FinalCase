@@ -17,8 +17,8 @@
                 <th scope="col">Delete</th>
             </tr>
           </thead>
-          <tbody>
-            <tr *ngFor="let o of order">
+          <tbody *ngFor="let o of order">
+            <tr>
                 <th scope="row">{{ o.id }}</th>
                 <td>{{ o.dealer }}</td>
                 <td>{{ o.billingNumber }}</td>
@@ -28,6 +28,27 @@
                 <td>{{ o.orderStatus }}</td>
                 <td><a routerLink="/order/edit/admin/{{ o.id }}"><i class="bi bi-pencil"></i></a></td>
                 <td><a routerLink="/order/list/admin" (click)="isDelete(o.id)"><i class="bi bi-trash"></i></a></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="7">
+                <table cTable>
+                  <thead>
+                    <tr>
+                      <th scope="col">Product Name</th>
+                      <th scope="col">Margin Price</th>
+                      <th scope="col">Quantity</th>
+                    </tr>
+                  </thead>
+                  <tbody *ngFor="let or of o.orderItems">
+                    <tr>
+                      <td>{{ or.product }}</td>
+                      <td>{{ or.marginPrice }} TRY</td>
+                      <td>{{ or.quantity }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
             </tr>
           </tbody>
         </table>

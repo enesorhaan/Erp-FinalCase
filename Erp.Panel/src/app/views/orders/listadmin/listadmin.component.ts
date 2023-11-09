@@ -11,6 +11,7 @@ import { OrderService } from 'src/app/services/order.service';
 export class ListadminComponent implements OnInit, OnDestroy {
   orderId!:number;
   order:any[] = []
+  orderitems:any[] = []
 
   constructor(
     private orderService: OrderService,
@@ -30,7 +31,9 @@ export class ListadminComponent implements OnInit, OnDestroy {
   load(){
     this.orderService.getAdmin().subscribe(  (data:any) => {
       this.order = data.response;
+      this.orderitems = data.response.orderitems;
       console.log(this.order);
+      console.log(this.orderitems);
     })
   }
 
