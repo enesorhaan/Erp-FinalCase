@@ -27,7 +27,7 @@ namespace Erp.Operation.Query
         {
             List<Order> list = await dbContext.Set<Order>()
                 .Include(x => x.Dealer)
-                .Include(x => x.OrderItems)
+                .Include(x => x.OrderItems).ThenInclude(x => x.Product)
                 .ToListAsync(cancellationToken);
 
             if (list.Count == 0)
@@ -42,7 +42,7 @@ namespace Erp.Operation.Query
         {
             List<Order> list = await dbContext.Set<Order>()
                 .Include(x => x.Dealer)
-                .Include(x => x.OrderItems)
+                .Include(x => x.OrderItems).ThenInclude(x => x.Product)
                 .Where(x => x.DealerId == request.DealerId)
                 .ToListAsync(cancellationToken);
 
@@ -62,7 +62,7 @@ namespace Erp.Operation.Query
         public async Task<ApiResponse<OrderResponse>> Handle(GetOrderByIdQuery request, CancellationToken cancellationToken)
         {
             Order? entity = await dbContext.Set<Order>()
-                .Include(x => x.OrderItems)
+                .Include(x => x.OrderItems).ThenInclude(x => x.Product)
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (entity is null)

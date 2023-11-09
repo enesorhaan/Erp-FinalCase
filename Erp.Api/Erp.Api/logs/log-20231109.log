@@ -6698,3 +6698,1983 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
 2023-11-09 22:04:43.965 [INF] -------------Request-End------------
+2023-11-09 22:09:41.134 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:09:41.171 [INF] HeartBeat
+2023-11-09 22:09:41.171 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:09:42.278 [INF] -------------Request-Begin------------
+2023-11-09 22:09:42.278 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:09:42.278 [INF] 
+
+2023-11-09 22:09:42.278 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:09:42.280 [INF] -------------Request-End------------
+2023-11-09 22:10:53.497 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:10:53.498 [INF] HeartBeat
+2023-11-09 22:10:53.498 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:10:53.533 [INF] -------------Request-Begin------------
+2023-11-09 22:10:53.533 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:10:53.533 [INF] 
+
+2023-11-09 22:10:53.533 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:10:53.533 [INF] -------------Request-End------------
+2023-11-09 22:10:55.180 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:10:55.180 [INF] HeartBeat
+2023-11-09 22:10:55.181 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:10:55.199 [INF] -------------Request-Begin------------
+2023-11-09 22:10:55.199 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:10:55.199 [INF] 
+
+2023-11-09 22:10:55.199 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:10:55.199 [INF] -------------Request-End------------
+2023-11-09 22:10:56.040 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:10:56.040 [INF] HeartBeat
+2023-11-09 22:10:56.041 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:10:56.125 [INF] -------------Request-Begin------------
+2023-11-09 22:10:56.125 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:10:56.125 [INF] 
+
+2023-11-09 22:10:56.125 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:10:56.125 [INF] -------------Request-End------------
+2023-11-09 22:10:57.843 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:10:57.843 [INF] HeartBeat
+2023-11-09 22:10:57.843 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:10:57.861 [INF] -------------Request-Begin------------
+2023-11-09 22:10:57.861 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:10:57.861 [INF] 
+
+2023-11-09 22:10:57.861 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:10:57.861 [INF] -------------Request-End------------
+2023-11-09 22:10:58.253 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:10:58.253 [INF] HeartBeat
+2023-11-09 22:10:58.253 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:10:58.274 [INF] -------------Request-Begin------------
+2023-11-09 22:10:58.274 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:10:58.274 [INF] 
+
+2023-11-09 22:10:58.274 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:10:58.274 [INF] -------------Request-End------------
+2023-11-09 22:11:58.944 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:11:58.944 [INF] HeartBeat
+2023-11-09 22:11:58.944 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:11:59.105 [INF] -------------Request-Begin------------
+2023-11-09 22:11:59.106 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:11:59.106 [INF] 
+
+2023-11-09 22:11:59.106 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:11:59.106 [INF] -------------Request-End------------
+2023-11-09 22:12:35.466 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:12:35.466 [INF] HeartBeat
+2023-11-09 22:12:35.467 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:12:35.556 [INF] -------------Request-Begin------------
+2023-11-09 22:12:35.556 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-09 22:12:35.556 [INF] 
+
+2023-11-09 22:12:35.557 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-f6d1c955e0d35e5da7f64ffa0cc8408e-3ce322113e291d2f-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-09 22:12:35.557 [INF] -------------Request-End------------
+2023-11-09 22:12:38.309 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:12:38.309 [INF] HeartBeat
+2023-11-09 22:12:38.309 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:12:38.459 [INF] -------------Request-Begin------------
+2023-11-09 22:12:38.459 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-09 22:12:38.460 [INF] 
+
+2023-11-09 22:12:38.460 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-09T23:52:38.4545416+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1NjMxNTgsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.ryiNB6-MtoI-tguBhrCs2DEFqtplJuKhfw_MtXSLDEk","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-09 22:12:38.460 [INF] -------------Request-End------------
+2023-11-09 22:22:23.161 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:22:23.162 [INF] HeartBeat
+2023-11-09 22:22:23.162 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:22:23.402 [INF] -------------Request-Begin------------
+2023-11-09 22:22:23.402 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:22:23.402 [INF] 
+
+2023-11-09 22:22:23.402 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:22:23.402 [INF] -------------Request-End------------
+2023-11-09 22:28:01.614 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:28:01.615 [INF] HeartBeat
+2023-11-09 22:28:01.615 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:28:01.727 [INF] -------------Request-Begin------------
+2023-11-09 22:28:01.727 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-09 22:28:01.727 [INF] 
+
+2023-11-09 22:28:01.727 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T00:08:01.7246511+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1NjQwODEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.FhnEhudlDW67TQ9isPm0eDNOojVXsTuFHIZc_VKvKyI","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-09 22:28:01.727 [INF] -------------Request-End------------
+2023-11-09 22:28:03.756 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:28:03.756 [INF] HeartBeat
+2023-11-09 22:28:03.756 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:28:03.766 [INF] -------------Request-Begin------------
+2023-11-09 22:28:03.766 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-09 22:28:03.766 [INF] 
+
+2023-11-09 22:28:03.766 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 22:28:03.766 [INF] -------------Request-End------------
+2023-11-09 22:28:05.732 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:28:05.732 [INF] HeartBeat
+2023-11-09 22:28:05.732 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:28:05.757 [INF] -------------Request-Begin------------
+2023-11-09 22:28:05.757 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:28:05.757 [INF] 
+
+2023-11-09 22:28:05.757 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:28:05.757 [INF] -------------Request-End------------
+2023-11-09 22:31:26.828 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:31:26.828 [INF] HeartBeat
+2023-11-09 22:31:26.828 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:31:26.865 [INF] -------------Request-Begin------------
+2023-11-09 22:31:26.865 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:31:26.865 [INF] 
+
+2023-11-09 22:31:26.865 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:31:26.866 [INF] -------------Request-End------------
+2023-11-09 22:31:33.503 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:31:33.503 [INF] HeartBeat
+2023-11-09 22:31:33.504 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:31:33.538 [INF] -------------Request-Begin------------
+2023-11-09 22:31:33.538 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-09 22:31:33.538 [INF] 
+
+2023-11-09 22:31:33.538 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T00:11:33.5332899+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1NjQyOTMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.VdDLktUNWSSU9nFfbO8VnPP8ARe1-B5I1pKM5rxLTtA","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-09 22:31:33.538 [INF] -------------Request-End------------
+2023-11-09 22:32:53.040 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:32:53.040 [INF] HeartBeat
+2023-11-09 22:32:53.041 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:32:53.226 [INF] -------------Request-Begin------------
+2023-11-09 22:32:53.226 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:32:53.226 [INF] 
+
+2023-11-09 22:32:53.226 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:32:53.226 [INF] -------------Request-End------------
+2023-11-09 22:32:57.408 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:32:57.408 [INF] HeartBeat
+2023-11-09 22:32:57.411 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:32:57.466 [INF] -------------Request-Begin------------
+2023-11-09 22:32:57.466 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:32:57.467 [INF] 
+
+2023-11-09 22:32:57.467 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:32:57.467 [INF] -------------Request-End------------
+2023-11-09 22:49:37.591 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:49:37.591 [INF] HeartBeat
+2023-11-09 22:49:37.591 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:49:37.714 [INF] -------------Request-Begin------------
+2023-11-09 22:49:37.714 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-09 22:49:37.714 [INF] 
+
+2023-11-09 22:49:37.714 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T00:29:37.7138952+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk1NjUzNzcsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.AHGa_AbgyyYnLsinyUMoU181dqbV740pYnffWgzPqJo","user":"ABC A.S.","role":1}}
+2023-11-09 22:49:37.714 [INF] -------------Request-End------------
+2023-11-09 22:49:49.626 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:49:49.626 [INF] HeartBeat
+2023-11-09 22:49:49.626 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:49:49.641 [INF] -------------Request-Begin------------
+2023-11-09 22:49:49.641 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:49:49.641 [INF] 
+
+2023-11-09 22:49:49.641 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:49:49.642 [INF] -------------Request-End------------
+2023-11-09 22:54:10.548 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:54:10.548 [INF] HeartBeat
+2023-11-09 22:54:10.548 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:54:10.591 [INF] -------------Request-Begin------------
+2023-11-09 22:54:10.592 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:54:10.592 [INF] 
+
+2023-11-09 22:54:10.592 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:54:10.592 [INF] -------------Request-End------------
+2023-11-09 22:55:26.994 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:55:26.994 [INF] HeartBeat
+2023-11-09 22:55:26.994 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:55:27.100 [INF] -------------Request-Begin------------
+2023-11-09 22:55:27.100 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:55:27.100 [INF] 
+
+2023-11-09 22:55:27.100 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:55:27.100 [INF] -------------Request-End------------
+2023-11-09 22:57:57.378 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:57:57.378 [INF] HeartBeat
+2023-11-09 22:57:57.378 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:57:57.445 [INF] -------------Request-Begin------------
+2023-11-09 22:57:57.445 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:57:57.445 [INF] 
+
+2023-11-09 22:57:57.445 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:57:57.445 [INF] -------------Request-End------------
+2023-11-09 22:59:01.969 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:01.970 [INF] HeartBeat
+2023-11-09 22:59:01.970 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:02.033 [INF] -------------Request-Begin------------
+2023-11-09 22:59:02.033 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:02.034 [INF] 
+
+2023-11-09 22:59:02.034 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:02.034 [INF] -------------Request-End------------
+2023-11-09 22:59:06.933 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:06.933 [INF] HeartBeat
+2023-11-09 22:59:06.933 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:06.945 [INF] -------------Request-Begin------------
+2023-11-09 22:59:06.945 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:06.945 [INF] 
+
+2023-11-09 22:59:06.945 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:59:06.945 [INF] -------------Request-End------------
+2023-11-09 22:59:08.857 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:08.857 [INF] HeartBeat
+2023-11-09 22:59:08.857 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:08.869 [INF] -------------Request-Begin------------
+2023-11-09 22:59:08.869 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:08.869 [INF] 
+
+2023-11-09 22:59:08.869 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:08.869 [INF] -------------Request-End------------
+2023-11-09 22:59:10.651 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:10.651 [INF] HeartBeat
+2023-11-09 22:59:10.651 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:10.666 [INF] -------------Request-Begin------------
+2023-11-09 22:59:10.666 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:10.666 [INF] 
+
+2023-11-09 22:59:10.666 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:59:10.667 [INF] -------------Request-End------------
+2023-11-09 22:59:11.962 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:11.962 [INF] HeartBeat
+2023-11-09 22:59:11.966 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:11.986 [INF] -------------Request-Begin------------
+2023-11-09 22:59:11.986 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:11.986 [INF] 
+
+2023-11-09 22:59:11.986 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:11.986 [INF] -------------Request-End------------
+2023-11-09 22:59:14.690 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:14.690 [INF] HeartBeat
+2023-11-09 22:59:14.690 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:14.703 [INF] -------------Request-Begin------------
+2023-11-09 22:59:14.703 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:14.704 [INF] 
+
+2023-11-09 22:59:14.704 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:59:14.704 [INF] -------------Request-End------------
+2023-11-09 22:59:16.447 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:16.447 [INF] HeartBeat
+2023-11-09 22:59:16.447 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:16.462 [INF] -------------Request-Begin------------
+2023-11-09 22:59:16.463 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:16.463 [INF] 
+
+2023-11-09 22:59:16.463 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:16.463 [INF] -------------Request-End------------
+2023-11-09 22:59:25.593 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:25.594 [INF] HeartBeat
+2023-11-09 22:59:25.594 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:25.851 [INF] -------------Request-Begin------------
+2023-11-09 22:59:25.852 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:25.852 [INF] 
+
+2023-11-09 22:59:25.852 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:25.852 [INF] -------------Request-End------------
+2023-11-09 22:59:27.301 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:27.301 [INF] HeartBeat
+2023-11-09 22:59:27.301 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:27.318 [INF] -------------Request-Begin------------
+2023-11-09 22:59:27.318 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:27.318 [INF] 
+
+2023-11-09 22:59:27.318 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 22:59:27.318 [INF] -------------Request-End------------
+2023-11-09 22:59:29.357 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:29.357 [INF] HeartBeat
+2023-11-09 22:59:29.357 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:29.370 [INF] -------------Request-Begin------------
+2023-11-09 22:59:29.370 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:29.370 [INF] 
+
+2023-11-09 22:59:29.370 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:29.370 [INF] -------------Request-End------------
+2023-11-09 22:59:58.664 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 22:59:58.665 [INF] HeartBeat
+2023-11-09 22:59:58.665 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 22:59:58.713 [INF] -------------Request-Begin------------
+2023-11-09 22:59:58.713 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 22:59:58.713 [INF] 
+
+2023-11-09 22:59:58.713 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 22:59:58.713 [INF] -------------Request-End------------
+2023-11-09 23:00:01.644 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:00:01.644 [INF] HeartBeat
+2023-11-09 23:00:01.644 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:00:01.649 [INF] -------------Request-Begin------------
+2023-11-09 23:00:01.649 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:00:01.649 [INF] 
+
+2023-11-09 23:00:01.649 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:00:01.649 [INF] -------------Request-End------------
+2023-11-09 23:00:06.566 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:00:06.566 [INF] HeartBeat
+2023-11-09 23:00:06.566 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:00:06.879 [INF] -------------Request-Begin------------
+2023-11-09 23:00:06.880 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-09 23:00:06.880 [INF] 
+
+2023-11-09 23:00:06.880 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T00:40:06.8629519+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk1NjYwMDYsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0._AIwBniagQsLg7BoFZ7pckOsfGroEaMGMtdjkl1H_vM","user":"ABC A.S.","role":1}}
+2023-11-09 23:00:06.881 [INF] -------------Request-End------------
+2023-11-09 23:00:09.207 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:00:09.207 [INF] HeartBeat
+2023-11-09 23:00:09.207 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:00:09.207 [INF] -------------Request-Begin------------
+2023-11-09 23:00:09.207 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 23:00:09.207 [INF] 
+
+2023-11-09 23:00:09.207 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:00:09.207 [INF] -------------Request-End------------
+2023-11-09 23:00:10.368 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:00:10.368 [INF] HeartBeat
+2023-11-09 23:00:10.368 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:00:10.400 [INF] -------------Request-Begin------------
+2023-11-09 23:00:10.400 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:00:10.400 [INF] 
+
+2023-11-09 23:00:10.400 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealer":"ABC A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":3,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Selamlar!"},{"id":7,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?"}]}
+2023-11-09 23:00:10.400 [INF] -------------Request-End------------
+2023-11-09 23:01:02.964 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:02.964 [INF] HeartBeat
+2023-11-09 23:01:02.964 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:03.174 [INF] -------------Request-Begin------------
+2023-11-09 23:01:03.174 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:03.174 [INF] 
+
+2023-11-09 23:01:03.174 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:01:03.175 [INF] -------------Request-End------------
+2023-11-09 23:01:05.356 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:05.356 [INF] HeartBeat
+2023-11-09 23:01:05.356 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:05.357 [INF] -------------Request-Begin------------
+2023-11-09 23:01:05.357 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:05.357 [INF] 
+
+2023-11-09 23:01:05.357 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:01:05.357 [INF] -------------Request-End------------
+2023-11-09 23:01:06.242 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:06.242 [INF] HeartBeat
+2023-11-09 23:01:06.242 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:06.315 [INF] -------------Request-Begin------------
+2023-11-09 23:01:06.316 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:06.316 [INF] 
+
+2023-11-09 23:01:06.316 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:01:06.316 [INF] -------------Request-End------------
+2023-11-09 23:01:13.998 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:13.998 [INF] HeartBeat
+2023-11-09 23:01:13.998 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:14.785 [INF] -------------Request-Begin------------
+2023-11-09 23:01:14.785 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer/2 
+QueryString:  
+Request Body: {"orderStatus":4}
+2023-11-09 23:01:14.785 [INF] 
+
+2023-11-09 23:01:14.785 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!"}
+2023-11-09 23:01:14.785 [INF] -------------Request-End------------
+2023-11-09 23:01:16.266 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:16.266 [INF] HeartBeat
+2023-11-09 23:01:16.266 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:16.276 [INF] -------------Request-Begin------------
+2023-11-09 23:01:16.276 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer/1 
+QueryString:  
+Request Body: {"orderStatus":4}
+2023-11-09 23:01:16.276 [INF] 
+
+2023-11-09 23:01:16.276 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!"}
+2023-11-09 23:01:16.276 [INF] -------------Request-End------------
+2023-11-09 23:01:17.365 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:17.366 [INF] HeartBeat
+2023-11-09 23:01:17.366 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:17.372 [INF] -------------Request-Begin------------
+2023-11-09 23:01:17.372 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer/3 
+QueryString:  
+Request Body: {"orderStatus":4}
+2023-11-09 23:01:17.372 [INF] 
+
+2023-11-09 23:01:17.372 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer/3 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!"}
+2023-11-09 23:01:17.372 [INF] -------------Request-End------------
+2023-11-09 23:01:24.689 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:24.689 [INF] HeartBeat
+2023-11-09 23:01:24.689 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:24.786 [INF] -------------Request-Begin------------
+2023-11-09 23:01:24.786 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:24.786 [INF] 
+
+2023-11-09 23:01:24.786 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-09 23:01:24.786 [INF] -------------Request-End------------
+2023-11-09 23:01:26.828 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:26.828 [INF] HeartBeat
+2023-11-09 23:01:26.828 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:26.844 [INF] -------------Request-Begin------------
+2023-11-09 23:01:26.844 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:26.844 [INF] 
+
+2023-11-09 23:01:26.844 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-09 23:01:26.844 [INF] -------------Request-End------------
+2023-11-09 23:01:30.846 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:30.847 [INF] HeartBeat
+2023-11-09 23:01:30.847 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:30.856 [INF] -------------Request-Begin------------
+2023-11-09 23:01:30.856 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:30.856 [INF] 
+
+2023-11-09 23:01:30.856 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-09 23:01:30.856 [INF] -------------Request-End------------
+2023-11-09 23:01:38.385 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:38.385 [INF] HeartBeat
+2023-11-09 23:01:38.385 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:38.386 [INF] -------------Request-Begin------------
+2023-11-09 23:01:38.386 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:38.386 [INF] 
+
+2023-11-09 23:01:38.386 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:01:38.386 [INF] -------------Request-End------------
+2023-11-09 23:01:40.616 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:40.617 [INF] HeartBeat
+2023-11-09 23:01:40.617 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:40.631 [INF] -------------Request-Begin------------
+2023-11-09 23:01:40.631 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:40.631 [INF] 
+
+2023-11-09 23:01:40.632 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:01:40.632 [INF] -------------Request-End------------
+2023-11-09 23:01:48.161 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:01:48.161 [INF] HeartBeat
+2023-11-09 23:01:48.161 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:01:48.164 [INF] -------------Request-Begin------------
+2023-11-09 23:01:48.164 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-09 23:01:48.164 [INF] 
+
+2023-11-09 23:01:48.164 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-09 23:01:48.164 [INF] -------------Request-End------------
+2023-11-09 23:02:19.773 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:02:19.773 [INF] HeartBeat
+2023-11-09 23:02:19.773 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:02:19.792 [INF] -------------Request-Begin------------
+2023-11-09 23:02:19.793 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-09 23:02:19.793 [INF] 
+
+2023-11-09 23:02:19.793 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-09 23:02:19.793 [INF] -------------Request-End------------
+2023-11-09 23:02:30.779 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:02:30.779 [INF] HeartBeat
+2023-11-09 23:02:30.779 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:02:30.830 [INF] -------------Request-Begin------------
+2023-11-09 23:02:30.830 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders 
+QueryString:  
+Request Body: {"paymentMethod":2}
+2023-11-09 23:02:30.830 [INF] 
+
+2023-11-09 23:02:30.830 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Order items not found!","response":null}
+2023-11-09 23:02:30.830 [INF] -------------Request-End------------
+2023-11-09 23:02:32.533 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:02:32.533 [INF] HeartBeat
+2023-11-09 23:02:32.533 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:02:32.587 [INF] -------------Request-Begin------------
+2023-11-09 23:02:32.587 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders 
+QueryString:  
+Request Body: {"paymentMethod":2}
+2023-11-09 23:02:32.587 [INF] 
+
+2023-11-09 23:02:32.587 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Order items not found!","response":null}
+2023-11-09 23:02:32.587 [INF] -------------Request-End------------
+2023-11-09 23:02:41.931 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:02:41.931 [INF] HeartBeat
+2023-11-09 23:02:41.931 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:02:41.958 [INF] -------------Request-Begin------------
+2023-11-09 23:02:41.958 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders 
+QueryString:  
+Request Body: {"paymentMethod":2}
+2023-11-09 23:02:41.958 [INF] 
+
+2023-11-09 23:02:41.958 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Order items not found!","response":null}
+2023-11-09 23:02:41.958 [INF] -------------Request-End------------
+2023-11-09 23:03:00.707 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:03:00.707 [INF] HeartBeat
+2023-11-09 23:03:00.707 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:03:00.732 [INF] -------------Request-Begin------------
+2023-11-09 23:03:00.732 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:03:00.732 [INF] 
+
+2023-11-09 23:03:00.732 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:03:00.732 [INF] -------------Request-End------------
+2023-11-09 23:03:03.136 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:03:03.136 [INF] HeartBeat
+2023-11-09 23:03:03.136 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:03:03.145 [INF] -------------Request-Begin------------
+2023-11-09 23:03:03.145 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-09 23:03:03.145 [INF] 
+
+2023-11-09 23:03:03.145 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-09 23:03:03.146 [INF] -------------Request-End------------
+2023-11-09 23:03:05.959 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:03:05.959 [INF] HeartBeat
+2023-11-09 23:03:05.959 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:03:05.980 [INF] -------------Request-Begin------------
+2023-11-09 23:03:05.980 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:03:05.980 [INF] 
+
+2023-11-09 23:03:05.980 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:03:05.980 [INF] -------------Request-End------------
+2023-11-09 23:04:04.998 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:04:04.998 [INF] HeartBeat
+2023-11-09 23:04:04.998 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:04:05.021 [INF] -------------Request-Begin------------
+2023-11-09 23:04:05.022 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-09 23:04:05.022 [INF] 
+
+2023-11-09 23:04:05.022 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-09 23:04:05.022 [INF] -------------Request-End------------
+2023-11-09 23:04:06.120 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:04:06.120 [INF] HeartBeat
+2023-11-09 23:04:06.120 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:04:06.147 [INF] -------------Request-Begin------------
+2023-11-09 23:04:06.147 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:04:06.147 [INF] 
+
+2023-11-09 23:04:06.147 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:04:06.148 [INF] -------------Request-End------------
+2023-11-09 23:05:19.441 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:05:19.441 [INF] HeartBeat
+2023-11-09 23:05:19.443 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:05:19.506 [INF] -------------Request-Begin------------
+2023-11-09 23:05:19.506 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-09 23:05:19.506 [INF] 
+
+2023-11-09 23:05:19.506 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-09 23:05:19.507 [INF] -------------Request-End------------
+2023-11-09 23:05:34.158 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:05:34.158 [INF] HeartBeat
+2023-11-09 23:05:34.158 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:05:34.172 [INF] -------------Request-Begin------------
+2023-11-09 23:05:34.172 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-09 23:05:34.172 [INF] 
+
+2023-11-09 23:05:34.172 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-09 23:05:34.172 [INF] -------------Request-End------------
+2023-11-09 23:05:44.192 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:05:44.193 [INF] HeartBeat
+2023-11-09 23:05:44.193 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:05:44.221 [INF] -------------Request-Begin------------
+2023-11-09 23:05:44.221 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:05:44.221 [INF] 
+
+2023-11-09 23:05:44.221 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:05:44.221 [INF] -------------Request-End------------
+2023-11-09 23:05:45.400 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:05:45.400 [INF] HeartBeat
+2023-11-09 23:05:45.400 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:05:45.408 [INF] -------------Request-Begin------------
+2023-11-09 23:05:45.408 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-09 23:05:45.408 [INF] 
+
+2023-11-09 23:05:45.408 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-09 23:05:45.408 [INF] -------------Request-End------------
+2023-11-09 23:06:22.510 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:06:22.510 [INF] HeartBeat
+2023-11-09 23:06:22.510 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:06:22.511 [INF] -------------Request-Begin------------
+2023-11-09 23:06:22.511 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:06:22.511 [INF] 
+
+2023-11-09 23:06:22.511 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:06:22.511 [INF] -------------Request-End------------
+2023-11-09 23:07:51.694 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:07:51.694 [INF] HeartBeat
+2023-11-09 23:07:51.695 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:07:51.696 [INF] -------------Request-Begin------------
+2023-11-09 23:07:51.696 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:07:51.696 [INF] 
+
+2023-11-09 23:07:51.696 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:07:51.696 [INF] -------------Request-End------------
+2023-11-09 23:16:32.721 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:32.721 [INF] HeartBeat
+2023-11-09 23:16:32.721 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:32.723 [INF] -------------Request-Begin------------
+2023-11-09 23:16:32.723 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:32.723 [INF] 
+
+2023-11-09 23:16:32.723 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:32.723 [INF] -------------Request-End------------
+2023-11-09 23:16:45.363 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:45.363 [INF] HeartBeat
+2023-11-09 23:16:45.363 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:45.368 [INF] -------------Request-Begin------------
+2023-11-09 23:16:45.368 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:45.368 [INF] 
+
+2023-11-09 23:16:45.368 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:45.368 [INF] -------------Request-End------------
+2023-11-09 23:16:49.521 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:49.521 [INF] HeartBeat
+2023-11-09 23:16:49.521 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:49.531 [INF] -------------Request-Begin------------
+2023-11-09 23:16:49.531 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:49.531 [INF] 
+
+2023-11-09 23:16:49.531 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:49.531 [INF] -------------Request-End------------
+2023-11-09 23:16:50.702 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:50.702 [INF] HeartBeat
+2023-11-09 23:16:50.702 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:50.703 [INF] -------------Request-Begin------------
+2023-11-09 23:16:50.703 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:50.703 [INF] 
+
+2023-11-09 23:16:50.703 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:50.703 [INF] -------------Request-End------------
+2023-11-09 23:16:52.902 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:52.902 [INF] HeartBeat
+2023-11-09 23:16:52.902 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:52.903 [INF] -------------Request-Begin------------
+2023-11-09 23:16:52.904 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:52.904 [INF] 
+
+2023-11-09 23:16:52.904 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:52.904 [INF] -------------Request-End------------
+2023-11-09 23:16:53.982 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:53.982 [INF] HeartBeat
+2023-11-09 23:16:53.982 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:53.984 [INF] -------------Request-Begin------------
+2023-11-09 23:16:53.984 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:53.984 [INF] 
+
+2023-11-09 23:16:53.984 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:53.984 [INF] -------------Request-End------------
+2023-11-09 23:16:54.574 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:54.574 [INF] HeartBeat
+2023-11-09 23:16:54.574 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:54.576 [INF] -------------Request-Begin------------
+2023-11-09 23:16:54.576 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-09 23:16:54.576 [INF] 
+
+2023-11-09 23:16:54.576 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-09 23:16:54.576 [INF] -------------Request-End------------
+2023-11-09 23:16:59.570 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:16:59.570 [INF] HeartBeat
+2023-11-09 23:16:59.570 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:16:59.705 [INF] -------------Request-Begin------------
+2023-11-09 23:16:59.705 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-09 23:16:59.705 [INF] 
+
+2023-11-09 23:16:59.705 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T00:56:59.702613+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1NjcwMTksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.W9gb9SQR7v7TakzQU5ym2AbC-37LuVMi9U-r_QepB2c","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-09 23:16:59.705 [INF] -------------Request-End------------
+2023-11-09 23:17:03.254 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:17:03.255 [INF] HeartBeat
+2023-11-09 23:17:03.255 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:17:04.392 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:17:04.392 [INF] HeartBeat
+2023-11-09 23:17:04.392 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:17:04.591 [INF] -------------Request-Begin------------
+2023-11-09 23:17:04.591 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:17:04.591 [INF] 
+
+2023-11-09 23:17:04.591 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:17:04.591 [INF] -------------Request-End------------
+2023-11-09 23:17:04.999 [INF] -------------Request-Begin------------
+2023-11-09 23:17:04.999 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-09 23:17:04.999 [INF] 
+
+2023-11-09 23:17:04.999 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","creditLimit":5000.00},{"id":2,"dealer":"DEF A.S.","creditLimit":0}]}
+2023-11-09 23:17:04.999 [INF] -------------Request-End------------
+2023-11-09 23:23:43.781 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:23:43.783 [INF] HeartBeat
+2023-11-09 23:23:43.783 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:23:43.860 [INF] -------------Request-Begin------------
+2023-11-09 23:23:43.860 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:23:43.860 [INF] 
+
+2023-11-09 23:23:43.860 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:23:43.860 [INF] -------------Request-End------------
+2023-11-09 23:27:59.551 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:27:59.552 [INF] HeartBeat
+2023-11-09 23:27:59.552 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:27:59.598 [INF] -------------Request-Begin------------
+2023-11-09 23:27:59.598 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:27:59.598 [INF] 
+
+2023-11-09 23:27:59.598 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:27:59.598 [INF] -------------Request-End------------
+2023-11-09 23:33:59.241 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:33:59.241 [INF] HeartBeat
+2023-11-09 23:33:59.241 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:33:59.368 [INF] -------------Request-Begin------------
+2023-11-09 23:33:59.368 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:33:59.368 [INF] 
+
+2023-11-09 23:33:59.368 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:33:59.368 [INF] -------------Request-End------------
+2023-11-09 23:34:01.409 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:34:01.410 [INF] HeartBeat
+2023-11-09 23:34:01.410 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:34:01.438 [INF] -------------Request-Begin------------
+2023-11-09 23:34:01.439 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:34:01.439 [INF] 
+
+2023-11-09 23:34:01.439 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:34:01.439 [INF] -------------Request-End------------
+2023-11-09 23:34:08.043 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:34:08.046 [INF] HeartBeat
+2023-11-09 23:34:08.046 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:34:08.068 [INF] -------------Request-Begin------------
+2023-11-09 23:34:08.068 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:34:08.068 [INF] 
+
+2023-11-09 23:34:08.068 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:34:08.068 [INF] -------------Request-End------------
+2023-11-09 23:34:13.253 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:34:13.253 [INF] HeartBeat
+2023-11-09 23:34:13.253 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:34:13.300 [INF] -------------Request-Begin------------
+2023-11-09 23:34:13.300 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-09 23:34:13.300 [INF] 
+
+2023-11-09 23:34:13.300 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T01:14:13.2974966+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk1NjgwNTMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.ar4EcxkChG_Fi8FYlfIzLwSjBefDcnZO4WmwUZ9xYs0","user":"ABC A.S.","role":1}}
+2023-11-09 23:34:13.300 [INF] -------------Request-End------------
+2023-11-09 23:35:41.227 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:35:41.227 [INF] HeartBeat
+2023-11-09 23:35:41.227 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:35:41.273 [INF] -------------Request-Begin------------
+2023-11-09 23:35:41.273 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-09 23:35:41.273 [INF] 
+
+2023-11-09 23:35:41.273 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T01:15:41.2724248+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1NjgxNDEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.YbqwlnnOEUEDKlufIpA9eIsGo08XUMlZMEkGyorKvBE","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-09 23:35:41.273 [INF] -------------Request-End------------
+2023-11-09 23:36:00.612 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:36:00.612 [INF] HeartBeat
+2023-11-09 23:36:00.612 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:36:00.636 [INF] -------------Request-Begin------------
+2023-11-09 23:36:00.636 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:36:00.636 [INF] 
+
+2023-11-09 23:36:00.636 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:36:00.636 [INF] -------------Request-End------------
+2023-11-09 23:36:02.014 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:36:02.015 [INF] HeartBeat
+2023-11-09 23:36:02.015 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:36:02.035 [INF] -------------Request-Begin------------
+2023-11-09 23:36:02.035 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:36:02.036 [INF] 
+
+2023-11-09 23:36:02.036 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:36:02.036 [INF] -------------Request-End------------
+2023-11-09 23:36:11.096 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:36:11.097 [INF] HeartBeat
+2023-11-09 23:36:11.097 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:36:11.111 [INF] -------------Request-Begin------------
+2023-11-09 23:36:11.111 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:36:11.111 [INF] 
+
+2023-11-09 23:36:11.111 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:36:11.111 [INF] -------------Request-End------------
+2023-11-09 23:36:19.536 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:36:19.536 [INF] HeartBeat
+2023-11-09 23:36:19.536 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:36:19.558 [INF] -------------Request-Begin------------
+2023-11-09 23:36:19.558 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-09 23:36:19.558 [INF] 
+
+2023-11-09 23:36:19.558 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T01:16:19.5578181+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk1NjgxNzksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.7-Nkgv_suQ75O7DCpQLmw84Bxq4Kvjv6iqWIYN7KViY","user":"ABC A.S.","role":1}}
+2023-11-09 23:36:19.558 [INF] -------------Request-End------------
+2023-11-09 23:39:43.833 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:39:43.835 [INF] HeartBeat
+2023-11-09 23:39:43.836 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:39:44.116 [INF] -------------Request-Begin------------
+2023-11-09 23:39:44.116 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-09 23:39:44.116 [INF] 
+
+2023-11-09 23:39:44.116 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false}]}
+2023-11-09 23:39:44.116 [INF] -------------Request-End------------
+2023-11-09 23:39:46.882 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:39:46.882 [INF] HeartBeat
+2023-11-09 23:39:46.882 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:39:46.912 [INF] -------------Request-Begin------------
+2023-11-09 23:39:46.912 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:39:46.913 [INF] 
+
+2023-11-09 23:39:46.913 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealer":"ABC A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":3,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Selamlar!"},{"id":7,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?"}]}
+2023-11-09 23:39:46.914 [INF] -------------Request-End------------
+2023-11-09 23:39:49.661 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:39:49.661 [INF] HeartBeat
+2023-11-09 23:39:49.661 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:39:49.866 [INF] -------------Request-Begin------------
+2023-11-09 23:39:49.866 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-09 23:39:49.866 [INF] 
+
+2023-11-09 23:39:49.866 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-09 23:39:49.866 [INF] -------------Request-End------------
+2023-11-09 23:39:54.148 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:39:54.149 [INF] HeartBeat
+2023-11-09 23:39:54.149 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:39:54.197 [INF] -------------Request-Begin------------
+2023-11-09 23:39:54.197 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:39:54.197 [INF] 
+
+2023-11-09 23:39:54.198 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]}]}
+2023-11-09 23:39:54.198 [INF] -------------Request-End------------
+2023-11-09 23:39:56.804 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:39:56.804 [INF] HeartBeat
+2023-11-09 23:39:56.804 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:39:56.829 [INF] -------------Request-Begin------------
+2023-11-09 23:39:56.829 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-09 23:39:56.829 [INF] 
+
+2023-11-09 23:39:56.829 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]}]}
+2023-11-09 23:39:56.829 [INF] -------------Request-End------------
+2023-11-09 23:40:03.375 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:40:03.375 [INF] HeartBeat
+2023-11-09 23:40:03.376 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:40:03.396 [INF] -------------Request-Begin------------
+2023-11-09 23:40:03.396 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-09 23:40:03.396 [INF] 
+
+2023-11-09 23:40:03.396 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T01:20:03.3954355+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1Njg0MDMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0._5uWIMrDgO_fLCrBhKmRQqWKj_cIOBcSI0oizekE1DE","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-09 23:40:03.396 [INF] -------------Request-End------------
+2023-11-09 23:42:10.337 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:10.337 [INF] HeartBeat
+2023-11-09 23:42:10.337 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:10.440 [INF] -------------Request-Begin------------
+2023-11-09 23:42:10.440 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:10.440 [INF] 
+
+2023-11-09 23:42:10.440 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":null,"marginPrice":1155.00,"quantity":1},{"id":4,"product":null,"marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":null,"marginPrice":1650.00,"quantity":2},{"id":6,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":null,"marginPrice":1100.00,"quantity":2},{"id":8,"product":null,"marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-09 23:42:10.440 [INF] -------------Request-End------------
+2023-11-09 23:42:19.620 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:19.620 [INF] HeartBeat
+2023-11-09 23:42:19.620 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:19.655 [INF] -------------Request-Begin------------
+2023-11-09 23:42:19.655 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:19.655 [INF] 
+
+2023-11-09 23:42:19.664 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":40},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-09 23:42:19.664 [INF] -------------Request-End------------
+2023-11-09 23:42:23.008 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:23.008 [INF] HeartBeat
+2023-11-09 23:42:23.008 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:23.024 [INF] -------------Request-Begin------------
+2023-11-09 23:42:23.024 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:23.024 [INF] 
+
+2023-11-09 23:42:23.024 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 23:42:23.025 [INF] -------------Request-End------------
+2023-11-09 23:42:25.882 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:25.882 [INF] HeartBeat
+2023-11-09 23:42:25.882 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:25.903 [INF] -------------Request-Begin------------
+2023-11-09 23:42:25.903 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:25.903 [INF] 
+
+2023-11-09 23:42:25.903 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:42:25.903 [INF] -------------Request-End------------
+2023-11-09 23:42:29.777 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:29.777 [INF] HeartBeat
+2023-11-09 23:42:29.777 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:29.791 [INF] -------------Request-Begin------------
+2023-11-09 23:42:29.792 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:29.792 [INF] 
+
+2023-11-09 23:42:29.792 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-09 23:42:29.792 [INF] -------------Request-End------------
+2023-11-09 23:42:31.780 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:31.781 [INF] HeartBeat
+2023-11-09 23:42:31.781 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:31.802 [INF] -------------Request-Begin------------
+2023-11-09 23:42:31.802 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:31.802 [INF] 
+
+2023-11-09 23:42:31.802 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","creditLimit":5000.00},{"id":2,"dealer":"DEF A.S.","creditLimit":0}]}
+2023-11-09 23:42:31.802 [INF] -------------Request-End------------
+2023-11-09 23:42:36.520 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:42:36.520 [INF] HeartBeat
+2023-11-09 23:42:36.520 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:42:36.534 [INF] -------------Request-Begin------------
+2023-11-09 23:42:36.534 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-09 23:42:36.534 [INF] 
+
+2023-11-09 23:42:36.534 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-09 23:42:36.534 [INF] -------------Request-End------------
+2023-11-09 23:44:23.670 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-09 23:44:23.670 [INF] HeartBeat
+2023-11-09 23:44:23.670 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-09 23:44:23.691 [INF] -------------Request-Begin------------
+2023-11-09 23:44:23.691 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-09 23:44:23.691 [INF] 
+
+2023-11-09 23:44:23.691 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T01:24:23.6908251+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk1Njg2NjMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.demPz2WO5wt4nQAUZEgCTGMchhADMfyJG-TQCKIoWKk","user":"ABC A.S.","role":1}}
+2023-11-09 23:44:23.691 [INF] -------------Request-End------------
