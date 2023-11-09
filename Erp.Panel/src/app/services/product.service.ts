@@ -3,11 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
 import { StorageService } from './storage.service';
-
-const AUTH_API = "https://localhost:44319/api/v1/";
-const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-};
+import { environment } from 'src/environments/environment';
 
 interface IProduct {
   productName: string;
@@ -23,22 +19,22 @@ export class ProductService {
   constructor(private http: HttpClient) { }
 
   add(params: any): Observable<any>{
-    return this.http.post(AUTH_API + 'products', params, httpOptions)
+    return this.http.post(environment.apiUrl + 'products', params, environment.httpOptions)
   }
 
   get(): Observable<any>{
-    return this.http.get(AUTH_API + 'products', httpOptions)
+    return this.http.get(environment.apiUrl + 'products', environment.httpOptions)
   }
 
   getById(id:number): Observable<any>{
-    return this.http.get(`${AUTH_API}products/${id}`, httpOptions)
+    return this.http.get(`${environment.apiUrl}products/${id}`, environment.httpOptions)
   }
 
   update(id:number, params:any): Observable<any>{
-    return this.http.put(`${AUTH_API}products/${id}`, params, httpOptions)
+    return this.http.put(`${environment.apiUrl}products/${id}`, params, environment.httpOptions)
   }
 
   delete(id:number): Observable<any>{
-    return this.http.delete(`${AUTH_API}products/${id}`, httpOptions)
+    return this.http.delete(`${environment.apiUrl}products/${id}`, environment.httpOptions)
   }
 }

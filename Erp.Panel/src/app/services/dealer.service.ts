@@ -1,11 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
-const AUTH_API = "https://localhost:44319/api/v1/";
-const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-};
 
 interface IDealer {
   email: string;
@@ -26,22 +23,22 @@ export class DealerService {
   constructor(private http: HttpClient) { }
 
   add(params: any): Observable<any>{
-    return this.http.post(AUTH_API + 'dealers', params, httpOptions)
+    return this.http.post(environment.apiUrl + 'dealers', params, environment.httpOptions)
   }
 
   get(): Observable<any>{
-    return this.http.get(AUTH_API + 'dealers', httpOptions)
+    return this.http.get(environment.apiUrl + 'dealers', environment.httpOptions)
   }
 
   getById(id:number): Observable<any>{
-    return this.http.get(`${AUTH_API}dealers/${id}`, httpOptions)
+    return this.http.get(`${environment.apiUrl}dealers/${id}`, environment.httpOptions)
   }
 
   update(id:number, params:any): Observable<any>{
-    return this.http.put(`${AUTH_API}dealers/${id}`, params, httpOptions)
+    return this.http.put(`${environment.apiUrl}dealers/${id}`, params, environment.httpOptions)
   }
 
   delete(id:number): Observable<any>{
-    return this.http.delete(`${AUTH_API}dealers/${id}`, httpOptions)
+    return this.http.delete(`${environment.apiUrl}dealers/${id}`, environment.httpOptions)
   }
 }

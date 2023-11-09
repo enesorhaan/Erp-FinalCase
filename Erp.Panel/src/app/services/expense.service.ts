@@ -1,11 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
-const AUTH_API = "https://localhost:44319/api/v1/";
-const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-};
+import { environment } from 'src/environments/environment';
 
 interface IExpense {
   description: string;
@@ -22,22 +18,22 @@ export class ExpenseService {
   constructor(private http: HttpClient) { }
 
   add(params: any): Observable<any>{
-    return this.http.post(AUTH_API + 'expenses', params, httpOptions)
+    return this.http.post(environment.apiUrl + 'expenses', params, environment.httpOptions)
   }
 
   get(): Observable<any>{
-    return this.http.get(AUTH_API + 'expenses', httpOptions)
+    return this.http.get(environment.apiUrl + 'expenses', environment.httpOptions)
   }
 
   getById(id:number): Observable<any>{
-    return this.http.get(`${AUTH_API}expenses/${id}`, httpOptions)
+    return this.http.get(`${environment.apiUrl}expenses/${id}`, environment.httpOptions)
   }
 
   update(id:number, params:any): Observable<any>{
-    return this.http.put(`${AUTH_API}expenses/${id}`, params, httpOptions)
+    return this.http.put(`${environment.apiUrl}expenses/${id}`, params, environment.httpOptions)
   }
 
   delete(id:number): Observable<any>{
-    return this.http.delete(`${AUTH_API}expenses/${id}`, httpOptions)
+    return this.http.delete(`${environment.apiUrl}expenses/${id}`, environment.httpOptions)
   }
 }

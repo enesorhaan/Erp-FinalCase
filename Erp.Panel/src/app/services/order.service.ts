@@ -1,11 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
-const AUTH_API = "https://localhost:44319/api/v1/";
-const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-};
 
 interface IOrder {
   paymentMethod: number;
@@ -19,30 +16,30 @@ export class OrderService {
   constructor(private http: HttpClient) { }
 
   add(params: any): Observable<any>{
-    return this.http.post(AUTH_API + 'orders', params, httpOptions)
+    return this.http.post(environment.apiUrl + 'orders', params, environment.httpOptions)
   }
 
   getAdmin(): Observable<any>{
-    return this.http.get(AUTH_API + 'orders/admin', httpOptions)
+    return this.http.get(environment.apiUrl + 'orders/admin', environment.httpOptions)
   }
 
   getDealer(): Observable<any>{
-    return this.http.get(AUTH_API + 'orders/dealer', httpOptions)
+    return this.http.get(environment.apiUrl + 'orders/dealer', environment.httpOptions)
   }
 
   getById(id:number): Observable<any>{
-    return this.http.get(`${AUTH_API}orders/${id}`, httpOptions)
+    return this.http.get(`${environment.apiUrl}orders/${id}`, environment.httpOptions)
   }
 
   updateAdmin(id:number, params:any): Observable<any>{
-    return this.http.put(`${AUTH_API}orders/admin/${id}`, params, httpOptions)
+    return this.http.put(`${environment.apiUrl}orders/admin/${id}`, params, environment.httpOptions)
   }
 
   updateDealer(id:number, params:any): Observable<any>{
-    return this.http.put(`${AUTH_API}orders/dealer/${id}`, params, httpOptions)
+    return this.http.put(`${environment.apiUrl}orders/dealer/${id}`, params, environment.httpOptions)
   }
 
   delete(id:number): Observable<any>{
-    return this.http.delete(`${AUTH_API}orders/${id}`, httpOptions)
+    return this.http.delete(`${environment.apiUrl}orders/${id}`, environment.httpOptions)
   }
 }

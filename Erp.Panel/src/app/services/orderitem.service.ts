@@ -1,11 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
-const AUTH_API = "https://localhost:44319/api/v1/";
-const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-};
 
 interface IOrderItem {
   productId: number;
@@ -21,22 +18,22 @@ export class OrderitemService {
   constructor(private http: HttpClient) { }
 
   add(params: any): Observable<any>{
-    return this.http.post(AUTH_API + 'orderitems', params, httpOptions)
+    return this.http.post(environment.apiUrl + 'orderitems', params, environment.httpOptions)
   }
 
   get(): Observable<any>{
-    return this.http.get(AUTH_API + 'orderitems', httpOptions)
+    return this.http.get(environment.apiUrl + 'orderitems', environment.httpOptions)
   }
 
   getById(id:number): Observable<any>{
-    return this.http.get(`${AUTH_API}orderitems/${id}`, httpOptions)
+    return this.http.get(`${environment.apiUrl}orderitems/${id}`, environment.httpOptions)
   }
 
   update(id:number, params:any): Observable<any>{
-    return this.http.put(`${AUTH_API}orderitems/${id}`, params, httpOptions)
+    return this.http.put(`${environment.apiUrl}orderitems/${id}`, params, environment.httpOptions)
   }
 
   delete(id:number): Observable<any>{
-    return this.http.delete(`${AUTH_API}orderitems/${id}`, httpOptions)
+    return this.http.delete(`${environment.apiUrl}orderitems/${id}`, environment.httpOptions)
   }
 }
