@@ -1,1 +1,29 @@
-<p>listorderdealer works!</p>
+<c-card class="mb-4">
+    <c-card-header>
+      <strong>Order List</strong>
+    </c-card-header>
+    <c-card-body *ngIf="order.length > 0">
+        <table cTable>
+          <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Billing Number</th>
+                <th scope="col">Total Price</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">Payment Method</th>
+                <th scope="col">Order Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let o of order">
+                <th scope="row">{{ o.id }}</th>
+                <td>{{ o.billingNumber }}</td>
+                <td>{{ o.totalPrice }} TRY</td>
+                <td>{{ o.orderDate }}</td>
+                <td>{{ o.paymentMethod }}</td>
+                <td>{{ o.orderStatus }}</td>
+            </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+  </c-card>

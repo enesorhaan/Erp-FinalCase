@@ -23,6 +23,14 @@ export class StorageService {
     }
   }
 
+  public isAdmin(): boolean{
+    if(this.getUser().response.role == 0){
+      return true;
+    }else{
+      return false;
+    }
+  }
+
   public getToken(): string {
     const stringifyUser:any = window.sessionStorage.getItem('auth');
     if (stringifyUser) {

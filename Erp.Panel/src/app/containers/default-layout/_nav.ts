@@ -1,4 +1,7 @@
 import { INavData } from '@coreui/angular';
+import { StorageService } from 'src/app/services/storage.service';
+
+const isAdmin = (storageService: StorageService) => storageService.isAdmin();
 
 export const navItems: INavData[] = [
   {
@@ -137,11 +140,11 @@ export const navItems: INavData[] = [
         url: '/report/list/order/dealer'
       },
       {
-        name: 'Report Product',
+        name: 'Report Order By Id',
         url: '/report/list/orderbyid'
       },
       {
-        name: 'Create Order',
+        name: 'Report Product',
         url: '/report/list/product'
       }
     ]

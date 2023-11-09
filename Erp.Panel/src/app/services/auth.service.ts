@@ -15,6 +15,10 @@ const httpOptions = {
 
 export class AuthService {
 
+  tokenData:any[] = []
+
+  roleAs: number = 0;
+
   constructor(
     private http: HttpClient,
     private router: Router,
@@ -40,6 +44,7 @@ export class AuthService {
   isLoggin(){
     let user = this.storage.getUser();
     if(user){
+      this.roleAs = user.response.role;
       return true;
     }else{
       return false;

@@ -4,11 +4,13 @@ import { StorageService } from '../services/storage.service';
 import { Observable } from 'rxjs';
 import { catchError, finalize } from 'rxjs/operators';
 import { LoaderService } from '../services/loader.service';
+import { Router } from '@angular/router';
 
 @Injectable()
 export class TokenInterceptor implements HttpInterceptor{
     constructor(
-        private storage: StorageService, 
+        private storage: StorageService,
+        private router: Router,
         private loaderService : LoaderService
     ) {
     }

@@ -1,1 +1,52 @@
-<p>listorderbyid works!</p>
+<c-card class="mb-4">
+    <c-card-header>
+      <strong>List Order For Dealer</strong>
+    </c-card-header>
+    <div class="mb-3 filter-container col-10">
+        <div class="col-2">
+            <label cLabel for="exampleFormControlInput1" aria-label="Floating label select example">Dealer</label>
+            <select id="exampleFormControlInput1" cSelect [(ngModel)]="selectedDealer" (ngModelChange)="onFilterChange()">
+                <option *ngFor="let d of dealer" [value]="d.id"> {{d.dealerName}} </option>
+            </select>
+        </div>
+    </div>
+    <div class="mb-3 filter-container col-10">
+        <div class="col-2">
+            <label cLabel for="exampleFormControlInput1" aria-label="Floating label select example">Filter</label>
+            <select id="exampleFormControlInput1" cSelect [(ngModel)]="selectedFilter" (ngModelChange)="onFilterChange()">
+                <option value="1">Daily</option>
+                <option value="2">Weekly</option>
+                <option value="3">Monthly</option>
+            </select>
+        </div>
+    </div>
+    <c-card-body *ngIf="report.length > 0">
+        <table cTable>
+          <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Billing Number</th>
+                <th scope="col">Total Price</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">Payment Method</th>
+                <th scope="col">Order Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let r of report">
+                <th scope="row">{{ r.id }}</th>
+                <td>{{ r.billingNumber }}</td>
+                <td>{{ r.totalPrice }} TRY</td>
+                <td>{{ r.orderDate }}</td>
+                <td>{{ r.paymentMethod }}</td>
+                <td>{{ r.orderStatus }}</td>
+            </tr>
+          </tbody>
+        </table>
+    </c-card-body>
+        <ng-template #noRecords>
+            <div class="text-center">
+            <p>Record not found</p>
+            </div>
+        </ng-template>
+  </c-card>
