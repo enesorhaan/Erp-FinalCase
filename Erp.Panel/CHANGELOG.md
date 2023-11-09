@@ -20,7 +20,7 @@ see: [Babel vulnerable to arbitrary code execution when compiling specifically c
 
 - chore(dependencies): update to `Angular 16.2`
 - fix(carousels): remove routerLink directives from carousel controls
-- chore: add CoreUI links to the sidebar-nav, minor refactors
+- chore: add links to the sidebar-nav, minor refactors
 - refactor(styles): scrollbar tweaks
 - refactor(styles): scss variables - disable deprecation messages
 
