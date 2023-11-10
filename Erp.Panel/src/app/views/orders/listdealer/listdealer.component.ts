@@ -53,6 +53,7 @@ export class ListdealerComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    console.log("Destroy");
   }
 
 }

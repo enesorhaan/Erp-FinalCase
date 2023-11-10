@@ -2,7 +2,7 @@
   <c-card-header>
     <strong>Order List</strong>
   </c-card-header>
-  <c-card-body *ngIf="order.length > 0">
+  <c-card-body *ngIf="order != null">
     <div class="d-flex justify-content-end mb-3">
       <button cButton class="btn btn-secondary" routerLink="/orderitem/add">Create Order</button>
     </div>
