@@ -15,19 +15,20 @@ This panel application is an Angular layout project created for Erp.Api endpoint
         <li><strong>The services that feed the components</strong> in each module are created under the services folder.</li>
     <ul>
 </p>
+
+###Postman
 <p>
     You can access the endpoint document for Erp.Api from the Postman document link below.
 </p>
 
-
 <div>
-    <strong>Erp.Api Endpoints Postman</strong>: <a href="https://documenter.getpostman.com/view/29567242/2s9YXk2fj3">documenter.getpostman.com</a>
+    <strong>Erp.Api Endpoints Postman: </strong> <a href="https://documenter.getpostman.com/view/29567242/2s9YXk2fj3">documenter.getpostman.com</a>
 </div>
 
 ## Quick Start
 
 - Clone the repo: `git clone https://github.com/enesorhaan/VakifBank-FinalCase.git`
-- Use the under-folder: Erp.Panel
+- Navigate to the project directory: `cd Erp.Panel`
 
 #### <i>Prerequisites</i>
 Before you begin, make sure your development environment includes `Node.js®` and an `npm` package manager.
@@ -72,7 +73,7 @@ $ ng build
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
-coreui-free-angular-admin-template
+Erp.Panel
 ├── src/                         # project root
 │   ├── app/                     # main app directory
 |   │   ├── containers/          # layout containers
