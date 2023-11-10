@@ -69,7 +69,7 @@ export class AddComponent implements OnInit, OnDestroy {
       
       if(this.orderItem == null){
         this.router.navigate(['/orderitem/add']);
-        this.toastr.error('Please Add Product!', 'Error');
+        this.toastr.warning('Basket is empty. Please Add Product!', 'Warning');
         return;
       }
 

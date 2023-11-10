@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 import { OrderitemService } from 'src/app/services/orderitem.service';
 
 @Component({
@@ -13,6 +14,7 @@ export class ListComponent implements OnInit, OnDestroy {
   constructor(
     private orderItemService: OrderitemService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute  
   ) { }
 
@@ -23,7 +25,12 @@ export class ListComponent implements OnInit, OnDestroy {
   load(){
     this.orderItemService.get().subscribe(  (data:any) => {
       this.orderItem = data.response;
-      console.log(this.orderItem);
+      
+      if(this.orderItem == null){
+        this.router.navigate(['/orderitem/add']);
+        this.toastr.warning('Basket is empty. Please Add Product!', 'Warning');
+        return;
+      }
     })
   }
 
@@ -31,6 +38,7 @@ export class ListComponent implements OnInit, OnDestroy {
     this.orderItemService.delete(orderItemId).subscribe({
       next: data => {
         console.log(data);
+        this.load();
         this.router.navigate(['/orderitem/list']);
       },
       error: error => {

@@ -37,6 +37,7 @@ export class ListComponent implements OnInit, OnDestroy {
     this.productService.delete(productId).subscribe({
       next: data => {
         console.log(data);
+        this.load();
         this.router.navigate(['/product/list']);
       },
       error: error => {
