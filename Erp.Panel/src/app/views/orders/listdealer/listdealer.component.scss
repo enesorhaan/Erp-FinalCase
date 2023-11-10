@@ -2,12 +2,15 @@ table.cTable tbody > tr:hover {
     background-color: #000000; 
   }
   
-  /* Üst tablodaki satırların çerçevesini belirgin yapmak için stil ekleyin */
   table.cTable tbody > tr {
     border: 3px solid #000000; 
   }
 
   table.cTable tbody > tr {
-    font-weight: bold; /* Kalın yazı tipi */
-    font-size: 14px; /* Yazı boyutu */
+    font-weight: bold; 
+    font-size: 14px; 
   }
+
+  .orderitems td {
+    color: rgba(0, 0, 0, 0.7); 
+}
