@@ -32,6 +32,7 @@ namespace Erp.Operation.Command
             if (company != null)
                 return new ApiResponse<CompanyResponse>("Email already exists!");
 
+            mapped.CompanyName = "Orhan Teknolojileri San. ve Tic. A.S.";
             var entity = await dbContext.Set<Company>().AddAsync(mapped, cancellationToken);
             entity.Entity.InsertDate = DateTime.Now;
             await dbContext.SaveChangesAsync(cancellationToken);
