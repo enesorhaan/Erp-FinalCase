@@ -1,0 +1,129 @@
+2023-11-11 01:32:20.059 [INF] App server is starting.
+2023-11-11 01:34:09.931 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 01:34:09.934 [INF] HeartBeat
+2023-11-11 01:34:09.936 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 01:34:10.191 [INF] -------------Request-Begin------------
+2023-11-11 01:34:10.191 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-11 01:34:10.191 [INF] 
+
+2023-11-11 01:34:10.191 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-73c96b0e1efbe827104bcf029b9ebee1-6146cc056b84b424-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-11 01:34:10.192 [INF] -------------Request-End------------
+2023-11-11 01:34:12.616 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 01:34:12.616 [INF] HeartBeat
+2023-11-11 01:34:12.616 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 01:34:13.405 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:13.407 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 01:34:14.508 [INF] -------------Request-Begin------------
+2023-11-11 01:34:14.508 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-11 01:34:14.508 [INF] 
+
+2023-11-11 01:34:14.508 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-11T03:14:14.4919344+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk2NjE2NTQsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.MehMnEVaXBoJ_O1P_GVUnIopTbElPy5z4TW_T1wOJ3Q","user":"ABC A.S.","role":1}}
+2023-11-11 01:34:14.508 [INF] -------------Request-End------------
+2023-11-11 01:34:19.903 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 01:34:19.903 [INF] HeartBeat
+2023-11-11 01:34:19.903 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 01:34:20.165 [INF] -------------Request-Begin------------
+2023-11-11 01:34:20.165 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-11 01:34:20.165 [INF] 
+
+2023-11-11 01:34:20.165 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":89},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-11 01:34:20.165 [INF] -------------Request-End------------
+2023-11-11 01:34:22.317 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 01:34:22.318 [INF] HeartBeat
+2023-11-11 01:34:22.318 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 01:34:22.451 [INF] -------------Request-Begin------------
+2023-11-11 01:34:22.451 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-11 01:34:22.451 [INF] 
+
+2023-11-11 01:34:22.451 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealer":"ABC A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":3,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Selamlar!"},{"id":7,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?"}]}
+2023-11-11 01:34:22.451 [INF] -------------Request-End------------
+2023-11-11 01:34:24.431 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 01:34:24.431 [INF] HeartBeat
+2023-11-11 01:34:24.431 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 01:34:24.515 [INF] -------------Request-Begin------------
+2023-11-11 01:34:24.515 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-11 01:34:24.515 [INF] 
+
+2023-11-11 01:34:24.515 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-11 01:34:24.515 [INF] -------------Request-End------------
+2023-11-11 01:34:26.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 01:34:26.823 [INF] HeartBeat
+2023-11-11 01:34:26.823 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 01:34:26.835 [INF] -------------Request-Begin------------
+2023-11-11 01:34:26.835 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-11 01:34:26.835 [INF] 
+
+2023-11-11 01:34:26.835 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-11 01:34:26.835 [INF] -------------Request-End------------
