@@ -67,7 +67,14 @@ export class AddComponent implements OnInit, OnDestroy {
       this.orderItem = data.response;
       console.log(this.orderItem);
       
+      if(this.orderItem == null){
+        this.router.navigate(['/orderitem/add']);
+        this.toastr.error('Please Add Product!', 'Error');
+        return;
+      }
+
       this.totalPrice = 0;
+
       this.orderItem.forEach((item: any) => {
         this.totalPrice += item.marginPrice;
       });

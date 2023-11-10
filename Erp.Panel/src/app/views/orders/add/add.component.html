@@ -1,4 +1,4 @@
-<c-card *ngIf="orderItem.length > 0" class="mb-4">
+<c-card *ngIf="orderItem != null" class="mb-4">
     <c-card-header>
       <strong>Product List</strong>
     </c-card-header>
@@ -37,7 +37,7 @@
             <div class="mb-3">
                 <c-form-check inline>
                     <input cFormCheckInput id="radioinline1" type="radio" name="paymentMethod" value="1" (change)="paymentMethod = 1"/>
-                    <label cFormCheckLabel for="radioinline1">Remittance</label>
+                    <label cFormCheckLabel for="radioinline1">EFT/Remittance</label>
                 </c-form-check>
                 <c-form-check inline>
                     <input cFormCheckInput id="radioinline2" type="radio" name="paymentMethod" value="2" (change)="paymentMethod = 2"/>

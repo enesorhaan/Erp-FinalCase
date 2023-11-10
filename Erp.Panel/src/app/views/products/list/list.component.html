@@ -1,4 +1,4 @@
-<c-card *ngIf="product.length > 0" class="mb-4">
+<c-card *ngIf="product != null" class="mb-4">
     <c-card-header>
       <strong>Product List</strong>
     </c-card-header>
@@ -10,8 +10,8 @@
                 <th scope="col">Product Name</th>
                 <th scope="col">Product Price</th>
                 <th scope="col">Product Stock</th>
-                <th scope="col">Edit</th>
-                <th scope="col">Delete</th>
+                <th *ngIf="isAdmin()" scope="col">Edit</th>
+                <th *ngIf="isAdmin()" scope="col">Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -20,8 +20,8 @@
                 <td>{{ p.productName }}</td>
                 <td>{{ p.productPrice }} TRY</td>
                 <td>{{ p.productStock }}</td>
-                <td><a routerLink="/product/edit/{{ p.id }}"><i class="bi bi-pencil"></i></a></td>
-                <td><a routerLink="/product/list" (click)="isDelete(p.id)"><i class="bi bi-trash"></i></a></td>
+                <td *ngIf="isAdmin()"><a routerLink="/product/edit/{{ p.id }}"><i class="bi bi-pencil"></i></a></td>
+                <td *ngIf="isAdmin()"><a routerLink="/product/list" (click)="isDelete(p.id)"><i class="bi bi-trash"></i></a></td>
             </tr>
           </tbody>
         </table>
