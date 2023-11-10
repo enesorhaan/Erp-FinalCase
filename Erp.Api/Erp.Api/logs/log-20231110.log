@@ -1730,3 +1730,1516 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]}]}
 2023-11-10 02:21:14.788 [INF] -------------Request-End------------
+2023-11-10 02:37:11.831 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:37:11.895 [INF] HeartBeat
+2023-11-10 02:37:11.900 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:37:12.867 [INF] -------------Request-Begin------------
+2023-11-10 02:37:12.867 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:37:12.867 [INF] 
+
+2023-11-10 02:37:12.868 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]}]}
+2023-11-10 02:37:12.868 [INF] -------------Request-End------------
+2023-11-10 02:41:14.862 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:41:14.863 [INF] HeartBeat
+2023-11-10 02:41:14.863 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:41:14.957 [INF] -------------Request-Begin------------
+2023-11-10 02:41:14.959 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:41:14.959 [INF] 
+
+2023-11-10 02:41:14.960 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]}]}
+2023-11-10 02:41:14.960 [INF] -------------Request-End------------
+2023-11-10 02:41:34.774 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:41:34.774 [INF] HeartBeat
+2023-11-10 02:41:34.774 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:41:34.814 [INF] -------------Request-Begin------------
+2023-11-10 02:41:34.814 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:41:34.814 [INF] 
+
+2023-11-10 02:41:34.814 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]}]}
+2023-11-10 02:41:34.814 [INF] -------------Request-End------------
+2023-11-10 02:41:41.467 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:41:41.468 [INF] HeartBeat
+2023-11-10 02:41:41.468 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:41:41.621 [INF] -------------Request-Begin------------
+2023-11-10 02:41:41.621 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-10 02:41:41.622 [INF] 
+
+2023-11-10 02:41:41.622 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T04:21:41.6200207+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk1NzkzMDEsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.M7h4tJb9xN0nxd4KsYSYIOSKUQ4AVDpyTGsw3ivdbCY","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-10 02:41:41.622 [INF] -------------Request-End------------
+2023-11-10 02:48:02.487 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:02.497 [INF] HeartBeat
+2023-11-10 02:48:02.498 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:03.081 [INF] -------------Request-Begin------------
+2023-11-10 02:48:03.082 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:03.082 [INF] 
+
+2023-11-10 02:48:03.082 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 02:48:03.082 [INF] -------------Request-End------------
+2023-11-10 02:48:05.537 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:05.538 [INF] HeartBeat
+2023-11-10 02:48:05.538 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:05.732 [INF] -------------Request-Begin------------
+2023-11-10 02:48:05.733 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:05.733 [INF] 
+
+2023-11-10 02:48:05.733 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","creditLimit":5000.00},{"id":2,"dealer":"DEF A.S.","creditLimit":0}]}
+2023-11-10 02:48:05.733 [INF] -------------Request-End------------
+2023-11-10 02:48:06.314 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:06.314 [INF] HeartBeat
+2023-11-10 02:48:06.314 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:06.350 [INF] -------------Request-Begin------------
+2023-11-10 02:48:06.350 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:06.350 [INF] 
+
+2023-11-10 02:48:06.350 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 02:48:06.350 [INF] -------------Request-End------------
+2023-11-10 02:48:07.359 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:07.359 [INF] HeartBeat
+2023-11-10 02:48:07.359 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:07.467 [INF] -------------Request-Begin------------
+2023-11-10 02:48:07.467 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:07.467 [INF] 
+
+2023-11-10 02:48:07.470 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-10 02:48:07.470 [INF] -------------Request-End------------
+2023-11-10 02:48:09.359 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:09.359 [INF] HeartBeat
+2023-11-10 02:48:09.359 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:09.382 [INF] -------------Request-Begin------------
+2023-11-10 02:48:09.382 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:09.382 [INF] 
+
+2023-11-10 02:48:09.382 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":40},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-10 02:48:09.382 [INF] -------------Request-End------------
+2023-11-10 02:48:12.486 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:12.486 [INF] HeartBeat
+2023-11-10 02:48:12.487 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:12.582 [INF] -------------Request-Begin------------
+2023-11-10 02:48:12.583 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-10 02:48:12.583 [INF] 
+
+2023-11-10 02:48:12.583 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-55b695ba09e66a0960bf113342614829-aa59f54c3df9956d-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-10 02:48:12.583 [INF] -------------Request-End------------
+2023-11-10 02:48:15.953 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:15.953 [INF] HeartBeat
+2023-11-10 02:48:15.953 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:15.978 [INF] -------------Request-Begin------------
+2023-11-10 02:48:15.978 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-10 02:48:15.978 [INF] 
+
+2023-11-10 02:48:15.979 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T04:28:15.9778614+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk1Nzk2OTUsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.uB7dpKmXZfr4YFmHUgCskztO220THhNiZVk8YC1QLOI","user":"ABC A.S.","role":1}}
+2023-11-10 02:48:15.979 [INF] -------------Request-End------------
+2023-11-10 02:48:18.309 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:18.309 [INF] HeartBeat
+2023-11-10 02:48:18.309 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:18.322 [INF] -------------Request-Begin------------
+2023-11-10 02:48:18.322 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:18.322 [INF] 
+
+2023-11-10 02:48:18.324 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-10 02:48:18.325 [INF] -------------Request-End------------
+2023-11-10 02:48:20.017 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:20.017 [INF] HeartBeat
+2023-11-10 02:48:20.017 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:20.029 [INF] -------------Request-Begin------------
+2023-11-10 02:48:20.030 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:20.030 [INF] 
+
+2023-11-10 02:48:20.030 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealer":"ABC A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":3,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Selamlar!"},{"id":7,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?"}]}
+2023-11-10 02:48:20.030 [INF] -------------Request-End------------
+2023-11-10 02:48:21.626 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:21.626 [INF] HeartBeat
+2023-11-10 02:48:21.626 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:21.647 [INF] -------------Request-Begin------------
+2023-11-10 02:48:21.647 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:21.647 [INF] 
+
+2023-11-10 02:48:21.647 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]}]}
+2023-11-10 02:48:21.647 [INF] -------------Request-End------------
+2023-11-10 02:48:23.479 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:23.479 [INF] HeartBeat
+2023-11-10 02:48:23.479 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:23.486 [INF] -------------Request-Begin------------
+2023-11-10 02:48:23.486 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:23.486 [INF] 
+
+2023-11-10 02:48:23.486 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-10 02:48:23.486 [INF] -------------Request-End------------
+2023-11-10 02:48:28.006 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:28.006 [INF] HeartBeat
+2023-11-10 02:48:28.006 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:28.017 [INF] -------------Request-Begin------------
+2023-11-10 02:48:28.017 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:28.017 [INF] 
+
+2023-11-10 02:48:28.017 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]}]}
+2023-11-10 02:48:28.017 [INF] -------------Request-End------------
+2023-11-10 02:48:30.965 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:30.965 [INF] HeartBeat
+2023-11-10 02:48:30.965 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:30.971 [INF] -------------Request-Begin------------
+2023-11-10 02:48:30.972 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:30.972 [INF] 
+
+2023-11-10 02:48:30.972 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-10 02:48:30.972 [INF] -------------Request-End------------
+2023-11-10 02:48:31.808 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:31.808 [INF] HeartBeat
+2023-11-10 02:48:31.808 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:31.821 [INF] -------------Request-Begin------------
+2023-11-10 02:48:31.822 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:31.822 [INF] 
+
+2023-11-10 02:48:31.822 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-10 02:48:31.822 [INF] -------------Request-End------------
+2023-11-10 02:48:32.683 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:32.683 [INF] HeartBeat
+2023-11-10 02:48:32.683 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:32.694 [INF] -------------Request-Begin------------
+2023-11-10 02:48:32.694 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:32.695 [INF] 
+
+2023-11-10 02:48:32.695 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-10 02:48:32.695 [INF] -------------Request-End------------
+2023-11-10 02:48:34.209 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:34.209 [INF] HeartBeat
+2023-11-10 02:48:34.209 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:34.219 [INF] -------------Request-Begin------------
+2023-11-10 02:48:34.219 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:34.219 [INF] 
+
+2023-11-10 02:48:34.219 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-10 02:48:34.219 [INF] -------------Request-End------------
+2023-11-10 02:48:36.740 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 02:48:36.740 [INF] HeartBeat
+2023-11-10 02:48:36.740 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 02:48:37.793 [INF] -------------Request-Begin------------
+2023-11-10 02:48:37.793 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 02:48:37.793 [INF] 
+
+2023-11-10 02:48:37.793 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]}]}
+2023-11-10 02:48:37.793 [INF] -------------Request-End------------
+2023-11-10 09:59:43.221 [INF] App server is starting.
+2023-11-10 10:03:12.258 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:03:12.261 [INF] HeartBeat
+2023-11-10 10:03:12.264 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:03:13.233 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:13.235 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:03:14.477 [INF] -------------Request-Begin------------
+2023-11-10 10:03:14.477 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-10 10:03:14.477 [INF] 
+
+2023-11-10 10:03:14.477 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T11:43:14.4554483+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk2MDU3OTQsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.Z8-FE6uTpTncQvAuzq9u6sk-Mjm-plP2sHU9FVYa3w8","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-10 10:03:14.477 [INF] -------------Request-End------------
+2023-11-10 10:04:37.782 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:04:37.782 [INF] HeartBeat
+2023-11-10 10:04:37.782 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:04:38.019 [INF] -------------Request-Begin------------
+2023-11-10 10:04:38.019 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 10:04:38.019 [INF] 
+
+2023-11-10 10:04:38.019 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 10:04:38.019 [INF] -------------Request-End------------
+2023-11-10 10:05:35.190 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:05:35.218 [INF] HeartBeat
+2023-11-10 10:05:35.218 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:05:35.294 [INF] -------------Request-Begin------------
+2023-11-10 10:05:35.294 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-10 10:05:35.294 [INF] 
+
+2023-11-10 10:05:35.295 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","creditLimit":5000.00},{"id":2,"dealer":"DEF A.S.","creditLimit":0}]}
+2023-11-10 10:05:35.295 [INF] -------------Request-End------------
+2023-11-10 10:05:42.669 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:05:42.670 [INF] HeartBeat
+2023-11-10 10:05:42.670 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:05:42.828 [INF] -------------Request-Begin------------
+2023-11-10 10:05:42.828 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:05:42.828 [INF] 
+
+2023-11-10 10:05:42.829 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-10 10:05:42.830 [INF] -------------Request-End------------
+2023-11-10 10:05:47.647 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:05:47.647 [INF] HeartBeat
+2023-11-10 10:05:47.647 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:05:47.662 [INF] -------------Request-Begin------------
+2023-11-10 10:05:47.662 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-10 10:05:47.662 [INF] 
+
+2023-11-10 10:05:47.662 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","creditLimit":5000.00},{"id":2,"dealer":"DEF A.S.","creditLimit":0}]}
+2023-11-10 10:05:47.662 [INF] -------------Request-End------------
+2023-11-10 10:05:51.661 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:05:51.661 [INF] HeartBeat
+2023-11-10 10:05:51.661 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:05:51.867 [INF] -------------Request-Begin------------
+2023-11-10 10:05:51.867 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:05:51.867 [INF] 
+
+2023-11-10 10:05:51.867 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:05:51.867 [INF] -------------Request-End------------
+2023-11-10 10:08:54.430 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:08:54.430 [INF] HeartBeat
+2023-11-10 10:08:54.430 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:08:54.460 [INF] -------------Request-Begin------------
+2023-11-10 10:08:54.460 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:08:54.460 [INF] 
+
+2023-11-10 10:08:54.460 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:08:54.460 [INF] -------------Request-End------------
+2023-11-10 10:09:15.420 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:09:15.421 [INF] HeartBeat
+2023-11-10 10:09:15.421 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:09:15.454 [INF] -------------Request-Begin------------
+2023-11-10 10:09:15.454 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:09:15.454 [INF] 
+
+2023-11-10 10:09:15.454 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:09:15.454 [INF] -------------Request-End------------
+2023-11-10 10:09:23.454 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:09:23.454 [INF] HeartBeat
+2023-11-10 10:09:23.454 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:09:23.476 [INF] -------------Request-Begin------------
+2023-11-10 10:09:23.476 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:09:23.477 [INF] 
+
+2023-11-10 10:09:23.477 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:09:23.477 [INF] -------------Request-End------------
+2023-11-10 10:09:55.091 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:09:55.091 [INF] HeartBeat
+2023-11-10 10:09:55.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:09:55.121 [INF] -------------Request-Begin------------
+2023-11-10 10:09:55.121 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:09:55.121 [INF] 
+
+2023-11-10 10:09:55.121 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:09:55.121 [INF] -------------Request-End------------
+2023-11-10 10:10:03.320 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:10:03.320 [INF] HeartBeat
+2023-11-10 10:10:03.320 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:10:03.340 [INF] -------------Request-Begin------------
+2023-11-10 10:10:03.340 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:10:03.340 [INF] 
+
+2023-11-10 10:10:03.340 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:10:03.340 [INF] -------------Request-End------------
+2023-11-10 10:31:28.909 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:31:28.919 [INF] HeartBeat
+2023-11-10 10:31:28.919 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:31:29.330 [INF] -------------Request-Begin------------
+2023-11-10 10:31:29.330 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:31:29.330 [INF] 
+
+2023-11-10 10:31:29.330 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:31:29.331 [INF] -------------Request-End------------
+2023-11-10 10:31:46.985 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:31:46.985 [INF] HeartBeat
+2023-11-10 10:31:46.985 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:31:47.007 [INF] -------------Request-Begin------------
+2023-11-10 10:31:47.007 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:31:47.007 [INF] 
+
+2023-11-10 10:31:47.007 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:31:47.009 [INF] -------------Request-End------------
+2023-11-10 10:31:55.909 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:31:55.909 [INF] HeartBeat
+2023-11-10 10:31:55.909 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:31:55.920 [INF] -------------Request-Begin------------
+2023-11-10 10:31:55.921 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 10:31:55.921 [INF] 
+
+2023-11-10 10:31:55.921 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 10:31:55.921 [INF] -------------Request-End------------
+2023-11-10 10:33:41.258 [INF] App server is starting.
+2023-11-10 10:37:50.156 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 10:37:50.159 [INF] HeartBeat
+2023-11-10 10:37:50.160 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 10:37:51.225 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.227 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.227 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.228 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.229 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.229 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.229 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:51.230 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 10:37:52.443 [INF] -------------Request-Begin------------
+2023-11-10 10:37:52.444 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {
+  "email": "info@abc.com",
+  "password": "patika"
+}
+2023-11-10 10:37:52.444 [INF] 
+
+2023-11-10 10:37:52.445 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T12:17:52.4219736+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk2MDc4NzIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.Fo4mZ77j6ECX6Hrs5EPFaMcaRDYIiuaffU1w1DOb2pU","user":"ABC A.S.","role":1}}
+2023-11-10 10:37:52.446 [INF] -------------Request-End------------
+2023-11-10 15:27:17.640 [INF] App server is starting.
+2023-11-10 15:27:29.731 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:27:29.738 [INF] HeartBeat
+2023-11-10 15:27:29.743 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:27:36.870 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.882 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.882 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.883 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.883 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.883 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.883 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:36.883 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 15:27:43.038 [INF] -------------Request-Begin------------
+2023-11-10 15:27:43.038 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {
+  "email": "info@orhan.com",
+  "password": "vakifbank"
+}
+2023-11-10 15:27:43.038 [INF] 
+
+2023-11-10 15:27:43.038 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T17:07:42.9656142+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk2MjUyNjIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.k1BuHsTPhpvHyl2Y-JNPW7YM1Imq_K_UyCjtXS_o2jU","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-10 15:27:43.038 [INF] -------------Request-End------------
+2023-11-10 15:28:57.449 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:28:57.456 [INF] HeartBeat
+2023-11-10 15:28:57.456 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:28:57.671 [INF] -------------Request-Begin------------
+2023-11-10 15:28:57.671 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-10 15:28:57.671 [INF] 
+
+2023-11-10 15:28:57.671 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a52afa068bcd5cd529a07029c92d9176-0248f2275a78764e-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-10 15:28:57.671 [INF] -------------Request-End------------
+2023-11-10 15:28:59.499 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:28:59.499 [INF] HeartBeat
+2023-11-10 15:28:59.499 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:28:59.700 [INF] -------------Request-Begin------------
+2023-11-10 15:28:59.700 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-10 15:28:59.700 [INF] 
+
+2023-11-10 15:28:59.701 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T17:08:59.6986521+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk2MjUzMzksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.vVgC-P4euz1cHYXY29zmObejRA3AEN7htJzBwkFNIuI","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-10 15:28:59.701 [INF] -------------Request-End------------
+2023-11-10 15:29:01.907 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:01.908 [INF] HeartBeat
+2023-11-10 15:29:01.908 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:02.172 [INF] -------------Request-Begin------------
+2023-11-10 15:29:02.172 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:02.172 [INF] 
+
+2023-11-10 15:29:02.172 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 15:29:02.172 [INF] -------------Request-End------------
+2023-11-10 15:29:04.347 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:04.347 [INF] HeartBeat
+2023-11-10 15:29:04.347 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:04.461 [INF] -------------Request-Begin------------
+2023-11-10 15:29:04.461 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:04.461 [INF] 
+
+2023-11-10 15:29:04.462 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/currentaccounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","creditLimit":5000.00},{"id":2,"dealer":"DEF A.S.","creditLimit":0}]}
+2023-11-10 15:29:04.462 [INF] -------------Request-End------------
+2023-11-10 15:29:05.179 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:05.179 [INF] HeartBeat
+2023-11-10 15:29:05.179 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:05.208 [INF] -------------Request-Begin------------
+2023-11-10 15:29:05.208 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:05.208 [INF] 
+
+2023-11-10 15:29:05.208 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 15:29:05.208 [INF] -------------Request-End------------
+2023-11-10 15:29:07.568 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:07.568 [INF] HeartBeat
+2023-11-10 15:29:07.568 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:07.804 [INF] -------------Request-Begin------------
+2023-11-10 15:29:07.805 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:07.805 [INF] 
+
+2023-11-10 15:29:07.808 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-10 15:29:07.808 [INF] -------------Request-End------------
+2023-11-10 15:29:08.905 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:08.905 [INF] HeartBeat
+2023-11-10 15:29:08.905 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:08.936 [INF] -------------Request-Begin------------
+2023-11-10 15:29:08.936 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:08.936 [INF] 
+
+2023-11-10 15:29:08.936 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 15:29:08.936 [INF] -------------Request-End------------
+2023-11-10 15:29:10.722 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:10.722 [INF] HeartBeat
+2023-11-10 15:29:10.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:10.864 [INF] -------------Request-Begin------------
+2023-11-10 15:29:10.864 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:10.864 [INF] 
+
+2023-11-10 15:29:10.864 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":500.00,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":750.00,"productStock":40},{"id":3,"productName":"Controller","productPrice":1050.00,"productStock":5}]}
+2023-11-10 15:29:10.864 [INF] -------------Request-End------------
+2023-11-10 15:29:14.772 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:14.772 [INF] HeartBeat
+2023-11-10 15:29:14.772 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:14.925 [INF] -------------Request-Begin------------
+2023-11-10 15:29:14.926 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:14.926 [INF] 
+
+2023-11-10 15:29:14.926 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orders/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[{"id":2,"product":"Controller","marginPrice":1155.00,"quantity":1},{"id":4,"product":"Step Motor","marginPrice":5500.00,"quantity":10}]},{"id":2,"dealer":"ABC A.S.","billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[{"id":5,"product":"Motor Driver","marginPrice":1650.00,"quantity":2},{"id":6,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":3,"dealer":"ABC A.S.","billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[{"id":7,"product":"Step Motor","marginPrice":1100.00,"quantity":2},{"id":8,"product":"Step Motor","marginPrice":2750.00,"quantity":5}]},{"id":4,"dealer":"DEF A.S.","billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 15:29:14.926 [INF] -------------Request-End------------
+2023-11-10 15:29:23.219 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:23.219 [INF] HeartBeat
+2023-11-10 15:29:23.219 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:24.205 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:24.205 [INF] HeartBeat
+2023-11-10 15:29:24.205 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:24.255 [INF] -------------Request-Begin------------
+2023-11-10 15:29:24.255 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:24.255 [INF] 
+
+2023-11-10 15:29:24.255 [INF] -------------Request-Begin------------
+2023-11-10 15:29:24.255 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:24.255 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:24.255 [INF] 
+
+2023-11-10 15:29:24.255 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]}]}
+2023-11-10 15:29:24.255 [INF] -------------Request-End------------
+2023-11-10 15:29:24.255 [INF] -------------Request-End------------
+2023-11-10 15:29:26.562 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:26.562 [INF] HeartBeat
+2023-11-10 15:29:26.562 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:26.569 [INF] -------------Request-Begin------------
+2023-11-10 15:29:26.569 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:26.569 [INF] 
+
+2023-11-10 15:29:26.570 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]}]}
+2023-11-10 15:29:26.570 [INF] -------------Request-End------------
+2023-11-10 15:29:28.850 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:28.850 [INF] HeartBeat
+2023-11-10 15:29:28.850 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:28.854 [INF] -------------Request-Begin------------
+2023-11-10 15:29:28.854 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:28.854 [INF] 
+
+2023-11-10 15:29:28.854 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:28.854 [INF] -------------Request-End------------
+2023-11-10 15:29:30.036 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:30.036 [INF] HeartBeat
+2023-11-10 15:29:30.036 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:30.046 [INF] -------------Request-Begin------------
+2023-11-10 15:29:30.046 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:30.046 [INF] 
+
+2023-11-10 15:29:30.046 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]},{"id":4,"dealer":null,"billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 15:29:30.046 [INF] -------------Request-End------------
+2023-11-10 15:29:32.460 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:32.460 [INF] HeartBeat
+2023-11-10 15:29:32.460 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:32.484 [INF] -------------Request-Begin------------
+2023-11-10 15:29:32.484 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:32.484 [INF] 
+
+2023-11-10 15:29:32.484 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-10 15:29:32.485 [INF] -------------Request-End------------
+2023-11-10 15:29:35.334 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:35.334 [INF] HeartBeat
+2023-11-10 15:29:35.334 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:35.520 [INF] -------------Request-Begin------------
+2023-11-10 15:29:35.520 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report/1 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:35.520 [INF] 
+
+2023-11-10 15:29:35.520 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:35.520 [INF] -------------Request-End------------
+2023-11-10 15:29:36.589 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:36.589 [INF] HeartBeat
+2023-11-10 15:29:36.589 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:36.601 [INF] -------------Request-Begin------------
+2023-11-10 15:29:36.601 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report/1 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:36.601 [INF] 
+
+2023-11-10 15:29:36.601 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]}]}
+2023-11-10 15:29:36.601 [INF] -------------Request-End------------
+2023-11-10 15:29:37.780 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:37.780 [INF] HeartBeat
+2023-11-10 15:29:37.780 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:37.790 [INF] -------------Request-Begin------------
+2023-11-10 15:29:37.790 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/1 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:37.790 [INF] 
+
+2023-11-10 15:29:37.790 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":null,"billingNumber":null,"totalPrice":6655.00,"orderDate":"2023-11-08T20:17:12.4393204","paymentMethod":"Remittance","orderStatus":"Cancelled","orderItems":[]},{"id":2,"dealer":null,"billingNumber":"cca15b90d0fd454c9edd6af972337329","totalPrice":4400.00,"orderDate":"2023-11-08T20:33:06.1071563","paymentMethod":"Remittance","orderStatus":"WaitingForPayment","orderItems":[]},{"id":3,"dealer":null,"billingNumber":null,"totalPrice":3850.00,"orderDate":"2023-11-08T22:56:09.2219261","paymentMethod":"CreditCard","orderStatus":"Rejected","orderItems":[]}]}
+2023-11-10 15:29:37.790 [INF] -------------Request-End------------
+2023-11-10 15:29:39.310 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:39.310 [INF] HeartBeat
+2023-11-10 15:29:39.310 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:39.317 [INF] -------------Request-Begin------------
+2023-11-10 15:29:39.317 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/2 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:39.317 [INF] 
+
+2023-11-10 15:29:39.317 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"dealer":null,"billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 15:29:39.317 [INF] -------------Request-End------------
+2023-11-10 15:29:40.801 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:40.801 [INF] HeartBeat
+2023-11-10 15:29:40.801 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:40.811 [INF] -------------Request-Begin------------
+2023-11-10 15:29:40.811 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report/2 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:40.811 [INF] 
+
+2023-11-10 15:29:40.811 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:40.811 [INF] -------------Request-End------------
+2023-11-10 15:29:42.129 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:42.129 [INF] HeartBeat
+2023-11-10 15:29:42.129 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:42.135 [INF] -------------Request-Begin------------
+2023-11-10 15:29:42.135 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report/2 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:42.135 [INF] 
+
+2023-11-10 15:29:42.135 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:42.135 [INF] -------------Request-End------------
+2023-11-10 15:29:43.333 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:43.333 [INF] HeartBeat
+2023-11-10 15:29:43.333 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:43.340 [INF] -------------Request-Begin------------
+2023-11-10 15:29:43.340 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/2 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:43.340 [INF] 
+
+2023-11-10 15:29:43.340 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"dealer":null,"billingNumber":null,"totalPrice":4015.00,"orderDate":"2023-11-01T00:00:00","paymentMethod":"Remittance","orderStatus":"WaitingForApproval","orderItems":[]}]}
+2023-11-10 15:29:43.340 [INF] -------------Request-End------------
+2023-11-10 15:29:44.628 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:44.628 [INF] HeartBeat
+2023-11-10 15:29:44.628 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:44.635 [INF] -------------Request-Begin------------
+2023-11-10 15:29:44.635 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/3 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:44.635 [INF] 
+
+2023-11-10 15:29:44.635 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/monthly/report/3 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:44.635 [INF] -------------Request-End------------
+2023-11-10 15:29:45.489 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:45.490 [INF] HeartBeat
+2023-11-10 15:29:45.490 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:45.496 [INF] -------------Request-Begin------------
+2023-11-10 15:29:45.497 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report/3 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:45.497 [INF] 
+
+2023-11-10 15:29:45.497 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/daily/report/3 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:45.497 [INF] -------------Request-End------------
+2023-11-10 15:29:46.383 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:46.384 [INF] HeartBeat
+2023-11-10 15:29:46.384 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:46.390 [INF] -------------Request-Begin------------
+2023-11-10 15:29:46.391 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report/3 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:46.391 [INF] 
+
+2023-11-10 15:29:46.391 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/orders/weekly/report/3 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 15:29:46.391 [INF] -------------Request-End------------
+2023-11-10 15:29:47.138 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:47.138 [INF] HeartBeat
+2023-11-10 15:29:47.138 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:47.138 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:47.138 [INF] HeartBeat
+2023-11-10 15:29:47.138 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:47.168 [INF] -------------Request-Begin------------
+2023-11-10 15:29:47.168 [INF] -------------Request-Begin------------
+2023-11-10 15:29:47.169 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/products 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:47.169 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/products/checkstock 
+QueryString:  
+Request Body: 
+2023-11-10 15:29:47.169 [INF] 
+
+2023-11-10 15:29:47.169 [INF] 
+
+2023-11-10 15:29:47.169 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/products/checkstock 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Controller","productStock":5}]}
+2023-11-10 15:29:47.169 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/reports/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productName":"Step Motor","productStock":90},{"productName":"Motor Driver","productStock":40},{"productName":"Controller","productStock":5}]}
+2023-11-10 15:29:47.169 [INF] -------------Request-End------------
+2023-11-10 15:29:47.169 [INF] -------------Request-End------------
+2023-11-10 15:29:59.205 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:29:59.205 [INF] HeartBeat
+2023-11-10 15:29:59.205 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:29:59.231 [INF] -------------Request-Begin------------
+2023-11-10 15:29:59.231 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-10 15:29:59.232 [INF] 
+
+2023-11-10 15:29:59.232 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T17:09:59.2293652+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk2MjUzOTksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.l4BlrCWz6v1MzDUM8q-Kk5SsqI5sLxBOQuN-QMbSi_k","user":"ABC A.S.","role":1}}
+2023-11-10 15:29:59.232 [INF] -------------Request-End------------
+2023-11-10 15:30:01.007 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:01.007 [INF] HeartBeat
+2023-11-10 15:30:01.007 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:01.089 [INF] -------------Request-Begin------------
+2023-11-10 15:30:01.089 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:01.089 [INF] 
+
+2023-11-10 15:30:01.090 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-10 15:30:01.090 [INF] -------------Request-End------------
+2023-11-10 15:30:02.341 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:02.341 [INF] HeartBeat
+2023-11-10 15:30:02.341 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:02.354 [INF] -------------Request-Begin------------
+2023-11-10 15:30:02.354 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:02.354 [INF] 
+
+2023-11-10 15:30:02.354 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-10 15:30:02.354 [INF] -------------Request-End------------
+2023-11-10 15:30:03.765 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:03.765 [INF] HeartBeat
+2023-11-10 15:30:03.765 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:03.775 [INF] -------------Request-Begin------------
+2023-11-10 15:30:03.775 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:03.775 [INF] 
+
+2023-11-10 15:30:03.775 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-10 15:30:03.775 [INF] -------------Request-End------------
+2023-11-10 15:30:04.869 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:04.869 [INF] HeartBeat
+2023-11-10 15:30:04.869 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:04.878 [INF] -------------Request-Begin------------
+2023-11-10 15:30:04.878 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:04.878 [INF] 
+
+2023-11-10 15:30:04.878 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/expenses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
+2023-11-10 15:30:04.878 [INF] -------------Request-End------------
+2023-11-10 15:30:07.256 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:07.256 [INF] HeartBeat
+2023-11-10 15:30:07.256 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:07.307 [INF] -------------Request-Begin------------
+2023-11-10 15:30:07.307 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:07.307 [INF] 
+
+2023-11-10 15:30:07.307 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealer":"ABC A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":3,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Selamlar!"},{"id":7,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?"}]}
+2023-11-10 15:30:07.307 [INF] -------------Request-End------------
+2023-11-10 15:30:09.989 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:09.989 [INF] HeartBeat
+2023-11-10 15:30:09.989 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:10.009 [INF] -------------Request-Begin------------
+2023-11-10 15:30:10.009 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:10.009 [INF] 
+
+2023-11-10 15:30:10.010 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-10 15:30:10.010 [INF] -------------Request-End------------
+2023-11-10 15:30:12.166 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:12.166 [INF] HeartBeat
+2023-11-10 15:30:12.166 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:12.213 [INF] -------------Request-Begin------------
+2023-11-10 15:30:12.213 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:12.213 [INF] 
+
+2023-11-10 15:30:12.213 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-10 15:30:12.213 [INF] -------------Request-End------------
+2023-11-10 15:30:15.096 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:15.096 [INF] HeartBeat
+2023-11-10 15:30:15.096 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:15.118 [INF] -------------Request-Begin------------
+2023-11-10 15:30:15.118 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:15.118 [INF] 
+
+2023-11-10 15:30:15.118 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"productName":"Step Motor","productPrice":550.0000,"productStock":90},{"id":2,"productName":"Motor Driver","productPrice":825.0000,"productStock":40},{"id":3,"productName":"Controller","productPrice":1155.0000,"productStock":5}]}
+2023-11-10 15:30:15.118 [INF] -------------Request-End------------
+2023-11-10 15:30:16.651 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 15:30:16.651 [INF] HeartBeat
+2023-11-10 15:30:16.652 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 15:30:16.665 [INF] -------------Request-Begin------------
+2023-11-10 15:30:16.666 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+Request Body: 
+2023-11-10 15:30:16.666 [INF] 
+
+2023-11-10 15:30:16.666 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/orderitems 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Record not found!","response":null}
+2023-11-10 15:30:16.666 [INF] -------------Request-End------------
