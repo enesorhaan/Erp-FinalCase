@@ -25,5 +25,8 @@
             </tr>
           </tbody>
         </table>
+        <div *ngIf="isAdmin()" class="d-flex justify-content-end mb-3">
+          <button cButton class="btn btn-secondary" routerLink="/product/add">Add Product</button>
+        </div>
     </c-card-body>
   </c-card>
