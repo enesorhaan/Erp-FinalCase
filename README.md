@@ -31,11 +31,21 @@ This project is an ERP project that provides enterprise resource planning or bus
   <a href="https://www.microsoft.com/tr-tr/sql-server/sql-server-2019" target="_blank"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a>
 </p>
 
+## Contributing
+- Fork this project.
+- Add a new feature or fix a bug.
+- Commit your changes.
+- Create a pull request.
+
 ## Creators
 
 **Enes Orhan**
 * <https://www.linkedin.com/in/enesorhan/>
 * <https://github.com/enesorhaan>
+
+## Contact
+
+For more information or assistance regarding the project, you can email enesorhan_1366@hotmail.com.
 
 ## Copyright and License
 
