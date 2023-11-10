@@ -44,7 +44,6 @@ export class EditadminComponent implements OnInit {
   load(){
     this.orderService.getById(this.orderId).subscribe((data:any) => {
       this.order = data.response;
-      console.log(data.response);
       this.orderForm.controls['orderStatus'].setValue(data.response.orderStatus);
     })
   }
@@ -56,7 +55,6 @@ export class EditadminComponent implements OnInit {
 
     this.orderService.updateAdmin(this.orderId ,this.orderForm.value).subscribe({
       next: data => {
-        console.log(data);
         if(data.success === false){
           this.toastr.error(data.message, 'Error');
           return;
@@ -64,7 +62,7 @@ export class EditadminComponent implements OnInit {
         this.router.navigate(['/order/list/admin']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error('Invalid informations!', 'Error');
       }
     })
   }

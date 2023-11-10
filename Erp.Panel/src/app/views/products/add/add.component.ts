@@ -26,11 +26,9 @@ export class AddComponent {
   onSubmit(){
     this.productService.add(this.productForm.value).subscribe({
       next: data => {
-        console.log(data);
         this.router.navigate(['/product/list']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })

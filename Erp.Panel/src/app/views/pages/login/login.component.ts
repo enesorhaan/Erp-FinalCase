@@ -32,7 +32,6 @@ export class LoginComponent {
           this.toastr.error(data.message, 'Error');
           return;
         }
-        console.log(data);
         this.storage.saveUser(data);
         this.router.navigate(['/dashboard']);
       },
@@ -42,7 +41,6 @@ export class LoginComponent {
           for (const field in validationErrors) {
             if (validationErrors.hasOwnProperty(field)) {
               const errorMessage = validationErrors[field].join(' ');
-              console.log(`Error: ${field}, Message: ${errorMessage}`);
               this.toastr.error(`${errorMessage}`, 'Error');
             }
           }

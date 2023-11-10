@@ -28,7 +28,6 @@ export class AddComponent implements OnInit, OnDestroy {
   onSubmit(){
     this.orderitemService.add(this.orderItemForm.value).subscribe({
       next: data => {
-        console.log(data);
         if(data.success === false){
           this.toastr.error(data.message, 'Error');
           return;
@@ -36,7 +35,6 @@ export class AddComponent implements OnInit, OnDestroy {
         this.router.navigate(['/orderitem/list']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })
@@ -49,11 +47,9 @@ export class AddComponent implements OnInit, OnDestroy {
   getProduct(){
     this.productService.get().subscribe(  (data:any) => {
       this.product = data.response;
-      console.log(this.product);
     })
   }
   
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

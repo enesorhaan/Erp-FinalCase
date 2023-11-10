@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 import { MessagesService } from 'src/app/services/messages.service';
 
 @Component({
@@ -14,6 +15,7 @@ export class ListdealerComponent implements OnInit, OnDestroy {
   constructor(
     private messageService: MessagesService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute  
   ) { }
 
@@ -24,11 +26,12 @@ export class ListdealerComponent implements OnInit, OnDestroy {
   load(){
     this.messageService.getDealer().subscribe(  (data:any) => {
       this.message = data.response;
-      console.log(this.message);
+      if(this.message == null ){
+        this.toastr.error('No messages!', 'Error');
+      }
     })
   }
   
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

@@ -33,30 +33,26 @@ export class ListdealerComponent implements OnInit, OnDestroy {
     this.orderService.getDealer().subscribe(  (data:any) => {
       this.order = data.response;
       this.orderitems = data.response.orderitems;
-      console.log(this.order);
     })
   }
 
   isCancel(orderId:number){
     this.orderService.updateDealer(orderId ,this.cancelForm.value).subscribe({
       next: data => {
-        console.log(data);
         if(data.success === false){
           this.toastr.error(data.message, 'Error');
           return;
         }
+        this.toastr.success('Order cancelled!', 'Success');
         this.router.navigate(['/list/dealer']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })
-    console.log("Cancel");
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 
 }

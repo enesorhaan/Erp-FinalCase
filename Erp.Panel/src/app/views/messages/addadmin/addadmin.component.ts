@@ -28,11 +28,10 @@ export class AddadminComponent implements OnInit, OnDestroy {
   onSubmit(){
     this.messageService.addAdmin(this.messageForm.value).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Message sent!', 'Success');
         this.router.navigate(['/message/list/admin']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })
@@ -49,6 +48,5 @@ export class AddadminComponent implements OnInit, OnDestroy {
   }
   
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

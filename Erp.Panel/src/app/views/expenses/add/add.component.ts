@@ -26,11 +26,9 @@ export class AddComponent {
   onSubmit(){
     this.expenseService.add(this.expenseForm.value).subscribe({
       next: data => {
-        console.log(data);
         this.router.navigate(['/expense/list']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })

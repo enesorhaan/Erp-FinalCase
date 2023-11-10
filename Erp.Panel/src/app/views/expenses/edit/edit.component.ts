@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 import { ExpenseService } from 'src/app/services/expense.service';
 
 @Component({
@@ -19,6 +20,7 @@ export class EditComponent implements OnInit {
   constructor(
     private expenseService: ExpenseService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute
   ) { }
 
@@ -32,7 +34,6 @@ export class EditComponent implements OnInit {
 
   load(){
     this.expenseService.getById(this.expenseId).subscribe((data:any) => {
-      console.log(data.response);
       this.expenseForm.controls['description'].setValue(data.response.description);
       this.expenseForm.controls['amount'].setValue(data.response.amount);
       this.expenseForm.controls['expenseDate'].setValue(data.response.expenseDate);
@@ -42,11 +43,11 @@ export class EditComponent implements OnInit {
   onSubmit(){
     this.expenseService.update(this.expenseId ,this.expenseForm.value).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Expense updated!', 'Success');
         this.router.navigate(['/expense/list']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error('Invalid informations!', 'Error');
       }
     })
   }

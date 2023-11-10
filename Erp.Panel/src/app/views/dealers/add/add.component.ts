@@ -31,11 +31,9 @@ export class AddComponent {
   onSubmit(){
     this.dealerService.add(this.dealerForm.value).subscribe({
       next: data => {
-        console.log(data);
         this.router.navigate(['/dealer/list']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })

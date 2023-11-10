@@ -32,6 +32,5 @@ export class ListorderdealerComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

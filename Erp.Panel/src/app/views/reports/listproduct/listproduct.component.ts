@@ -39,6 +39,5 @@ export class ListproductComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

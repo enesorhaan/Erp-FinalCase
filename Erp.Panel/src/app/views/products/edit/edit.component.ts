@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { ProductService } from '../../../services/product.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -20,6 +21,7 @@ export class EditComponent implements OnInit {
   constructor(
     private productService: ProductService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute
   ) { }
   
@@ -33,7 +35,6 @@ export class EditComponent implements OnInit {
 
   load(){
     this.productService.getById(this.productId).subscribe((data:any) => {
-      console.log(data.response);
       this.productForm.controls['productName'].setValue(data.response.productName);
       this.productForm.controls['productPrice'].setValue(data.response.productPrice);
       this.productForm.controls['productStock'].setValue(data.response.productStock);
@@ -43,11 +44,11 @@ export class EditComponent implements OnInit {
   onSubmit(){
     this.productService.update(this.productId ,this.productForm.value).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Product updated!', 'Success');
         this.router.navigate(['/product/list']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error('Invalid informations!', 'Error');
       }
     })
   }

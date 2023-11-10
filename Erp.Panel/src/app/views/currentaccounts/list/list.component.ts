@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 import { CurrentaccountsService } from 'src/app/services/currentaccounts.service';
 
 @Component({
@@ -13,6 +14,7 @@ export class ListComponent implements OnInit, OnDestroy {
   constructor(
     private currentAccountService: CurrentaccountsService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute  
   ) { }
 
@@ -23,24 +25,24 @@ export class ListComponent implements OnInit, OnDestroy {
   load(){
     this.currentAccountService.get().subscribe(  (data:any) => {
       this.currentAccount = data.response;
-      console.log(this.currentAccount);
+      if(this.currentAccount == null ){
+        this.router.navigate(['/currentaccount/add']);
+      }
     })
   }
 
   isDelete(dealerId:number){
     this.currentAccountService.delete(dealerId).subscribe({
       next: data => {
-        console.log(data);
         this.router.navigate(['/currentaccount/list']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error(error.error.message, "Error");
       }
     })
-    console.log("Delete");
+    this.toastr.success('Current Account deleted!', 'Success');
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

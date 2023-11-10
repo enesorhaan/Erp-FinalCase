@@ -35,7 +35,6 @@ export class AddComponent implements OnInit, OnDestroy {
 
     this.orderService.add(this.orderForm.value).subscribe({
       next: data => {
-        console.log(data);
         if(data.success === false){
           this.toastr.error(data.message, 'Error');
           return;
@@ -44,8 +43,6 @@ export class AddComponent implements OnInit, OnDestroy {
         this.router.navigate(['/order/list/dealer']);
       },
       error: error => {
-        console.log(this.orderForm.value);
-        console.log(error, "Error");
         this.toastr.error('Please Choose Payment Method!', 'Error');
       }
     })
@@ -65,7 +62,6 @@ export class AddComponent implements OnInit, OnDestroy {
   load(){
     this.orderItemService.get().subscribe(  (data:any) => {
       this.orderItem = data.response;
-      console.log(this.orderItem);
       
       if(this.orderItem == null){
         this.router.navigate(['/orderitem/add']);
@@ -78,12 +74,9 @@ export class AddComponent implements OnInit, OnDestroy {
       this.orderItem.forEach((item: any) => {
         this.totalPrice += item.marginPrice;
       });
-
-      console.log("Toplam Fiyat: " + this.totalPrice);
     })
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

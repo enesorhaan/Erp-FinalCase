@@ -32,26 +32,22 @@ export class ListadminComponent implements OnInit, OnDestroy {
     this.orderService.getAdmin().subscribe(  (data:any) => {
       this.order = data.response;
       this.orderitems = data.response.orderitems;
-      console.log(this.order);
-      console.log(this.orderitems);
     })
   }
 
   isDelete(productId:number){
     this.orderService.delete(productId).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Order deleted!', 'Success');
         this.router.navigate(['/order/list/admin']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error(error.error.message, "Error");
       }
     })
-    console.log("Delete");
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 
 }

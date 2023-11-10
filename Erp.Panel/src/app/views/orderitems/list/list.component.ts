@@ -37,18 +37,16 @@ export class ListComponent implements OnInit, OnDestroy {
   isDelete(orderItemId:number){
     this.orderItemService.delete(orderItemId).subscribe({
       next: data => {
-        console.log(data);
         this.load();
+        this.toastr.success('Product deleted!', 'Success');
         this.router.navigate(['/orderitem/list']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error(error.error.message, "Error");
       }
     })
-    console.log("Delete");
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

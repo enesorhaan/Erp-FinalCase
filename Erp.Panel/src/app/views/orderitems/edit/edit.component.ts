@@ -32,7 +32,6 @@ export class EditComponent implements OnInit  {
 
   load(){
     this.orderItemService.getById(this.orderItemId).subscribe((data:any) => {
-      console.log(data.response);
       this.orderItemForm.controls['quantity'].setValue(data.response.quantity);
     })
   }
@@ -40,7 +39,6 @@ export class EditComponent implements OnInit  {
   onSubmit(){
     this.orderItemService.update(this.orderItemId ,this.orderItemForm.value).subscribe({
       next: data => {
-        console.log(data);
         if(data.success === false){
           this.toastr.error(data.message, 'Error');
           return;
@@ -48,7 +46,6 @@ export class EditComponent implements OnInit  {
         this.router.navigate(['/orderitem/list']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })

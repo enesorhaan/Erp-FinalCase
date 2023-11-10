@@ -29,7 +29,6 @@ export class ListorderComponent implements OnInit, OnDestroy {
 
   load(){
     if(this.selectedValue == 1){
-      console.log("Daily");
       this.reportService.getDailyOrderReport().subscribe(  (data:any) => {
         if(data.response.length == 0){
           this.toastr.error('Record not found!', 'Error');
@@ -37,7 +36,6 @@ export class ListorderComponent implements OnInit, OnDestroy {
         this.report = data.response;
       });
     }else if(this.selectedValue == 2){
-      console.log("Weekly");
       this.reportService.getWeeklyOrderReport().subscribe(  (data:any) => {
         if(data.response.length == 0){
           this.toastr.error('Record not found!', 'Error');
@@ -45,7 +43,6 @@ export class ListorderComponent implements OnInit, OnDestroy {
         this.report = data.response;
       });
     }else if(this.selectedValue == 3){
-      console.log("Monthly");
       this.reportService.getMonthlyOrderReport().subscribe(  (data:any) => {
         if(data.response.length == 0){
           this.toastr.error('Record not found!', 'Error');
@@ -56,6 +53,5 @@ export class ListorderComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

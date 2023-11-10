@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { DealerService } from '../../../services/dealer.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-edit',
@@ -24,6 +25,7 @@ export class EditComponent implements OnInit {
   constructor(
     private dealerService: DealerService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute
   ) { }
   
@@ -37,7 +39,6 @@ export class EditComponent implements OnInit {
 
   load(){
     this.dealerService.getById(this.dealerId).subscribe((data:any) => {
-      console.log(data.response);
       this.dealerForm.controls['email'].setValue(data.response.email);
       this.dealerForm.controls['password'].setValue(data.response.password);
       this.dealerForm.controls['dealerName'].setValue(data.response.dealerName);
@@ -52,11 +53,11 @@ export class EditComponent implements OnInit {
   onSubmit(){
     this.dealerService.update(this.dealerId ,this.dealerForm.value).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Dealer updated!', 'Success');
         this.router.navigate(['/dealer/list']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error('Invalid informations!', 'Error');
       }
     })
   }

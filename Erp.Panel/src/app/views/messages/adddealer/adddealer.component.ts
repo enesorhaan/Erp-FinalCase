@@ -23,11 +23,10 @@ export class AdddealerComponent {
   onSubmit(){
     this.messageService.addDealer(this.messageForm.value).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Message sent!', 'Success');
         this.router.navigate(['/message/list/dealer']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })

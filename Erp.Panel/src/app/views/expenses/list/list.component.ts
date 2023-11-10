@@ -3,6 +3,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ExpenseService } from 'src/app/services/expense.service';
 import { ViewChild } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -17,6 +18,7 @@ export class ListComponent implements OnInit, OnDestroy {
   constructor(
     private expenseService: ExpenseService,
     private router: Router,
+    private toastr: ToastrService,
     private route: ActivatedRoute  
   ) { }
 
@@ -37,24 +39,21 @@ export class ListComponent implements OnInit, OnDestroy {
       }else if(this.selectedValue == 3){
         this.expense = data.response.filter((item:any) => item.isActive == false);
       }
-      console.log(this.expense);
     })
   }
 
   isDelete(productId:number){
     this.expenseService.delete(productId).subscribe({
       next: data => {
-        console.log(data);
+        this.toastr.success('Expense deleted!', 'Success');
         this.router.navigate(['/expense/list']);
       },
       error: error => {
-        console.log(error, "Error");
+        this.toastr.error(error.error.message, "Error");
       }
     })
-    console.log("Delete");
   }
 
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }

@@ -23,7 +23,6 @@ export class AuthService {
   ) { }
 
   register(){
-    console.log("Register");
   }
 
   login(email: any, password: any):Observable<any>{

@@ -28,11 +28,9 @@ export class AddComponent implements OnInit, OnDestroy {
   onSubmit(){
     this.currentAccountService.add(this.currentAccountForm.value).subscribe({
       next: data => {
-        console.log(data);
         this.router.navigate(['/currentaccount/list']);
       },
       error: error => {
-        console.log(error, "Error");
         this.toastr.error('Invalid informations!', 'Error');
       }
     })
@@ -49,6 +47,5 @@ export class AddComponent implements OnInit, OnDestroy {
   }
   
   ngOnDestroy(): void {
-    console.log("Destroy");
   }
 }
