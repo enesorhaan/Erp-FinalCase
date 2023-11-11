@@ -19,6 +19,8 @@ This project is a Web Api project containing Api Endpoints to manage enterprise 
 </p>
 
 
+
+
 ### Postman
 <p>
     You can access the endpoint document for Erp.Api from the Postman document link below.
@@ -121,3 +123,84 @@ Erp.Api
     ├── Query/                       # query-related operations
     └── Validation/                  # data validation operations
 ```
+
+## Api Endpoints
+
+**</br>Here's a screenshot from the Swagger**
+![image](https://github.com/enesorhaan/DotNetProjects/assets/59869028/d304ea40-7c3e-4eff-bc8f-01b57ffdbd76)
+
+Each endpoint is authorized by admin and dealer. Now let's talk about the general flow of the system:
+
+#### Login
+
+Each user registered to the system by the admin must log in to the system in order to receive the unique token and use the endpoints in the system.
+
+- Login Endpoint:  `POST /login`
+
+- Sample Json Format that should be included in the body of the request to be sent:
+
+```json
+{
+  "email": "info@abc.com",
+  "password": "patika"
+}
+```
+
+#### Order
+
+##### Create Order Items
+At the OrderItems endpoint, the dealer can add an item to the basket for each item in stock.
+
+- OrderItems Endpoint:  `POST /orderitems`
+
+- Sample Json Format that should be included in the body of the request to be sent:
+
+```json
+{
+  "productId": 1,
+  "quantity": 10
+}
+```
+
+##### Create Order
+
+If the dealer has an order item in his basket, it can create an order with the Orders endpoint.
+
+- Orders Endpoint:  `POST /orders`
+
+- Sample Json Format that should be included in the body of the request to be sent:
+
+```json
+{
+  "paymentMethod": 1
+}
+```
+
+#### Message
+
+Messaging endpoint between the dealer and the company with a valid message content.
+
+- Orders Endpoint (for Admin):  `POST /messages/admin` 
+- Sample Json Format that should be included in the body of the request to be sent:
+
+```json
+{
+  "receiverId": 1,
+  "transmitterMessage": "Hello from company"
+}
+```
+
+- Orders Endpoint (for Dealer):  `POST /messages/dealer` 
+
+- Sample Json Format that should be included in the body of the request to be sent:
+
+```json
+{
+  "transmitterMessage": "Hello from dealer"
+}
+```
+
+
+
+
+

@@ -127,3 +127,332 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealerName":"ABC A.S.","description":"same things","amount":2000.00,"expenseDate":"2023-11-03T00:00:00","isActive":false},{"id":2,"dealerName":"ABC A.S.","description":"electrical","amount":2000.00,"expenseDate":"2022-11-01T06:41:55.137","isActive":false},{"id":3,"dealerName":"ABC A.S.","description":"abcdds","amount":500.00,"expenseDate":"2023-11-05T00:00:00","isActive":false},{"id":4,"dealerName":"ABC A.S.","description":"Electronic Components","amount":1000.00,"expenseDate":"2023-10-31T00:00:00","isActive":true}]}
 2023-11-11 01:34:26.835 [INF] -------------Request-End------------
+2023-11-11 04:12:21.988 [INF] App server is starting.
+2023-11-11 04:22:09.288 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:22:09.295 [INF] HeartBeat
+2023-11-11 04:22:09.296 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:22:09.558 [INF] -------------Request-Begin------------
+2023-11-11 04:22:09.558 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"","password":""}
+2023-11-11 04:22:09.558 [INF] 
+
+2023-11-11 04:22:09.558 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-67c14ccd013e887eeae532eba5a211fd-d599f0b0e01b2536-00","errors":{"Email":["Email is required."],"Password":["Password is required.","Password must be at least 5 characters long"]}}
+2023-11-11 04:22:09.558 [INF] -------------Request-End------------
+2023-11-11 04:28:01.894 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:28:01.895 [INF] HeartBeat
+2023-11-11 04:28:01.895 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:28:02.870 [WRN] The 'bool' property 'IsActive' on entity type 'Company' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.874 [WRN] The 'bool' property 'IsActive' on entity type 'CurrentAccount' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.874 [WRN] The 'bool' property 'IsActive' on entity type 'Dealer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.874 [WRN] The 'bool' property 'IsActive' on entity type 'Expense' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.874 [WRN] The 'bool' property 'IsActive' on entity type 'Message' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.874 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.875 [WRN] The 'bool' property 'IsActive' on entity type 'OrderItem' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:02.875 [WRN] The 'bool' property 'IsActive' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-11 04:28:04.076 [INF] -------------Request-Begin------------
+2023-11-11 04:28:04.076 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-11 04:28:04.076 [INF] 
+
+2023-11-11 04:28:04.076 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-11T06:08:04.0601004+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk2NzIwODMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.h_FXqucN4bczbuV6NuQJRmoiCWiWqUzi1IRnCIoA5qc","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-11 04:28:04.076 [INF] -------------Request-End------------
+2023-11-11 04:28:06.652 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:28:06.653 [INF] HeartBeat
+2023-11-11 04:28:06.653 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:28:06.832 [INF] -------------Request-Begin------------
+2023-11-11 04:28:06.832 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-11 04:28:06.832 [INF] 
+
+2023-11-11 04:28:06.832 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-11 04:28:06.832 [INF] -------------Request-End------------
+2023-11-11 04:28:15.497 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:28:15.497 [INF] HeartBeat
+2023-11-11 04:28:15.497 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:28:15.572 [INF] -------------Request-Begin------------
+2023-11-11 04:28:15.572 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-11 04:28:15.572 [INF] 
+
+2023-11-11 04:28:15.572 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-11 04:28:15.572 [INF] -------------Request-End------------
+2023-11-11 04:28:17.339 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:28:17.339 [INF] HeartBeat
+2023-11-11 04:28:17.339 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:28:17.367 [INF] -------------Request-Begin------------
+2023-11-11 04:28:17.367 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: {"receiverId":"","transmitterMessage":""}
+2023-11-11 04:28:17.367 [INF] 
+
+2023-11-11 04:28:17.367 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-03840ad8f97a2695563e7db1c9801765-6d2a465c6d74f4b3-00","errors":{"request":["The request field is required."],"$.receiverId":["The JSON value could not be converted to System.Int32. Path: $.receiverId | LineNumber: 0 | BytePositionInLine: 16."]}
+2023-11-11 04:28:17.367 [INF] -------------Request-End------------
+2023-11-11 04:28:22.098 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:28:22.098 [INF] HeartBeat
+2023-11-11 04:28:22.098 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:28:22.107 [INF] -------------Request-Begin------------
+2023-11-11 04:28:22.107 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: {"receiverId":"2","transmitterMessage":""}
+2023-11-11 04:28:22.107 [INF] 
+
+2023-11-11 04:28:22.107 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-57645e2ebff4ace8e8bfac59314cad33-d0996869877006ce-00","errors":{"TransmitterMessage":["Messages field is required."]}}
+2023-11-11 04:28:22.107 [INF] -------------Request-End------------
+2023-11-11 04:34:10.693 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:34:10.693 [INF] HeartBeat
+2023-11-11 04:34:10.693 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:34:10.907 [INF] -------------Request-Begin------------
+2023-11-11 04:34:10.907 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"1232432"}
+2023-11-11 04:34:10.907 [INF] 
+
+2023-11-11 04:34:10.907 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-11 04:34:10.907 [INF] -------------Request-End------------
+2023-11-11 04:34:22.704 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:34:22.704 [INF] HeartBeat
+2023-11-11 04:34:22.704 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:34:22.720 [INF] -------------Request-Begin------------
+2023-11-11 04:34:22.721 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-11 04:34:22.721 [INF] 
+
+2023-11-11 04:34:22.721 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-11T06:14:22.7198497+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk2NzI0NjIsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.4mpzt1UKIBUg_UvramGLPsJiugLTC4-7-9yTlPAG7uc","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-11 04:34:22.721 [INF] -------------Request-End------------
+2023-11-11 04:34:35.299 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:34:35.300 [INF] HeartBeat
+2023-11-11 04:34:35.300 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:34:35.326 [INF] -------------Request-Begin------------
+2023-11-11 04:34:35.326 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-11 04:34:35.326 [INF] 
+
+2023-11-11 04:34:35.326 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null}]}
+2023-11-11 04:34:35.326 [INF] -------------Request-End------------
+2023-11-11 04:34:47.752 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:34:47.752 [INF] HeartBeat
+2023-11-11 04:34:47.752 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:34:47.791 [INF] -------------Request-Begin------------
+2023-11-11 04:34:47.792 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+Request Body: 
+2023-11-11 04:34:47.793 [INF] 
+
+2023-11-11 04:34:47.793 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/dealers 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"info@abc.com","password":"patika","dealerName":"ABC A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111111,"marginPercentage":10.00},{"id":2,"email":"info@def.com","password":"patika","dealerName":"DEF A.S.","address":"Istanbul/Turkey","billingAddress":"Istanbul/Turkey","taxOffice":"Istanbul","taxNumber":111112,"marginPercentage":15.00},{"id":3,"email":"info@xyz.com","password":"123456","dealerName":"XYZ A.S.","address":"Malatya","billingAddress":"Istanul","taxOffice":"Atasehir","taxNumber":111113,"marginPercentage":13.00}]}
+2023-11-11 04:34:47.793 [INF] -------------Request-End------------
+2023-11-11 04:35:02.866 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:35:02.866 [INF] HeartBeat
+2023-11-11 04:35:02.867 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:35:02.884 [INF] -------------Request-Begin------------
+2023-11-11 04:35:02.884 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: {"receiverId":"","transmitterMessage":""}
+2023-11-11 04:35:02.884 [INF] 
+
+2023-11-11 04:35:02.884 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-49ce5e8acc0255c90ab58f2bcaaf1905-b61672692bec741f-00","errors":{"request":["The request field is required."],"$.receiverId":["The JSON value could not be converted to System.Int32. Path: $.receiverId | LineNumber: 0 | BytePositionInLine: 16."]}
+2023-11-11 04:35:02.884 [INF] -------------Request-End------------
+2023-11-11 04:35:21.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:35:21.823 [INF] HeartBeat
+2023-11-11 04:35:21.823 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:35:22.052 [INF] -------------Request-Begin------------
+2023-11-11 04:35:22.052 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: {"receiverId":"1","transmitterMessage":"İyi akşamlar nasılsınız?"}
+2023-11-11 04:35:22.052 [INF] 
+
+2023-11-11 04:35:22.052 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":0,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"İyi akşamlar nasılsınız?"}}
+2023-11-11 04:35:22.052 [INF] -------------Request-End------------
+2023-11-11 04:35:22.089 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:35:22.089 [INF] HeartBeat
+2023-11-11 04:35:22.089 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:35:22.115 [INF] -------------Request-Begin------------
+2023-11-11 04:35:22.115 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+Request Body: 
+2023-11-11 04:35:22.115 [INF] 
+
+2023-11-11 04:35:22.115 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/admin 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhabalar!"},{"id":4,"dealer":"ABC A.S.","receiverMessage":"Selamlar!","transmitterMessage":null},{"id":5,"dealer":"DEF A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler elinize ulaştı mı?"},{"id":8,"dealer":"ABC A.S.","receiverMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?","transmitterMessage":null},{"id":10,"dealer":"XYZ A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":11,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"İyi akşamlar nasılsınız?"}]}
+2023-11-11 04:35:22.115 [INF] -------------Request-End------------
+2023-11-11 04:35:33.501 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:35:33.501 [INF] HeartBeat
+2023-11-11 04:35:33.501 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:35:33.534 [INF] -------------Request-Begin------------
+2023-11-11 04:35:33.534 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@abc.com","password":"patika"}
+2023-11-11 04:35:33.534 [INF] 
+
+2023-11-11 04:35:33.534 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-11T06:15:33.5330319+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiZGVhbGVyIiwiRW1haWwiOiJpbmZvQGFiYy5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZWFsZXIiLCJleHAiOjE2OTk2NzI1MzMsImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.p1fFMOMQOGgNGa9lYekgprfyHOx9rsIpGor1tU6j9dE","user":"ABC A.S.","role":1}}
+2023-11-11 04:35:33.534 [INF] -------------Request-End------------
+2023-11-11 04:35:37.608 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:35:37.608 [INF] HeartBeat
+2023-11-11 04:35:37.609 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:35:37.676 [INF] -------------Request-Begin------------
+2023-11-11 04:35:37.676 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+Request Body: 
+2023-11-11 04:35:37.677 [INF] 
+
+2023-11-11 04:35:37.677 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/messages/dealer 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":2,"dealer":"ABC A.S.","receiverMessage":"Merhabalar!","transmitterMessage":null},{"id":3,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Selamlar!"},{"id":7,"dealer":"ABC A.S.","receiverMessage":null,"transmitterMessage":"Merhaba, xxx ürünler ne zaman stoklara girer?"},{"id":12,"dealer":"ABC A.S.","receiverMessage":"İyi akşamlar nasılsınız?","transmitterMessage":null}]}
+2023-11-11 04:35:37.677 [INF] -------------Request-End------------
+2023-11-11 04:55:19.315 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-11 04:55:19.316 [INF] HeartBeat
+2023-11-11 04:55:19.316 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-11 04:55:19.469 [INF] -------------Request-Begin------------
+2023-11-11 04:55:19.469 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+Request Body: {"email":"info@orhan.com","password":"vakifbank"}
+2023-11-11 04:55:19.469 [INF] 
+
+2023-11-11 04:55:19.469 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44319 
+Path: /api/v1/login 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-11T06:35:19.4688232+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6ImluZm9Ab3JoYW4uY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJleHAiOjE2OTk2NzM3MTksImlzcyI6IkVycC5BcGkiLCJhdWQiOiJFcnAuQXBpIn0.iIaBs7wcOlaYZEDFSdrAjFr6mGeG3g9B6yREsnBmFWs","user":"Orhan Teknolojileri San. ve Tic. A.S.","role":0}}
+2023-11-11 04:55:19.469 [INF] -------------Request-End------------
